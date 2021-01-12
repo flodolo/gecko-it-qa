@@ -24,6 +24,26 @@
     "macos",
     "other"
   ],
+  "browser/browser/aboutLogins.ftl:about-logins-import-file-picker-tsv-filter-title": [
+    "macos",
+    "other"
+  ],
+  "browser/browser/aboutLogins.ftl:about-logins-import-report-added": [
+    "one",
+    "other"
+  ],
+  "browser/browser/aboutLogins.ftl:about-logins-import-report-error": [
+    "one",
+    "other"
+  ],
+  "browser/browser/aboutLogins.ftl:about-logins-import-report-modified": [
+    "one",
+    "other"
+  ],
+  "browser/browser/aboutLogins.ftl:about-logins-import-report-no-change": [
+    "one",
+    "other"
+  ],
   "browser/browser/aboutLogins.ftl:enable-password-sync-notification-message": [
     "other",
     "windows"
@@ -49,9 +69,23 @@
   "browser/browser/allTabsMenu.ftl:all-tabs-menu-undo-close-tabs.label": [
     "other"
   ],
+  "browser/browser/appmenu.ftl:profiler-popup-capture-shortcut": [
+    "macos",
+    "other"
+  ],
+  "browser/browser/appmenu.ftl:profiler-popup-disabled": [
+    "profiler"
+  ],
+  "browser/browser/appmenu.ftl:profiler-popup-start-shortcut": [
+    "macos",
+    "other"
+  ],
   "browser/browser/branding/sync-brand.ftl:-fxaccount-brand-name": [
     "lowercase",
     "uppercase"
+  ],
+  "browser/browser/browser.ftl:bookmark-panel-remove.label": [
+    "other"
   ],
   "browser/browser/browser.ftl:bookmarks-tools-menu-button-visibility.label": [
     "other"
@@ -59,7 +93,19 @@
   "browser/browser/browser.ftl:bookmarks-tools-sidebar-visibility.label": [
     "other"
   ],
-  "browser/browser/browser.ftl:bookmarks-tools-toolbar-visibility.label": [
+  "browser/browser/browser.ftl:bookmarks-tools-toolbar-visibility-menuitem.label": [
+    "other"
+  ],
+  "browser/browser/browser.ftl:bookmarks-tools-toolbar-visibility-panel.label": [
+    "other"
+  ],
+  "browser/browser/browser.ftl:browser-tab-mute": [
+    "other"
+  ],
+  "browser/browser/browser.ftl:browser-tab-unblock": [
+    "other"
+  ],
+  "browser/browser/browser.ftl:browser-tab-unmute": [
     "other"
   ],
   "browser/browser/browser.ftl:page-action-send-tabs-panel.label": [
@@ -68,6 +114,10 @@
   ],
   "browser/browser/browser.ftl:page-action-send-tabs-urlbar.tooltiptext": [
     "one",
+    "other"
+  ],
+  "browser/browser/browser.ftl:toolbar-settings-button.tooltiptext": [
+    "macos",
     "other"
   ],
   "browser/browser/browserContext.ftl:navbar-tooltip-instruction.value": [
@@ -81,6 +131,12 @@
   "browser/browser/browserSets.ftl:downloads-shortcut.key": [
     "linux",
     "other"
+  ],
+  "browser/browser/browserSets.ftl:nav-back-shortcut-alt.key": [
+    "\u00e0"
+  ],
+  "browser/browser/browserSets.ftl:nav-fwd-shortcut-alt.key": [
+    "\u00f9"
   ],
   "browser/browser/browserSets.ftl:search-focus-shortcut-alt.key": [
     "linux",
@@ -105,6 +161,10 @@
   "browser/browser/menubar.ftl:menu-preferences.label": [
     "other",
     "windows"
+  ],
+  "browser/browser/menubar.ftl:menu-settings.accesskey": [
+    "windows",
+    "other"
   ],
   "browser/browser/migration.ftl:browser-data-bookmarks-checkbox.label": [
     "ie",
@@ -245,8 +305,17 @@
     "one",
     "other"
   ],
+  "browser/browser/places.ftl:places-remove-bookmark.label": [
+    "other"
+  ],
+  "browser/browser/places.ftl:places-remove-folder.label": [
+    "other"
+  ],
   "browser/browser/policies/policies-descriptions.ftl:policy-3rdparty": [
     "chrome.storage.managed"
+  ],
+  "browser/browser/policies/policies-descriptions.ftl:policy-AllowedDomainsForApps": [
+    "Workspace"
   ],
   "browser/browser/policies/policies-descriptions.ftl:policy-BlockAboutAddons": [
     "addons"
@@ -298,6 +367,9 @@
     ".net.nz"
   ],
   "browser/browser/preferences/connection.ftl:connection-proxy-noproxy-localhost-desc": [
+    "localhost"
+  ],
+  "browser/browser/preferences/connection.ftl:connection-proxy-noproxy-localhost-desc-2": [
     "localhost"
   ],
   "browser/browser/preferences/connection.ftl:connection-proxy-socks-remote-dns.label": [
@@ -469,13 +541,23 @@
     "macos",
     "other"
   ],
+  "browser/browser/sitePermissions.ftl:site-permissions-open-blocked-popups": [
+    "one",
+    "other"
+  ],
   "browser/browser/tabContextMenu.ftl:tab-context-close-tabs.label": [
     "other"
   ],
   "browser/browser/tabContextMenu.ftl:tab-context-move-tabs.label": [
     "other"
   ],
+  "browser/browser/tabContextMenu.ftl:tab-context-reopen-closed-tabs.label": [
+    "other"
+  ],
   "browser/browser/tabContextMenu.ftl:tab-context-undo-close-tabs.label": [
+    "other"
+  ],
+  "browser/browser/toolbarContextMenu.ftl:toolbar-context-menu-reopen-closed-tabs.label": [
     "other"
   ],
   "browser/browser/toolbarContextMenu.ftl:toolbar-context-menu-undo-close-tabs.label": [
@@ -506,7 +588,13 @@
   "browser/chrome/browser/browser.properties:livebookmarkMigration.title": [
     "Live"
   ],
+  "browser/chrome/browser/browser.properties:midi.shareSysexWithFile": [
+    "SysEx"
+  ],
   "browser/chrome/browser/browser.properties:midi.shareSysexWithFile.message": [
+    "SysEx"
+  ],
+  "browser/chrome/browser/browser.properties:midi.shareSysexWithSite": [
     "SysEx"
   ],
   "browser/chrome/browser/browser.properties:midi.shareSysexWithSite.message": [
@@ -1035,6 +1123,51 @@
   "devtools/client/performance.properties:graphs.fps": [
     "fps"
   ],
+  "devtools/client/perftools.ftl:perftools-description-intro": [
+    "profiler.firefox.com"
+  ],
+  "devtools/client/perftools.ftl:perftools-description-local-build": [
+    "objdir"
+  ],
+  "devtools/client/perftools.ftl:perftools-intro-description": [
+    "profiler.firefox.com"
+  ],
+  "devtools/client/perftools.ftl:perftools-intro-title": [
+    "profiler"
+  ],
+  "devtools/client/perftools.ftl:perftools-range-interval-milliseconds": [
+    "interval",
+    "maxFractionalUnits"
+  ],
+  "devtools/client/perftools.ftl:perftools-status-private-browsing-notice": [
+    "profiler",
+    "profiler"
+  ],
+  "devtools/client/perftools.ftl:perftools-thread-gecko-main.title": [
+    "parent"
+  ],
+  "devtools/client/perftools.ftl:perftools-thread-js-helper.title": [
+    "off-main-thread"
+  ],
+  "devtools/client/perftools.ftl:perftools-thread-paint-worker.title": [
+    "painting",
+    "off-main-thread",
+    "painting"
+  ],
+  "devtools/client/perftools.ftl:perftools-thread-render-backend.title": [
+    "WebRender",
+    "RenderBackend"
+  ],
+  "devtools/client/perftools.ftl:perftools-thread-renderer.title": [
+    "WebRender",
+    "OpenGL"
+  ],
+  "devtools/client/perftools.ftl:perftools-tools-threads-input-label.title": [
+    "profiler"
+  ],
+  "devtools/client/perftools.ftl:pref-thread-stream-trans.title": [
+    "stream"
+  ],
   "devtools/client/responsive.properties:responsive.deviceAdderSize": [
     "Dim"
   ],
@@ -1071,6 +1204,21 @@
   "devtools/client/tooltips.ftl:inactive-css-not-display-block-on-floated-fix": [
     "float"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-not-for-internal-table-elements-except-table-cells-fix": [
+    "table-column",
+    "table-row",
+    "table-column-group",
+    "table-row-group",
+    "table-footer-group"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-not-for-internal-table-elements-fix": [
+    "table-cell",
+    "table-column",
+    "table-row",
+    "table-column-group",
+    "table-row-group",
+    "table-footer-group"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-not-grid-or-flex-container-or-multicol-container-fix": [
     "columns:2"
   ],
@@ -1092,6 +1240,15 @@
   ],
   "devtools/client/tooltips.ftl:inactive-outline-radius-when-outline-style-auto-or-none-fix": [
     "outline-style"
+  ],
+  "devtools/client/tooltips.ftl:inactive-scroll-padding-when-not-scroll-container": [
+    "scroll"
+  ],
+  "devtools/client/tooltips.ftl:inactive-scroll-padding-when-not-scroll-container-fix": [
+    "overflow",
+    "overflow",
+    "scroll",
+    "overflow"
   ],
   "devtools/client/tooltips.ftl:inactive-text-overflow-when-no-overflow": [
     "overflow"
@@ -1159,7 +1316,7 @@
     "timing-function"
   ],
   "devtools/shared/styleinspector.properties:rule.colorSwatch.tooltip": [
-    "maiusc+clic"
+    "Maiusc+clic"
   ],
   "devtools/shared/styleinspector.properties:rule.flexToggle.tooltip": [
     "flexbox"
@@ -1195,6 +1352,9 @@
     "BiquadFilterNode",
     "glitch"
   ],
+  "dom/chrome/dom/dom.properties:BlobDifferentClusterError": [
+    "blob"
+  ],
   "dom/chrome/dom/dom.properties:BlockAutoplayWebAudioStartError": [
     "AudioContext"
   ],
@@ -1214,8 +1374,35 @@
   "dom/chrome/dom/dom.properties:DeprecatedTestingMethodWarning": [
     "TestingDeprecatedInterface.deprecatedMethod"
   ],
+  "dom/chrome/dom/dom.properties:DocumentReleaseCaptureWarning": [
+    "Document.releaseCapture",
+    "Element.releasePointerCapture",
+    "Element",
+    "releasePointerCapture"
+  ],
   "dom/chrome/dom/dom.properties:DocumentWriteIgnored": [
     "document.write"
+  ],
+  "dom/chrome/dom/dom.properties:DrawWindowCanvasRenderingContext2DWarning": [
+    "drawWindow",
+    "CanvasRenderingContext2D",
+    "tabs.captureTab",
+    "Add-ons",
+    "WebExtensions",
+    "tabs",
+    "captureTab"
+  ],
+  "dom/chrome/dom/dom.properties:ElementReleaseCaptureWarning": [
+    "Element.releaseCapture",
+    "Element.releasePointerCapture",
+    "Element",
+    "releasePointerCapture"
+  ],
+  "dom/chrome/dom/dom.properties:ElementSetCaptureWarning": [
+    "Element.setCapture",
+    "Element.setPointerCapture",
+    "Element",
+    "setPointerCapture"
   ],
   "dom/chrome/dom/dom.properties:EmptyGetElementByIdParam": [
     "getElementById"
@@ -1230,6 +1417,10 @@
   ],
   "dom/chrome/dom/dom.properties:FocusedWindowedPluginWhileFullscreen": [
     "windowed"
+  ],
+  "dom/chrome/dom/dom.properties:FormSubmissionUntrustedEventWarning": [
+    "submit",
+    "trusted"
   ],
   "dom/chrome/dom/dom.properties:FullscreenDeniedContainerNotAllowed": [
     "allowfullscreen"
@@ -1470,6 +1661,9 @@
     "mozImageSmoothingEnabled",
     "imageSmoothingEnabled"
   ],
+  "dom/chrome/dom/dom.properties:PreloadIgnoredInvalidAttr": [
+    "as"
+  ],
   "dom/chrome/dom/dom.properties:PreventDefaultFromPassiveListenerWarning": [
     "preventDefault",
     "listener"
@@ -1593,6 +1787,9 @@
     "unload",
     "pagehide"
   ],
+  "dom/chrome/dom/dom.properties:WebExtContentScriptModuleSourceNotAllowed": [
+    "moz-extension"
+  ],
   "dom/chrome/dom/dom.properties:WebrtcDeprecatedPrefixWarning": [
     "moz",
     "mozRTCPeerConnection",
@@ -1639,6 +1836,9 @@
   ],
   "dom/chrome/layout/css.properties:PEMQNoMinMaxWithoutValue": [
     "min-"
+  ],
+  "dom/chrome/layout/css.properties:PENeverMatchingHostSelector": [
+    "featureless"
   ],
   "dom/chrome/layout/css.properties:PEPseudoSelEndOrUserActionPC": [
     "action"
@@ -2421,12 +2621,6 @@
   "toolkit/chrome/global/aboutWebrtc.properties:jitter_label": [
     "Jitter"
   ],
-  "toolkit/chrome/global/aboutWebrtc.properties:n_a": [
-    "n.d"
-  ],
-  "toolkit/chrome/global/aboutWebrtc.properties:pacer_delay_ms": [
-    "pacer"
-  ],
   "toolkit/chrome/global/aboutWebrtc.properties:peer_connection_id_label": [
     "PeerConnection"
   ],
@@ -2741,6 +2935,12 @@
   "toolkit/toolkit/about/aboutSupport.ftl:startup-cache-title": [
     "startup"
   ],
+  "toolkit/toolkit/about/aboutSupport.ftl:support-remote-experiments-branch": [
+    "Branch"
+  ],
+  "toolkit/toolkit/about/aboutSupport.ftl:support-remote-experiments-see-about-studies": [
+    "studies"
+  ],
   "toolkit/toolkit/about/aboutSupport.ftl:support-third-party-modules-base": [
     "imagebase"
   ],
@@ -2796,6 +2996,54 @@
     "enabled",
     "disabled"
   ],
+  "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-avg-bitrate-label": [
+    "Bitrate"
+  ],
+  "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-frame-stats-heading": [
+    "MediaStreamTrack"
+  ],
+  "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-ice-rollback-count-label": [
+    "Rollback"
+  ],
+  "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-jitter-label": [
+    "Jitter"
+  ],
+  "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-lost-label": [
+    "one",
+    "other"
+  ],
+  "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-pacer-delay-ms": [
+    "pacer"
+  ],
+  "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-peerconnection-id-label": [
+    "PeerConnection"
+  ],
+  "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-received-label": [
+    "one",
+    "other"
+  ],
+  "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-rtp-stats-heading": [
+    "RTPStats"
+  ],
+  "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-save-page-dialog-title": [
+    "webrtc"
+  ],
+  "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-sdp-set-at-timestamp-local": [
+    "useGrouping"
+  ],
+  "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-sdp-set-at-timestamp-remote": [
+    "useGrouping"
+  ],
+  "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-sdp-set-timestamp": [
+    "useGrouping"
+  ],
+  "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-sent-label": [
+    "one",
+    "other"
+  ],
+  "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-trickle-caption-msg": [
+    "trickled"
+  ],
   "toolkit/toolkit/about/certviewer.ftl:certificate-viewer-download-pem-chain.download": [
     "-catena.pem"
   ],
@@ -2822,9 +3070,6 @@
     "Constructable",
     "Stylesheets"
   ],
-  "toolkit/toolkit/featuregates/features.ftl:experimental-features-css-focus-visible.label": [
-    "focus-visible"
-  ],
   "toolkit/toolkit/featuregates/features.ftl:experimental-features-css-masonry-description": [
     "Masonry",
     "issue"
@@ -2835,6 +3080,9 @@
   "toolkit/toolkit/featuregates/features.ftl:experimental-features-devtools-color-scheme-simulation-description": [
     "prefers-color-scheme"
   ],
+  "toolkit/toolkit/featuregates/features.ftl:experimental-features-ime-search-description": [
+    "Method"
+  ],
   "toolkit/toolkit/featuregates/features.ftl:experimental-features-js-warp-description": [
     "Warp"
   ],
@@ -2844,27 +3092,21 @@
   "toolkit/toolkit/featuregates/features.ftl:experimental-features-media-avif-description": [
     "Image"
   ],
-  "toolkit/toolkit/featuregates/features.ftl:experimental-features-web-api-beforeinput-description": [
-    "beforeinput",
-    "textarea"
-  ],
-  "toolkit/toolkit/featuregates/features.ftl:experimental-features-web-api-beforeinput.label": [
-    "beforeinput"
-  ],
   "toolkit/toolkit/featuregates/features.ftl:experimental-features-web-api-inputmode-description": [
     "inputmode"
   ],
   "toolkit/toolkit/featuregates/features.ftl:experimental-features-web-api-inputmode.label": [
     "inputmode"
   ],
-  "toolkit/toolkit/featuregates/features.ftl:experimental-features-web-api-link-preload-description": [
-    "rel",
-    "Preloading",
-    "with",
-    "rel"
-  ],
   "toolkit/toolkit/featuregates/features.ftl:experimental-features-web-gpu2.label": [
     "WebGPU"
+  ],
+  "toolkit/toolkit/featuregates/features.ftl:experimental-features-win32k-lockdown-description": [
+    "Win32k"
+  ],
+  "toolkit/toolkit/featuregates/features.ftl:experimental-features-win32k-lockdown.label": [
+    "Win32k",
+    "Lockdown"
   ],
   "toolkit/toolkit/global/createProfileWizard.ftl:create-profile-first-page-header": [
     "macos",
@@ -2892,5 +3134,9 @@
   "toolkit/toolkit/printing/printUI.ftl:printui-sheets-count": [
     "one",
     "other"
+  ],
+  "toolkit/toolkit/updates/backgroundupdate.ftl:backgroundupdate-task-description": [
+    "Update",
+    "BackgroundAppUpdate"
   ]
 }
