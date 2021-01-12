@@ -2,10 +2,17 @@ browser/browser/aboutLogins.ftl:about-logins-breach-alert-date
 browser/browser/aboutLogins.ftl:login-item-time-changed
 browser/browser/aboutLogins.ftl:login-item-time-created
 browser/browser/aboutLogins.ftl:login-item-time-used
+browser/browser/aboutUnloads.ftl:about-unloads-last-accessed
+browser/browser/aboutUnloads.ftl:about-unloads-last-updated
+browser/browser/appmenu.ftl:appmenu-fxa-header.title
+browser/browser/appmenu.ftl:appmenu-fxa-header2
+browser/browser/browserContext.ftl:toolbar-button-fxaccount.label
+browser/browser/browserContext.ftl:toolbar-button-fxaccount.tooltiptext
 browser/browser/browserSets.ftl:full-zoom-enlarge-shortcut-alt2.key
 browser/browser/browserSets.ftl:full-zoom-reduce-shortcut-alt-b.key
 browser/browser/browserSets.ftl:full-zoom-reduce-shortcut-alt.key
 browser/browser/browserSets.ftl:full-zoom-reset-shortcut-alt.key
+browser/browser/newtab/asrouter.ftl:cfr-doorhanger-milestone-heading2
 browser/browser/newtab/asrouter.ftl:cfr-whatsnew-tracking-blocked-subtitle
 browser/browser/preferences/preferences.ftl:forms-primary-pw-former-name
 browser/browser/protections.ftl:graph-total-tracker-summary
@@ -73,5 +80,9 @@ mobile/android/chrome/aboutCertError.dtd:brandDTD
 mobile/android/chrome/aboutLogins.dtd:brandDTD
 mobile/overrides/netError.dtd:brandDTD
 toolkit/chrome/global/videocontrols.dtd:brandDTD
+toolkit/toolkit/about/aboutProcesses.ftl:about-processes-cpu
 toolkit/toolkit/about/aboutProcesses.ftl:about-processes-cpu-user-and-kernel
+toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-sdp-set-at-timestamp-local
+toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-sdp-set-at-timestamp-remote
+toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-sdp-set-timestamp
 toolkit/toolkit/featuregates/features.ftl:experimental-features-web-api-link-preload-description
