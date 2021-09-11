@@ -2746,6 +2746,14 @@
   "toolkit/toolkit/about/url-classifier.ftl:url-classifier-title": [
     "Classifier"
   ],
+  "toolkit/toolkit/featuregates/features.ftl:experimental-features-css-cascade-layers-description": [
+    "Cascade",
+    "Layers"
+  ],
+  "toolkit/toolkit/featuregates/features.ftl:experimental-features-css-cascade-layers.label": [
+    "Cascade",
+    "Layers"
+  ],
   "toolkit/toolkit/featuregates/features.ftl:experimental-features-css-constructable-stylesheets-description": [
     "CSSStyleSheet",
     "Shadow"

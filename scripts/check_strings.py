@@ -153,11 +153,9 @@ class CheckStrings:
 
         # Load exceptions
         exceptions = []
-        file_name = os.path.join(self.exceptions_path, "quotes.txt")
+        file_name = os.path.join(self.exceptions_path, "quotes.json")
         with open(file_name, "r") as f:
-            exceptions = []
-            for line in f:
-                exceptions.append(line.rstrip())
+            exceptions = json.load(f)
 
         straight_quotes = re.compile(r'\'|"')
 
