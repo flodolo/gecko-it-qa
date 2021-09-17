@@ -84,6 +84,10 @@
     "numeric",
     "hour12"
   ],
+  "browser/browser/aboutUnloads.ftl:about-unloads-learn-more": [
+    "Tab",
+    "Unloading"
+  ],
   "browser/browser/aboutUnloads.ftl:about-unloads-memory-in-mb": [
     "mem",
     "maxFractionalUnits"
@@ -98,6 +102,9 @@
   ],
   "browser/browser/appmenu.ftl:profiler-popup-disabled": [
     "profiler"
+  ],
+  "browser/browser/appmenu.ftl:profiler-popup-presets-web-developer-description": [
+    "overhead"
   ],
   "browser/browser/appmenu.ftl:profiler-popup-start-shortcut": [
     "macos",
@@ -159,11 +166,27 @@
     "linux",
     "other"
   ],
+  "browser/browser/downloads.ftl:downloads-cmd-show-button-2.tooltiptext": [
+    "macos",
+    "other"
+  ],
   "browser/browser/downloads.ftl:downloads-cmd-show-button.tooltiptext": [
     "macos",
     "other"
   ],
+  "browser/browser/downloads.ftl:downloads-cmd-show-description-2.value": [
+    "macos",
+    "other"
+  ],
   "browser/browser/downloads.ftl:downloads-cmd-show-description.value": [
+    "macos",
+    "other"
+  ],
+  "browser/browser/downloads.ftl:downloads-cmd-show-menuitem-2.label": [
+    "macos",
+    "other"
+  ],
+  "browser/browser/downloads.ftl:downloads-cmd-show-panel-2.aria-label": [
     "macos",
     "other"
   ],
@@ -211,6 +234,9 @@
   "browser/browser/newtab/newtab.ftl:newtab-custom-row-selector": [
     "one",
     "other"
+  ],
+  "browser/browser/newtab/newtab.ftl:newtab-label-source-read-time": [
+    "min"
   ],
   "browser/browser/newtab/newtab.ftl:newtab-menu-show-file": [
     "macos",
@@ -1105,6 +1131,9 @@
   "devtools/client/perftools.ftl:perftools-intro-title": [
     "profiler"
   ],
+  "devtools/client/perftools.ftl:perftools-presets-web-developer-description": [
+    "overhead"
+  ],
   "devtools/client/perftools.ftl:perftools-range-interval-milliseconds": [
     "interval",
     "maxFractionalUnits"
@@ -1453,6 +1482,9 @@
     "Location",
     "History"
   ],
+  "dom/chrome/dom/dom.properties:ManifestIdNotSameOrigin": [
+    "start_url"
+  ],
   "dom/chrome/dom/dom.properties:ManifestImageRepeatedPurposes": [
     "purpose"
   ],
@@ -1720,6 +1752,12 @@
     "document.write",
     "Optimizing_Your_Pages_for_Speculative_Parsing"
   ],
+  "dom/chrome/dom/dom.properties:SpeculationFailed2": [
+    "document.write",
+    "en-US",
+    "Glossary",
+    "speculative_parsing"
+  ],
   "dom/chrome/dom/dom.properties:SyncXMLHttpRequestWarning": [
     "xhr.spec.whatwg.org"
   ],
@@ -1747,6 +1785,9 @@
   ],
   "dom/chrome/dom/dom.properties:WebExtContentScriptModuleSourceNotAllowed": [
     "moz-extension"
+  ],
+  "dom/chrome/dom/dom.properties:WebExtensionUncheckedLastError": [
+    "browser.runtime.lastError"
   ],
   "dom/chrome/dom/dom.properties:WebrtcDeprecatedPrefixWarning": [
     "moz",
@@ -2131,6 +2172,9 @@
   "dom/chrome/security/security.properties:CORSPreflightDidNotSucceed2": [
     "preflight"
   ],
+  "dom/chrome/security/security.properties:CORSPreflightDidNotSucceed3": [
+    "preflight"
+  ],
   "dom/chrome/security/security.properties:FeaturePolicyInvalidEmptyAllowValue": [
     "allow"
   ],
@@ -2207,6 +2251,9 @@
   ],
   "mobile/overrides/netError.dtd:unknownSocketType.longDesc": [
     "Personal"
+  ],
+  "netwerk/necko.properties:CORPBlocked": [
+    "Cross-Origin-Resource-Policy"
   ],
   "netwerk/necko.properties:CookieAllowedForFpiByHeuristic": [
     "First-Party"
@@ -2420,6 +2467,9 @@
   "toolkit/toolkit/about/aboutNetworking.ftl:about-networking-dns-lookup": [
     "lookup"
   ],
+  "toolkit/toolkit/about/aboutNetworking.ftl:about-networking-dns-trr-mode": [
+    "DoH"
+  ],
   "toolkit/toolkit/about/aboutNetworking.ftl:about-networking-dns-trr-url": [
     "DoH"
   ],
@@ -2452,6 +2502,14 @@
     "style",
     "percent"
   ],
+  "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-cpu-almost-idle.title": [
+    "total",
+    "maximumFractionDigits"
+  ],
+  "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-cpu-fully-idle.title": [
+    "total",
+    "maximumFractionDigits"
+  ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-cpu-idle.title": [
     "total",
     "maximumFractionDigits"
@@ -2470,6 +2528,10 @@
     "Sottoframe"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-inactive-threads": [
+    "one",
+    "other"
+  ],
+  "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-profile-process.title": [
     "one",
     "other"
   ],
