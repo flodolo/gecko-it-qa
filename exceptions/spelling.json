@@ -194,6 +194,17 @@
     "macos",
     "other"
   ],
+  "browser/browser/downloads.ftl:downloads-files-not-downloaded": [
+    "one",
+    "other"
+  ],
+  "browser/browser/downloads.ftl:downloads-more-downloading": [
+    "one",
+    "other"
+  ],
+  "browser/browser/menubar.ftl:menu-file-close-tab.label": [
+    "other"
+  ],
   "browser/browser/menubar.ftl:menu-settings.accesskey": [
     "windows",
     "other"
@@ -535,7 +546,13 @@
   "browser/browser/safebrowsing/blockedSite.ftl:safeb-blocked-phishing-page-learn-more": [
     "www.antiphishing.org"
   ],
+  "browser/browser/screenshots.ftl:screenshots-copy-button-title.title": [
+    "screenshot"
+  ],
   "browser/browser/screenshots.ftl:screenshots-copy-button-tooltip": [
+    "screenshot"
+  ],
+  "browser/browser/screenshots.ftl:screenshots-download-button-title.title": [
     "screenshot"
   ],
   "browser/browser/screenshots.ftl:screenshots-download-button-tooltip": [
@@ -2458,8 +2475,14 @@
     "other",
     "windows"
   ],
+  "toolkit/toolkit/about/aboutCompat.ftl:label-smartblock": [
+    "SmartBlock"
+  ],
   "toolkit/toolkit/about/aboutCompat.ftl:text-disabled-in-about-config": [
     "config"
+  ],
+  "toolkit/toolkit/about/aboutCompat.ftl:text-no-smartblock": [
+    "SmartBlock"
   ],
   "toolkit/toolkit/about/aboutCompat.ftl:text-title": [
     "compat"
@@ -2491,6 +2514,25 @@
   ],
   "toolkit/toolkit/about/aboutPerformance.ftl:type-tracker": [
     "Tracker"
+  ],
+  "toolkit/toolkit/about/aboutPlugins.ftl:plugins-openh264-description": [
+    "codec",
+    "www.openh264.org"
+  ],
+  "toolkit/toolkit/about/aboutPlugins.ftl:plugins-openh264-name": [
+    "Codec",
+    "OpenH264",
+    "Cisco",
+    "Systems",
+    "Inc"
+  ],
+  "toolkit/toolkit/about/aboutPlugins.ftl:plugins-widevine-description": [
+    "www.w3.org"
+  ],
+  "toolkit/toolkit/about/aboutPlugins.ftl:plugins-widevine-name": [
+    "Widevine",
+    "Decryption",
+    "Inc"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-active-threads": [
     "one",
@@ -2545,6 +2587,9 @@
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-total-memory-size-no-change": [
     "total",
     "maximumFractionDigits:0"
+  ],
+  "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-web-serviceworker": [
+    "serviceworker"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:duration-unit-ns": [
     "ns"
@@ -2876,6 +2921,14 @@
   ],
   "toolkit/toolkit/global/handlerDialog.ftl:chooser-dialog-remember-extra": [
     "windows",
+    "other"
+  ],
+  "toolkit/toolkit/global/unknownContentType.ftl:unknowncontenttype-choose-handler.accesskey": [
+    "macos",
+    "other"
+  ],
+  "toolkit/toolkit/global/unknownContentType.ftl:unknowncontenttype-choose-handler.label": [
+    "macos",
     "other"
   ],
   "toolkit/toolkit/global/unknownContentType.ftl:unknowncontenttype-settingschange.value": [
