@@ -157,7 +157,7 @@ class CheckStrings:
         with open(file_name, "r") as f:
             exceptions = json.load(f)
 
-        straight_quotes = re.compile(r'\'|"')
+        straight_quotes = re.compile(r'\'|"|‘')
 
         all_errors = []
         for message_id, message in self.strings.items():
