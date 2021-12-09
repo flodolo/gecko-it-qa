@@ -1,4 +1,1 @@
-[
-  "dom/chrome/security/csp.properties:ignoringSrcForStrictDynamic",
-  "dom/chrome/security/csp.properties:strictDynamicButNoHashOrNonce"
-]
+[]

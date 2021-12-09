@@ -242,6 +242,10 @@
     "one",
     "other"
   ],
+  "browser/browser/newtab/asrouter.ftl:spotlight-pin-primary-button": [
+    "macos",
+    "other"
+  ],
   "browser/browser/newtab/newtab.ftl:newtab-custom-row-selector": [
     "one",
     "other"
@@ -250,6 +254,10 @@
     "min"
   ],
   "browser/browser/newtab/newtab.ftl:newtab-menu-show-file": [
+    "macos",
+    "other"
+  ],
+  "browser/browser/newtab/onboarding.ftl:fx100-thank-you-pin-primary-button-label": [
     "macos",
     "other"
   ],
@@ -491,6 +499,9 @@
   "browser/browser/preferences/preferences.ftl:use-current-pages.label": [
     "other"
   ],
+  "browser/browser/profile/default-bookmarks.ftl:default-bookmarks-planet": [
+    "Planet"
+  ],
   "browser/browser/protections.ftl:bar-tooltip-cookie.aria-label": [
     "one",
     "other"
@@ -615,6 +626,9 @@
     "SysEx"
   ],
   "browser/chrome/browser/browser.properties:midi.shareSysexWithSite": [
+    "SysEx"
+  ],
+  "browser/chrome/browser/browser.properties:webextSitePerms.description.midi-sysex": [
     "SysEx"
   ],
   "browser/chrome/browser/shellservice.properties:desktopBackgroundLeafNameWin": [
@@ -1199,11 +1213,17 @@
   "devtools/client/sourceeditor.properties:showInformation2.commandkey": [
     "Shift-Ctrl-Space"
   ],
+  "devtools/client/storage.ftl:storage-table-headers-cookies-expires": [
+    "Max-Age"
+  ],
   "devtools/client/storage.ftl:storage-table-type-cache-hint": [
     "storage"
   ],
   "devtools/client/storage.ftl:storage-table-type-indexeddb-hint": [
     "IndexedDB"
+  ],
+  "devtools/client/storage.ftl:storage-tree-labels-indexed-db": [
+    "Indexed"
   ],
   "devtools/client/storage.properties:table.headers.cookies.expires2": [
     "Max-Age"
@@ -1213,6 +1233,12 @@
   ],
   "devtools/client/toolbox-options.ftl:options-enable-chrome-label": [
     "chrome"
+  ],
+  "devtools/client/toolbox.ftl:toolbox-meatball-menu-pseudo-locale-accented": [
+    "accented"
+  ],
+  "devtools/client/toolbox.ftl:toolbox-meatball-menu-pseudo-locale-bidi": [
+    "bidi"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-display-block-on-floated": [
     "floated"
@@ -1315,6 +1341,9 @@
   "devtools/shared/accessibility.properties:accessibility.text.label.issue.optgroup.label2": [
     "label",
     "optgroup"
+  ],
+  "devtools/shared/debugger-paused-reasons.ftl:whypaused-pause-on-dom-events": [
+    "listener"
   ],
   "devtools/shared/screenshot.properties:inspectNodeManual": [
     "document.querySelector"
@@ -1462,6 +1491,18 @@
   "dom/chrome/dom/dom.properties:GeolocationInsecureRequestIsForbidden": [
     "Geolocation"
   ],
+  "dom/chrome/dom/dom.properties:IDBDatabaseCreateMutableFileWarning": [
+    "IDBDatabase.createMutableFile",
+    "Origin",
+    "System",
+    "bugzil.la"
+  ],
+  "dom/chrome/dom/dom.properties:IDBMutableFileOpenWarning": [
+    "IDBMutableFile.open",
+    "Origin",
+    "System",
+    "bugzil.la"
+  ],
   "dom/chrome/dom/dom.properties:IDBOpenDBOptions_StorageTypeWarning": [
     "storage",
     "indexedDB.open",
@@ -1481,6 +1522,16 @@
   ],
   "dom/chrome/dom/dom.properties:IndexedDBTransactionAbortNavigation": [
     "IndexedDB"
+  ],
+  "dom/chrome/dom/dom.properties:InstallTriggerDeprecatedWarning": [
+    "InstallTrigger"
+  ],
+  "dom/chrome/dom/dom.properties:InstallTriggerInstallDeprecatedWarning": [
+    "InstallTrigger.install",
+    "extensionworkshop.com",
+    "documentation",
+    "publish",
+    "self-distribution"
   ],
   "dom/chrome/dom/dom.properties:InterceptedErrorResponseWithURL": [
     "Error"
@@ -1651,6 +1702,10 @@
   ],
   "dom/chrome/dom/dom.properties:NotificationsCrossOriginIframeRequestIsForbidden": [
     "top-level"
+  ],
+  "dom/chrome/dom/dom.properties:OffscreenCanvasToBlobWarning": [
+    "OffscreenCanvas.toBlob",
+    "OffscreenCanvas.convertToBlob"
   ],
   "dom/chrome/dom/dom.properties:PointerLockDeniedDisabled": [
     "Lock"
@@ -1879,13 +1934,55 @@
     "order",
     "mark"
   ],
+  "dom/chrome/layout/htmlparser.properties:EncDetectorReload": [
+    "order",
+    "mark"
+  ],
+  "dom/chrome/layout/htmlparser.properties:EncDetectorReloadPlain": [
+    "order",
+    "mark"
+  ],
+  "dom/chrome/layout/htmlparser.properties:EncErrorFrame": [
+    "order",
+    "mark"
+  ],
+  "dom/chrome/layout/htmlparser.properties:EncErrorFramePlain": [
+    "order",
+    "mark"
+  ],
+  "dom/chrome/layout/htmlparser.properties:EncMetaAfterHeadInKilobyte": [
+    "head"
+  ],
+  "dom/chrome/layout/htmlparser.properties:EncMetaTooLate": [
+    "head"
+  ],
+  "dom/chrome/layout/htmlparser.properties:EncMetaTooLateFrame": [
+    "head"
+  ],
   "dom/chrome/layout/htmlparser.properties:EncMetaUserDefined": [
     "x-user-defined",
     "windows-1252"
   ],
+  "dom/chrome/layout/htmlparser.properties:EncNoDecl": [
+    "order",
+    "mark"
+  ],
+  "dom/chrome/layout/htmlparser.properties:EncNoDeclPlain": [
+    "order",
+    "mark"
+  ],
   "dom/chrome/layout/htmlparser.properties:EncNoDeclarationPlain": [
     "order",
     "mark"
+  ],
+  "dom/chrome/layout/htmlparser.properties:EncSpeculationFailMeta": [
+    "head"
+  ],
+  "dom/chrome/layout/htmlparser.properties:EncSpeculationFailXml": [
+    "head"
+  ],
+  "dom/chrome/layout/htmlparser.properties:EncXmlDecl": [
+    "head"
   ],
   "dom/chrome/layout/htmlparser.properties:errBadCharAfterLt": [
     "escape"
@@ -1948,6 +2045,9 @@
     "head"
   ],
   "dom/chrome/layout/htmlparser.properties:errQuirkyDoctype": [
+    "Quirks"
+  ],
+  "dom/chrome/layout/htmlparser.properties:errQuirkyDoctypeVerbose": [
     "Quirks"
   ],
   "dom/chrome/layout/htmlparser.properties:errSlashNotFollowedByGt": [
@@ -2252,6 +2352,9 @@
   ],
   "dom/chrome/xslt/xslt.properties:8": [
     "NodeSet"
+  ],
+  "mobile/android/chrome/browser.properties:webextSitePerms.description.midi-sysex": [
+    "SysEx"
   ],
   "mobile/overrides/appstrings.properties:sslv3Used": [
     "SSLv3"
@@ -2790,6 +2893,10 @@
   "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-avg-bitrate-label": [
     "Bitrate"
   ],
+  "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-channels": [
+    "one",
+    "other"
+  ],
   "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-frame-stats-heading": [
     "MediaStreamTrack"
   ],
@@ -2853,14 +2960,6 @@
   "toolkit/toolkit/about/url-classifier.ftl:url-classifier-title": [
     "Classifier"
   ],
-  "toolkit/toolkit/featuregates/features.ftl:experimental-features-css-cascade-layers-description": [
-    "Cascade",
-    "Layers"
-  ],
-  "toolkit/toolkit/featuregates/features.ftl:experimental-features-css-cascade-layers.label": [
-    "Cascade",
-    "Layers"
-  ],
   "toolkit/toolkit/featuregates/features.ftl:experimental-features-css-constructable-stylesheets-description": [
     "CSSStyleSheet",
     "Shadow"
@@ -2918,6 +3017,10 @@
   "toolkit/toolkit/global/createProfileWizard.ftl:profile-creation-explanation-4": [
     "macos",
     "other"
+  ],
+  "toolkit/toolkit/global/cspErrors.ftl:csp-error-illegal-host-wildcard": [
+    "wildcard",
+    ".com"
   ],
   "toolkit/toolkit/global/handlerDialog.ftl:chooser-dialog-remember-extra": [
     "windows",
