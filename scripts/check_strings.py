@@ -216,8 +216,10 @@ class CheckStrings:
                 ),
                 # DATETIME()
                 re.compile(r"\{\s*DATETIME\(.*\)\s*\}"),
-                # Variants
+                # Variants syntax
                 re.compile(r"\{\s*\$[a-zA-Z]+\s*->"),
+                # Variants names
+                re.compile(r"^\s*\*?\[[a-zA-Z0-9_-]*\]"),
             ],
             ".properties": [
                 # printf
@@ -274,8 +276,12 @@ class CheckStrings:
             # Remove placeables from FTL and properties strings
             if extension in placeables:
                 try:
-                    for pattern in placeables[extension]:
-                        cleaned_message = pattern.sub(" ", cleaned_message)
+                    # Check placeables line by line
+                    lines = cleaned_message.splitlines()
+                    for i in range(len(lines)):
+                        for pattern in placeables[extension]:
+                            lines[i] = pattern.sub(" ", lines[i])
+                    cleaned_message = "\n".join(lines)
                 except Exception as e:
                     print("Error removing placeables")
                     print(message_id)
