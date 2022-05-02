@@ -95,20 +95,18 @@ class CheckStrings:
                     if isinstance(entity, parser.Junk):
                         continue
 
-                    string_id = "{}:{}".format(file_name, entity)
+                    string_id = f"{file_name}:{entity}"
                     if file_extension == ".ftl":
                         if entity.raw_val != "":
                             self.strings[string_id] = entity.raw_val
                         # Store attributes
                         for attribute in entity.attributes:
-                            attr_string_id = "{0}:{1}.{2}".format(
-                                file_name, entity, attribute
-                            )
+                            attr_string_id = f"{file_name}:{entity}.{attribute}"
                             self.strings[attr_string_id] = attribute.raw_val
                     else:
                         self.strings[string_id] = entity.raw_val
             except Exception as e:
-                print("Error parsing file: {}".format(file_path))
+                print(f"Error parsing file: {file_path}")
                 print(e)
 
     def extractFileList(self):
@@ -169,7 +167,7 @@ class CheckStrings:
                     continue
                 all_errors.append(message_id)
                 if self.verbose:
-                    print("{}: wrong quotes\n{}".format(message_id, message))
+                    print(f"{message_id}: wrong quotes\n{message}")
 
         with open(os.path.join(self.errors_path, "quotes.json"), "w") as f:
             json.dump(all_errors, f, indent=2, sort_keys=True)
@@ -218,8 +216,10 @@ class CheckStrings:
                 ),
                 # DATETIME()
                 re.compile(r"\{\s*DATETIME\(.*\)\s*\}"),
-                # Variants
+                # Variants syntax
                 re.compile(r"\{\s*\$[a-zA-Z]+\s*->"),
+                # Variants names
+                re.compile(r"^\s*\*?\[[a-zA-Z0-9_-]*\]"),
             ],
             ".properties": [
                 # printf
@@ -276,8 +276,12 @@ class CheckStrings:
             # Remove placeables from FTL and properties strings
             if extension in placeables:
                 try:
-                    for pattern in placeables[extension]:
-                        cleaned_message = pattern.sub(" ", cleaned_message)
+                    # Check placeables line by line
+                    lines = cleaned_message.splitlines()
+                    for i in range(len(lines)):
+                        for pattern in placeables[extension]:
+                            lines[i] = pattern.sub(" ", lines[i])
+                    cleaned_message = "\n".join(lines)
                 except Exception as e:
                     print("Error removing placeables")
                     print(message_id)
@@ -340,11 +344,11 @@ class CheckStrings:
             if errors:
                 total_errors += len(errors)
                 if self.verbose:
-                    print("{}: spelling error".format(message_id))
+                    print(f"{message_id}: spelling error")
                     for e in errors:
-                        print("Original: {}".format(message))
-                        print("Cleaned: {}".format(cleaned_message))
-                        print("  {}".format(e))
+                        print(f"Original: {message}")
+                        print(f"Cleaned: {cleaned_message}")
+                        print(f"  {e}")
                         print(nltk.word_tokenize(message))
                         print(nltk.word_tokenize(cleaned_message))
                 all_errors[message_id] = errors
@@ -378,8 +382,8 @@ class CheckStrings:
             json.dump(exceptions, f, indent=2, sort_keys=True)
 
         if total_errors:
-            print("Total number of strings with errors: {}".format(len(all_errors)))
-            print("Total number of errors: {}".format(total_errors))
+            print(f"Total number of strings with errors: {len(all_errors)}")
+            print(f"Total number of errors: {total_errors}")
         else:
             print("No errors found.")
         # Display mispelled words and their count, if above 4
@@ -387,9 +391,9 @@ class CheckStrings:
         above_threshold = []
         for k in sorted(misspelled_words, key=misspelled_words.get, reverse=True):
             if misspelled_words[k] >= threshold:
-                above_threshold.append("{}: {}".format(k, misspelled_words[k]))
+                above_threshold.append(f"{k}: {misspelled_words[k]}")
         if above_threshold:
-            print("Errors and number of occurrences (only above {}):".format(threshold))
+            print(f"Errors and number of occurrences (only above {threshold}):")
             print("\n".join(above_threshold))
 
 

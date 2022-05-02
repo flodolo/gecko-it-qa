@@ -2,55 +2,8 @@
   "browser/browser/aboutLogins.ftl:about-logins-confirm-export-dialog-message": [
     "Password123"
   ],
-  "browser/browser/aboutLogins.ftl:about-logins-confirm-remove-all-dialog-confirm-button-label": [
-    "other"
-  ],
-  "browser/browser/aboutLogins.ftl:about-logins-confirm-remove-all-dialog-title": [
-    "one",
-    "other"
-  ],
-  "browser/browser/aboutLogins.ftl:about-logins-confirm-remove-all-sync-dialog-title": [
-    "one",
-    "other"
-  ],
-  "browser/browser/aboutLogins.ftl:about-logins-export-file-picker-csv-filter-title": [
-    "macos",
-    "other"
-  ],
   "browser/browser/aboutLogins.ftl:about-logins-export-file-picker-default-filename": [
     "credenziali.csv"
-  ],
-  "browser/browser/aboutLogins.ftl:about-logins-import-file-picker-csv-filter-title": [
-    "macos",
-    "other"
-  ],
-  "browser/browser/aboutLogins.ftl:about-logins-import-file-picker-tsv-filter-title": [
-    "macos",
-    "other"
-  ],
-  "browser/browser/aboutLogins.ftl:about-logins-import-report-added": [
-    "one",
-    "other"
-  ],
-  "browser/browser/aboutLogins.ftl:about-logins-import-report-error": [
-    "one",
-    "other"
-  ],
-  "browser/browser/aboutLogins.ftl:about-logins-import-report-modified": [
-    "one",
-    "other"
-  ],
-  "browser/browser/aboutLogins.ftl:about-logins-import-report-no-change": [
-    "one",
-    "other"
-  ],
-  "browser/browser/aboutLogins.ftl:menu-menuitem-preferences": [
-    "other",
-    "windows"
-  ],
-  "browser/browser/aboutPrivateBrowsing.ftl:about-private-browsing-search-banner-description": [
-    "other",
-    "windows"
   ],
   "browser/browser/aboutRobots.ftl:page-title": [
     "Gort",
@@ -96,19 +49,11 @@
     "mem",
     "maxFractionalUnits"
   ],
-  "browser/browser/appmenu.ftl:profiler-popup-capture-shortcut": [
-    "macos",
-    "other"
-  ],
   "browser/browser/appmenu.ftl:profiler-popup-disabled": [
     "profiler"
   ],
   "browser/browser/appmenu.ftl:profiler-popup-presets-web-developer-description": [
     "overhead"
-  ],
-  "browser/browser/appmenu.ftl:profiler-popup-start-shortcut": [
-    "macos",
-    "other"
   ],
   "browser/browser/branding/brandings.ftl:-firefox-suggest-brand-name": [
     "Suggest"
@@ -116,158 +61,17 @@
   "browser/browser/branding/brandings.ftl:-translations-brand-name": [
     "Translations"
   ],
-  "browser/browser/branding/sync-brand.ftl:-fxaccount-brand-name": [
-    "lowercase",
-    "uppercase"
-  ],
-  "browser/browser/browser.ftl:bookmark-panel-remove.label": [
-    "other"
-  ],
-  "browser/browser/browser.ftl:bookmarks-tools-menu-button-visibility.label": [
-    "other"
-  ],
-  "browser/browser/browser.ftl:bookmarks-tools-sidebar-visibility.label": [
-    "other"
-  ],
-  "browser/browser/browser.ftl:bookmarks-tools-toolbar-visibility-menuitem.label": [
-    "other"
-  ],
-  "browser/browser/browser.ftl:bookmarks-tools-toolbar-visibility-panel.label": [
-    "other"
-  ],
-  "browser/browser/browser.ftl:browser-tab-mute": [
-    "other"
-  ],
-  "browser/browser/browser.ftl:browser-tab-unblock": [
-    "other"
-  ],
-  "browser/browser/browser.ftl:browser-tab-unmute": [
-    "other"
-  ],
-  "browser/browser/browser.ftl:toolbar-settings-button.tooltiptext": [
-    "macos",
-    "other"
-  ],
-  "browser/browser/browserContext.ftl:navbar-tooltip-instruction.value": [
-    "macos",
-    "other"
-  ],
-  "browser/browser/browserSets.ftl:downloads-shortcut.key": [
-    "linux",
-    "other"
-  ],
   "browser/browser/browserSets.ftl:nav-back-shortcut-alt.key": [
     "\u00e0"
   ],
   "browser/browser/browserSets.ftl:nav-fwd-shortcut-alt.key": [
     "\u00f9"
   ],
-  "browser/browser/browserSets.ftl:search-focus-shortcut-alt.key": [
-    "linux",
-    "other"
-  ],
-  "browser/browser/downloads.ftl:downloads-cmd-show-button-2.tooltiptext": [
-    "macos",
-    "other"
-  ],
-  "browser/browser/downloads.ftl:downloads-cmd-show-button.tooltiptext": [
-    "macos",
-    "other"
-  ],
-  "browser/browser/downloads.ftl:downloads-cmd-show-description-2.value": [
-    "macos",
-    "other"
-  ],
-  "browser/browser/downloads.ftl:downloads-cmd-show-description.value": [
-    "macos",
-    "other"
-  ],
-  "browser/browser/downloads.ftl:downloads-cmd-show-menuitem-2.label": [
-    "macos",
-    "other"
-  ],
-  "browser/browser/downloads.ftl:downloads-cmd-show-panel-2.aria-label": [
-    "macos",
-    "other"
-  ],
-  "browser/browser/downloads.ftl:downloads-cmd-show-panel.aria-label": [
-    "macos",
-    "other"
-  ],
-  "browser/browser/downloads.ftl:downloads-files-not-downloaded": [
-    "one",
-    "other"
-  ],
-  "browser/browser/downloads.ftl:downloads-more-downloading": [
-    "one",
-    "other"
-  ],
-  "browser/browser/menubar.ftl:menu-file-close-tab.label": [
-    "other"
-  ],
-  "browser/browser/menubar.ftl:menu-settings.accesskey": [
-    "windows",
-    "other"
-  ],
-  "browser/browser/migration.ftl:browser-data-bookmarks-checkbox.label": [
-    "ie",
-    "edge",
-    "other"
-  ],
-  "browser/browser/migration.ftl:browser-data-bookmarks-label.value": [
-    "ie",
-    "edge",
-    "other"
-  ],
-  "browser/browser/migration.ftl:browser-data-history-checkbox.label": [
-    "firefox",
-    "other"
-  ],
-  "browser/browser/migration.ftl:browser-data-history-label.value": [
-    "firefox",
-    "other"
-  ],
-  "browser/browser/migration.ftl:import-from": [
-    "other",
-    "windows"
-  ],
   "browser/browser/migration.ftl:import-permissions-description": [
     "Bookmarks.plist"
   ],
-  "browser/browser/newtab/asrouter.ftl:cfr-doorhanger-extension-rating.tooltiptext": [
-    "one",
-    "other"
-  ],
-  "browser/browser/newtab/asrouter.ftl:cfr-doorhanger-extension-total-users": [
-    "one",
-    "other"
-  ],
-  "browser/browser/newtab/asrouter.ftl:spotlight-pin-primary-button": [
-    "macos",
-    "other"
-  ],
-  "browser/browser/newtab/newtab.ftl:newtab-custom-row-selector": [
-    "one",
-    "other"
-  ],
   "browser/browser/newtab/newtab.ftl:newtab-label-source-read-time": [
     "min"
-  ],
-  "browser/browser/newtab/newtab.ftl:newtab-menu-show-file": [
-    "macos",
-    "other"
-  ],
-  "browser/browser/newtab/onboarding.ftl:fx100-thank-you-pin-primary-button-label": [
-    "macos",
-    "other"
-  ],
-  "browser/browser/newtab/onboarding.ftl:mr1-onboarding-pin-header": [
-    "macos",
-    "other"
-  ],
-  "browser/browser/newtab/onboarding.ftl:mr1-onboarding-pin-primary-button-label": [
-    "macos",
-    "other"
   ],
   "browser/browser/newtab/onboarding.ftl:mr1-onboarding-welcome-image-caption": [
     "Soraya",
@@ -356,22 +160,6 @@
   "browser/browser/pageInfo.ftl:general-quirks-mode.value": [
     "Quirks"
   ],
-  "browser/browser/pageInfo.ftl:security-visits-number": [
-    "one",
-    "other"
-  ],
-  "browser/browser/places.ftl:places-delete-bookmark.label": [
-    "other"
-  ],
-  "browser/browser/places.ftl:places-delete-folder.label": [
-    "other"
-  ],
-  "browser/browser/places.ftl:places-remove-bookmark.label": [
-    "other"
-  ],
-  "browser/browser/places.ftl:places-remove-folder.label": [
-    "other"
-  ],
   "browser/browser/policies/policies-descriptions.ftl:policy-3rdparty": [
     "chrome.storage.managed"
   ],
@@ -446,23 +234,6 @@
     "min-width",
     "4rem"
   ],
-  "browser/browser/preferences/preferences.ftl:applications-use-os-default.label": [
-    "macos",
-    "other",
-    "windows"
-  ],
-  "browser/browser/preferences/preferences.ftl:containers-disable-alert-desc": [
-    "one",
-    "other"
-  ],
-  "browser/browser/preferences/preferences.ftl:containers-disable-alert-ok-button": [
-    "one",
-    "other"
-  ],
-  "browser/browser/preferences/preferences.ftl:containers-remove-alert-msg": [
-    "one",
-    "other"
-  ],
   "browser/browser/preferences/preferences.ftl:content-blocking-fpi-incompatibility-warning": [
     "First",
     "Isolation"
@@ -471,14 +242,6 @@
     "Not",
     "Track"
   ],
-  "browser/browser/preferences/preferences.ftl:download-choose-folder.accesskey": [
-    "macos",
-    "other"
-  ],
-  "browser/browser/preferences/preferences.ftl:download-choose-folder.label": [
-    "macos",
-    "other"
-  ],
   "browser/browser/preferences/preferences.ftl:drm-content-header": [
     "Digital",
     "Rights"
@@ -486,73 +249,14 @@
   "browser/browser/preferences/preferences.ftl:forms-windows-sso.label": [
     "sign-on"
   ],
-  "browser/browser/preferences/preferences.ftl:home-prefs-sections-rows-option.label": [
-    "one",
-    "other"
-  ],
   "browser/browser/preferences/preferences.ftl:home-prefs-snippets-header.label": [
     "Snippet"
   ],
   "browser/browser/preferences/preferences.ftl:permissions-block-popups-exceptions-button.searchkeywords": [
     "popup"
   ],
-  "browser/browser/preferences/preferences.ftl:use-current-pages.label": [
-    "other"
-  ],
   "browser/browser/profile/default-bookmarks.ftl:default-bookmarks-planet": [
     "Planet"
-  ],
-  "browser/browser/protections.ftl:bar-tooltip-cookie.aria-label": [
-    "one",
-    "other"
-  ],
-  "browser/browser/protections.ftl:bar-tooltip-social.aria-label": [
-    "one",
-    "other"
-  ],
-  "browser/browser/protections.ftl:bar-tooltip-tracker.aria-label": [
-    "one",
-    "other"
-  ],
-  "browser/browser/protections.ftl:graph-total-tracker-summary": [
-    "one",
-    "other"
-  ],
-  "browser/browser/protections.ftl:graph-week-summary": [
-    "one",
-    "other"
-  ],
-  "browser/browser/protections.ftl:info-exposed-passwords-found": [
-    "one",
-    "other"
-  ],
-  "browser/browser/protections.ftl:info-exposed-passwords-resolved": [
-    "one",
-    "other"
-  ],
-  "browser/browser/protections.ftl:info-known-breaches-found": [
-    "one",
-    "other"
-  ],
-  "browser/browser/protections.ftl:info-known-breaches-resolved": [
-    "one",
-    "other"
-  ],
-  "browser/browser/protections.ftl:info-monitored-emails": [
-    "one",
-    "other"
-  ],
-  "browser/browser/protections.ftl:lockwise-scanned-text-breached-logins": [
-    "one",
-    "other"
-  ],
-  "browser/browser/protections.ftl:lockwise-scanned-text-no-breached-logins": [
-    "one",
-    "other"
-  ],
-  "browser/browser/protections.ftl:monitor-partial-breaches-title": [
-    "one",
-    "other"
   ],
   "browser/browser/safebrowsing/blockedSite.ftl:safeb-blocked-phishing-page-learn-more": [
     "www.antiphishing.org"
@@ -568,40 +272,6 @@
   ],
   "browser/browser/screenshots.ftl:screenshots-download-button-tooltip": [
     "screenshot"
-  ],
-  "browser/browser/screenshots.ftl:screenshots-meta-key": [
-    "macos",
-    "other"
-  ],
-  "browser/browser/sitePermissions.ftl:site-permissions-open-blocked-popups": [
-    "one",
-    "other"
-  ],
-  "browser/browser/tabContextMenu.ftl:tab-context-close-n-tabs.label": [
-    "other"
-  ],
-  "browser/browser/tabContextMenu.ftl:tab-context-close-tabs.label": [
-    "other"
-  ],
-  "browser/browser/tabContextMenu.ftl:tab-context-move-tabs.label": [
-    "other"
-  ],
-  "browser/browser/tabContextMenu.ftl:tab-context-reopen-closed-tabs.label": [
-    "other"
-  ],
-  "browser/browser/tabContextMenu.ftl:tab-context-send-tabs-to-device.label": [
-    "other"
-  ],
-  "browser/browser/toolbarContextMenu.ftl:toolbar-context-menu-reopen-closed-tabs.label": [
-    "other"
-  ],
-  "browser/browser/upgradeDialog.ftl:upgrade-dialog-pin-primary-button": [
-    "macos",
-    "other"
-  ],
-  "browser/browser/upgradeDialog.ftl:upgrade-dialog-pin-title": [
-    "macos",
-    "other"
   ],
   "browser/chrome/browser/browser.properties:addonDownloadingAndVerifying": [
     "comp",
@@ -949,10 +619,6 @@
   ],
   "devtools/client/animationinspector.properties:player.animationTimingFunctionLabel": [
     "timing"
-  ],
-  "devtools/client/compatibility.ftl:compatibility-issue-occurrences": [
-    "one",
-    "other"
   ],
   "devtools/client/debugger.properties:WebIDLTooltip": [
     "WebIDL"
@@ -2501,9 +2167,6 @@
   "toolkit/chrome/global/aboutReader.properties:aboutReader.fontTypeSample": [
     "Aa"
   ],
-  "toolkit/chrome/global/aboutStudies.properties:enabledList": [
-    "cos"
-  ],
   "toolkit/chrome/global/aboutStudies.properties:title": [
     "Shield"
   ],
@@ -2521,7 +2184,6 @@
   ],
   "toolkit/chrome/global/extensions.properties:csp.error.illegal-host-wildcard": [
     "wildcard",
-    "sottodominio",
     ".com"
   ],
   "toolkit/chrome/mozapps/downloads/downloads.properties:statusFormat3": [
@@ -2554,29 +2216,9 @@
   "toolkit/crashreporter/aboutcrashes.ftl:no-config-label": [
     "breakpad.reportURL"
   ],
-  "toolkit/toolkit/about/aboutAddons.ftl:addon-detail-reviews-link": [
-    "one",
-    "other"
-  ],
-  "toolkit/toolkit/about/aboutAddons.ftl:detail-show-preferences.accesskey": [
-    "other",
-    "windows"
-  ],
-  "toolkit/toolkit/about/aboutAddons.ftl:detail-show-preferences.label": [
-    "other",
-    "windows"
-  ],
-  "toolkit/toolkit/about/aboutAddons.ftl:detail-show-preferences.tooltiptext": [
-    "other",
-    "windows"
-  ],
   "toolkit/toolkit/about/aboutAddons.ftl:five-star-rating.title": [
     "rating",
     "maximumFractionDigits"
-  ],
-  "toolkit/toolkit/about/aboutAddons.ftl:preferences-addon-button": [
-    "other",
-    "windows"
   ],
   "toolkit/toolkit/about/aboutCompat.ftl:label-smartblock": [
     "SmartBlock"
@@ -2637,10 +2279,6 @@
     "Decryption",
     "Inc"
   ],
-  "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-active-threads": [
-    "one",
-    "other"
-  ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-cpu": [
     "percent",
     "maximumSignificantDigits",
@@ -2672,14 +2310,6 @@
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-frame-name-one": [
     "Sottoframe"
   ],
-  "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-inactive-threads": [
-    "one",
-    "other"
-  ],
-  "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-profile-process.title": [
-    "one",
-    "other"
-  ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-total-memory-size-changed": [
     "total",
     "maximumFractionDigits:0"
@@ -2700,14 +2330,6 @@
   "toolkit/toolkit/about/aboutProcesses.ftl:duration-unit-us": [
     "\u00b5s"
   ],
-  "toolkit/toolkit/about/aboutProfiles.ftl:profiles-opendir": [
-    "macos",
-    "other",
-    "windows"
-  ],
-  "toolkit/toolkit/about/aboutRights.ftl:rights-intro": [
-    "Source"
-  ],
   "toolkit/toolkit/about/aboutRights.ftl:rights-intro-point-1": [
     "License",
     "License"
@@ -2723,9 +2345,6 @@
   ],
   "toolkit/toolkit/about/aboutRights.ftl:rights-safebrowsing": [
     "SafeBrowsing"
-  ],
-  "toolkit/toolkit/about/aboutRights.ftl:rights-webservices-term-3": [
-    "Source"
   ],
   "toolkit/toolkit/about/aboutSupport.ftl:a11y-handler-used": [
     "Handler"
@@ -2757,18 +2376,6 @@
   "toolkit/toolkit/about/aboutSupport.ftl:content-win32k-lockdown-state": [
     "Win32k",
     "Lockdown"
-  ],
-  "toolkit/toolkit/about/aboutSupport.ftl:crashes-time-days": [
-    "one",
-    "other"
-  ],
-  "toolkit/toolkit/about/aboutSupport.ftl:crashes-time-hours": [
-    "one",
-    "other"
-  ],
-  "toolkit/toolkit/about/aboutSupport.ftl:crashes-time-minutes": [
-    "one",
-    "other"
   ],
   "toolkit/toolkit/about/aboutSupport.ftl:fission-status-disabled-by-default": [
     "impostaz"
@@ -2804,27 +2411,14 @@
     "Main",
     "Painting"
   ],
-  "toolkit/toolkit/about/aboutSupport.ftl:pending-reports": [
-    "one",
-    "other"
-  ],
   "toolkit/toolkit/about/aboutSupport.ftl:place-database-title": [
     "Places"
-  ],
-  "toolkit/toolkit/about/aboutSupport.ftl:report-crash-for-days": [
-    "one",
-    "other"
   ],
   "toolkit/toolkit/about/aboutSupport.ftl:sandbox-sys-call-number": [
     "Syscall"
   ],
   "toolkit/toolkit/about/aboutSupport.ftl:security-software-antispyware": [
     "Antispyware"
-  ],
-  "toolkit/toolkit/about/aboutSupport.ftl:show-dir-label": [
-    "macos",
-    "other",
-    "windows"
   ],
   "toolkit/toolkit/about/aboutSupport.ftl:startup-cache-title": [
     "startup"
@@ -2857,12 +2451,7 @@
     "comp"
   ],
   "toolkit/toolkit/about/aboutTelemetry.ftl:about-telemetry-data-type": [
-    "prerelease",
     "pre-release"
-  ],
-  "toolkit/toolkit/about/aboutTelemetry.ftl:about-telemetry-histogram-stats": [
-    "one",
-    "other"
   ],
   "toolkit/toolkit/about/aboutTelemetry.ftl:about-telemetry-origin-section": [
     "Origin"
@@ -2883,19 +2472,11 @@
   "toolkit/toolkit/about/aboutTelemetry.ftl:about-telemetry-telemetry-probe-dictionary": [
     "Telemetry"
   ],
-  "toolkit/toolkit/about/aboutTelemetry.ftl:about-telemetry-upload-type": [
-    "enabled",
-    "disabled"
-  ],
   "toolkit/toolkit/about/aboutThirdParty.ftl:third-party-tag-shellex": [
     "shell"
   ],
   "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-avg-bitrate-label": [
     "Bitrate"
-  ],
-  "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-channels": [
-    "one",
-    "other"
   ],
   "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-frame-stats-heading": [
     "MediaStreamTrack"
@@ -2906,19 +2487,11 @@
   "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-jitter-label": [
     "Jitter"
   ],
-  "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-lost-label": [
-    "one",
-    "other"
-  ],
   "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-pacer-delay-ms": [
     "pacer"
   ],
   "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-peerconnection-id-label": [
     "PeerConnection"
-  ],
-  "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-received-label": [
-    "one",
-    "other"
   ],
   "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-rtp-stats-heading": [
     "RTPStats"
@@ -2934,10 +2507,6 @@
   ],
   "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-sdp-set-timestamp": [
     "useGrouping"
-  ],
-  "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-sent-label": [
-    "one",
-    "other"
   ],
   "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-trickle-caption-msg": [
     "trickled"
@@ -3006,44 +2575,12 @@
     "Win32k",
     "Lockdown"
   ],
-  "toolkit/toolkit/global/createProfileWizard.ftl:create-profile-first-page-header": [
-    "macos",
-    "other"
-  ],
-  "toolkit/toolkit/global/createProfileWizard.ftl:create-profile-last-page-header": [
-    "macos",
-    "other"
-  ],
-  "toolkit/toolkit/global/createProfileWizard.ftl:profile-creation-explanation-4": [
-    "macos",
-    "other"
-  ],
   "toolkit/toolkit/global/cspErrors.ftl:csp-error-illegal-host-wildcard": [
     "wildcard",
     ".com"
   ],
-  "toolkit/toolkit/global/handlerDialog.ftl:chooser-dialog-remember-extra": [
-    "windows",
-    "other"
-  ],
-  "toolkit/toolkit/global/unknownContentType.ftl:unknowncontenttype-choose-handler.accesskey": [
-    "macos",
-    "other"
-  ],
-  "toolkit/toolkit/global/unknownContentType.ftl:unknowncontenttype-choose-handler.label": [
-    "macos",
-    "other"
-  ],
-  "toolkit/toolkit/global/unknownContentType.ftl:unknowncontenttype-settingschange.value": [
-    "windows",
-    "other"
-  ],
   "toolkit/toolkit/main-window/findbar.ftl:findbar-match-diacritics.tooltiptext": [
     "caffe"
-  ],
-  "toolkit/toolkit/printing/printUI.ftl:printui-sheets-count": [
-    "one",
-    "other"
   ],
   "toolkit/toolkit/updates/backgroundupdate.ftl:backgroundupdate-task-description": [
     "Update",
