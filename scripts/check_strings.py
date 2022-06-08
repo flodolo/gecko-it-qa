@@ -396,6 +396,9 @@ class CheckStrings:
             print(f"Errors and number of occurrences (only above {threshold}):")
             print("\n".join(above_threshold))
 
+        if total_errors:
+            sys.exit(1)
+
 
 def main():
     script_path = os.path.abspath(os.path.dirname(__file__))

@@ -1,5 +1,7 @@
 # Italian QA scripts for Firefox and Fennec
 
+[![Spellcheck](https://github.com/flodolo/gecko-it-qa/actions/workflows/linter.yaml/badge.svg)](https://github.com/flodolo/gecko-it-qa/actions/workflows/linter.yaml)
+
 To run the script:
 - Copy `config/config.dist` as `config/config.ini` and configure the path to the clone of [l10n-central/it](https://hg.mozilla.org/l10n-central/it).
 - Run`scripts/check_strings.sh` (it will create and activate a virtualenv with Python 3 and install the dependencies).

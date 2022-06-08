@@ -1,0 +1,40 @@
+name: Spellcheck
+on:
+  schedule:
+    - cron: '0 5 * * 1-5' # Run Mon-Fri at 7AM UTC
+  workflow_dispatch:
+jobs:
+  spellcheck:
+    name: Check spelling
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone l10n repository
+        uses: actions/checkout@v3
+        with:
+          path: "linter"
+      - name: Install packages
+        run: |
+          sudo apt install -y python-dev libhunspell-dev mercurial
+      - name: Set up Python 3
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.9'
+      - name: Run checks
+        run: |
+          # Clone repository
+          hg clone https://hg.mozilla.org/l10n-central/it l10n-central
+
+          # Set up config
+          echo "[default]" > linter/config/config.ini
+          echo "repo_path = $PWD/l10n-central" >> linter/config/config.ini
+
+          # Run checks
+          ./linter/scripts/check_strings.sh
+      - run : git config --global user.email 'flodolo@users.noreply.github.com'
+      - uses: peter-evans/create-pull-request@v4
+        with:
+          path: "linter"
+          commit-message: "Update exceptions"
+          branch: automation
+          delete-branch: true
+          title: "Update exceptions"

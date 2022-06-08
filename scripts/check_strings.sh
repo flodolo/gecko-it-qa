@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
-script_path=$(dirname "$0")
-root_path=$script_path/..
+script_path="$( cd -- "$( dirname -- "${BASH_SOURCE[0]:-$0}"; )" &> /dev/null && pwd 2> /dev/null; )";
+root_path="${script_path}/.."
 
 cd $root_path
 
@@ -20,7 +20,6 @@ fi
 
 function setupVirtualEnv() {
     # Create virtualenv folder if missing
-    cd $root_path
     if [ ! -d python-venv ]
     then
         echo "Setting up new virtualenv..."
@@ -44,4 +43,5 @@ source $root_path/python-venv/bin/activate || exit 1
 python $script_path/check_extra_dict.py
 
 # Running main script
+python -c "import nltk;nltk.download('stopwords');nltk.download('punkt')"
 python $script_path/check_strings.py $@
