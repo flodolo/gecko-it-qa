@@ -1,7 +1,7 @@
 name: Spellcheck
 on:
   schedule:
-    - cron: '0 5 * * *'
+    - cron: '0 3 * * *'
   workflow_dispatch:
 jobs:
   spellcheck:
@@ -30,11 +30,3 @@ jobs:
 
           # Run checks
           ./linter/scripts/check_strings.sh
-      - run : git config --global user.email 'flodolo@users.noreply.github.com'
-      - uses: peter-evans/create-pull-request@v4
-        with:
-          path: "linter"
-          commit-message: "Update exceptions"
-          branch: automation
-          delete-branch: true
-          title: "Update exceptions"
