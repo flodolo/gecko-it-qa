@@ -30,6 +30,9 @@ jobs:
 
           # Run checks
           ./linter/scripts/check_strings.sh
+
+          # Reformat JSON
+          python linter/scripts/reformat_json.py
       - run : git config --global user.email 'flodolo@users.noreply.github.com'
       - uses: peter-evans/create-pull-request@v4
         with:

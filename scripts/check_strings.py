@@ -397,6 +397,12 @@ class CheckStrings:
             print("\n".join(above_threshold))
 
         if total_errors:
+            for type in ["quotes", "spelling"]:
+                filename = os.path.join(self.errors_path, f"{type}.json")
+                with open(filename, "r") as f:
+                    json_data = json.load(f)
+                    print(f"Errors for {type}:")
+                    print(json.dumps(json_data, indent=2))
             sys.exit(1)
 
 
