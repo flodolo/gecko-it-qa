@@ -1,21 +1,21 @@
 {
-    "excluded_files": [
-        "browser/browser/preferences/fonts.ftl",
-        "browser/defines.inc",
-        "browser/installer/override.properties",
-        "dom/chrome/accessibility/AccessFu.properties",
-        "toolkit/chrome/global/charsetMenu.properties",
-        "toolkit/toolkit/intl/languageNames.ftl",
-        "toolkit/toolkit/intl/regionNames.ftl",
-        "toolkit/chrome/global/keys.properties",
-        "toolkit/chrome/global/intl.properties",
-        "toolkit/chrome/global/printdialog.properties"
-    ],
-    "excluded_strings": [
-        "browser/chrome/overrides/netError.dtd:brandDTD",
-        "mobile/android/chrome/aboutCertError.dtd:brandDTD",
-        "mobile/android/chrome/aboutLogins.dtd:brandDTD",
-        "mobile/overrides/netError.dtd:brandDTD",
-        "toolkit/chrome/global/videocontrols.dtd:brandDTD"
-    ]
+  "excluded_files": [
+    "browser/browser/preferences/fonts.ftl",
+    "browser/defines.inc",
+    "browser/installer/override.properties",
+    "dom/chrome/accessibility/AccessFu.properties",
+    "toolkit/chrome/global/charsetMenu.properties",
+    "toolkit/chrome/global/intl.properties",
+    "toolkit/chrome/global/keys.properties",
+    "toolkit/chrome/global/printdialog.properties",
+    "toolkit/toolkit/intl/languageNames.ftl",
+    "toolkit/toolkit/intl/regionNames.ftl"
+  ],
+  "excluded_strings": [
+    "browser/chrome/overrides/netError.dtd:brandDTD",
+    "mobile/android/chrome/aboutCertError.dtd:brandDTD",
+    "mobile/android/chrome/aboutLogins.dtd:brandDTD",
+    "mobile/overrides/netError.dtd:brandDTD",
+    "toolkit/chrome/global/videocontrols.dtd:brandDTD"
+  ]
 }
