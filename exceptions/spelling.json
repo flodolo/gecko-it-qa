@@ -401,6 +401,9 @@
   "browser/installer/custom.properties:OPTION_STANDARD_DESC": [
     "BrandShortName"
   ],
+  "browser/installer/custom.properties:PRIVATE_BROWSING_SHORTCUT_TITLE": [
+    "BrandShortName"
+  ],
   "browser/installer/custom.properties:REG_APP_DESC": [
     "BrandShortName"
   ],
@@ -861,6 +864,11 @@
   "devtools/client/perftools.ftl:perftools-thread-task-controller.title": [
     "TaskController"
   ],
+  "devtools/client/perftools.ftl:perftools-thread-timer.title": [
+    "nsITimer",
+    "setInterval",
+    "setTimeout"
+  ],
   "devtools/client/perftools.ftl:perftools-tools-threads-input-label.title": [
     "profiler"
   ],
@@ -902,6 +910,15 @@
   ],
   "devtools/client/toolbox.ftl:toolbox-meatball-menu-pseudo-locale-bidi": [
     "bidi"
+  ],
+  "devtools/client/toolbox.properties:toolbox.parentProcessBrowserToolboxTitle": [
+    "parent"
+  ],
+  "devtools/client/toolbox.properties:toolbox.scope.parent-process": [
+    "parent"
+  ],
+  "devtools/client/toolbox.properties:toolbox.scope.parent-process.tooltip": [
+    "parent"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-display-block-on-floated": [
     "floated"

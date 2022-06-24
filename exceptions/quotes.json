@@ -81,6 +81,7 @@
   "mobile/android/chrome/aboutLogins.dtd:brandDTD",
   "mobile/overrides/netError.dtd:brandDTD",
   "toolkit/chrome/global/videocontrols.dtd:brandDTD",
+  "toolkit/toolkit/about/aboutAddons.ftl:colorway-collection-expiry-date-span",
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-cpu",
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-cpu-user-and-kernel",
   "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-sdp-set-at-timestamp-local",
