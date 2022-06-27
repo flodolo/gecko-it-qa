@@ -659,9 +659,6 @@
   "devtools/client/debugger.properties:watchpoints.removeWatchpointTooltip": [
     "watchpoint"
   ],
-  "devtools/client/graphs.properties:graphs.label.minimum": [
-    "min"
-  ],
   "devtools/client/inspector.properties:eventsTooltip.Bubbling": [
     "Bubbling"
   ],
@@ -705,52 +702,6 @@
   ],
   "devtools/client/layout.properties:flexbox.togglesFlexboxHighlighter2": [
     "flexbox"
-  ],
-  "devtools/client/markers.properties:marker.field.asyncStack": [
-    "Asinc"
-  ],
-  "devtools/client/markers.properties:marker.gcreason.label.COMPONENT_UTILS": [
-    "Cu.forceGC"
-  ],
-  "devtools/client/markers.properties:marker.gcreason.label.EAGER_ALLOC_TRIGGER": [
-    "eager"
-  ],
-  "devtools/client/markers.properties:marker.label.composite": [
-    "Layer"
-  ],
-  "devtools/client/markers.properties:marker.label.garbageCollection2": [
-    "Garbage",
-    "collection"
-  ],
-  "devtools/client/markers.properties:marker.label.javascript.promiseCallback": [
-    "Callback"
-  ],
-  "devtools/client/markers.properties:marker.label.javascript.promiseInit": [
-    "Init"
-  ],
-  "devtools/client/markers.properties:marker.label.messagePort": [
-    "MessagePort"
-  ],
-  "devtools/client/markers.properties:marker.label.paint": [
-    "Paint"
-  ],
-  "devtools/client/markers.properties:marker.messagePort.deserializeData": [
-    "Deserializza"
-  ],
-  "devtools/client/markers.properties:marker.nurseryCollection": [
-    "collection"
-  ],
-  "devtools/client/markers.properties:marker.value.DOMEventBubblingPhase": [
-    "Bubbling"
-  ],
-  "devtools/client/markers.properties:marker.value.DOMEventCapturingPhase": [
-    "Capture"
-  ],
-  "devtools/client/markers.properties:marker.worker.deserializeDataOffMainThread": [
-    "Deserializza"
-  ],
-  "devtools/client/markers.properties:marker.worker.deserializeDataOnMainThread": [
-    "Deserializza"
   ],
   "devtools/client/memory.properties:dominatorTree.state.fetching.full": [
     "retained"
@@ -800,18 +751,6 @@
   ],
   "devtools/client/netmonitor.properties:networkMenu.summary.tooltip.load": [
     "load"
-  ],
-  "devtools/client/performance.dtd:performanceUI.invertFlameGraph": [
-    "Flame"
-  ],
-  "devtools/client/performance.dtd:performanceUI.toolbar.js-flamegraph": [
-    "Flame"
-  ],
-  "devtools/client/performance.dtd:performanceUI.toolbar.memory-flamegraph": [
-    "Flame"
-  ],
-  "devtools/client/performance.properties:graphs.fps": [
-    "fps"
   ],
   "devtools/client/perftools.ftl:perftools-description-intro": [
     "profiler.firefox.com"
