@@ -59,10 +59,10 @@
     "Translations"
   ],
   "browser/browser/browserSets.ftl:nav-back-shortcut-alt.key": [
-    "\u00e0"
+    "à"
   ],
   "browser/browser/browserSets.ftl:nav-fwd-shortcut-alt.key": [
-    "\u00f9"
+    "ù"
   ],
   "browser/browser/migration.ftl:import-permissions-description": [
     "Bookmarks.plist"
@@ -821,10 +821,10 @@
     "\\u00D7"
   ],
   "devtools/client/sourceeditor.properties:indentLess.commandkey": [
-    "\u00f2"
+    "ò"
   ],
   "devtools/client/sourceeditor.properties:indentMore.commandkey": [
-    "\u00e0"
+    "à"
   ],
   "devtools/client/sourceeditor.properties:showInformation2.commandkey": [
     "Shift-Ctrl-Space"
@@ -2247,7 +2247,7 @@
     "ns"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:duration-unit-us": [
-    "\u00b5s"
+    "µs"
   ],
   "toolkit/toolkit/about/aboutRights.ftl:rights-intro-point-1": [
     "License",

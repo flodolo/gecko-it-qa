@@ -187,8 +187,10 @@ class CheckStrings:
                 if self.verbose:
                     print(f"{message_id}: wrong quotes\n{message}")
 
-        with open(os.path.join(self.errors_path, "quotes.json"), "w") as f:
-            json.dump(all_errors, f, indent=2, sort_keys=True)
+        with open(
+            os.path.join(self.errors_path, "quotes.json"), "w", encoding="utf8"
+        ) as f:
+            json.dump(all_errors, f, indent=2, sort_keys=True, ensure_ascii=False)
 
         self.quote_errors = all_errors
 
@@ -373,8 +375,10 @@ class CheckStrings:
                         print(nltk.word_tokenize(cleaned_message))
                 all_errors[message_id] = errors
 
-        with open(os.path.join(self.errors_path, "spelling.json"), "w") as f:
-            json.dump(all_errors, f, indent=2, sort_keys=True)
+        with open(
+            os.path.join(self.errors_path, "spelling.json"), "w", encoding="utf8"
+        ) as f:
+            json.dump(all_errors, f, indent=2, sort_keys=True, ensure_ascii=False)
 
         # Remove things that are not errors from the list of exceptions.
         for message_id in list(exceptions.keys()):
@@ -398,8 +402,8 @@ class CheckStrings:
                 exceptions[message_id] = all_errors[message_id]
 
         # Write back updated exceptions file
-        with open(exceptions_filename, "w") as f:
-            json.dump(exceptions, f, indent=2, sort_keys=True)
+        with open(exceptions_filename, "w", encoding="utf8") as f:
+            json.dump(exceptions, f, indent=2, sort_keys=True, ensure_ascii=False)
 
         if total_errors:
             print(f"Total number of strings with errors: {len(all_errors)}")
