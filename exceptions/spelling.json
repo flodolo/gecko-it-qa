@@ -59,10 +59,10 @@
     "Translations"
   ],
   "browser/browser/browserSets.ftl:nav-back-shortcut-alt.key": [
-    "à"
+    "\u00e0"
   ],
   "browser/browser/browserSets.ftl:nav-fwd-shortcut-alt.key": [
-    "ù"
+    "\u00f9"
   ],
   "browser/browser/migration.ftl:import-permissions-description": [
     "Bookmarks.plist"
@@ -821,10 +821,10 @@
     "\\u00D7"
   ],
   "devtools/client/sourceeditor.properties:indentLess.commandkey": [
-    "ò"
+    "\u00f2"
   ],
   "devtools/client/sourceeditor.properties:indentMore.commandkey": [
-    "à"
+    "\u00e0"
   ],
   "devtools/client/sourceeditor.properties:showInformation2.commandkey": [
     "Shift-Ctrl-Space"
@@ -858,6 +858,14 @@
   ],
   "devtools/client/toolbox.properties:toolbox.scope.parent-process.tooltip": [
     "parent"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-border-image": [
+    "border-collapse",
+    "collapse"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-border-image-fix": [
+    "border-collapse",
+    "collapse"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-display-block-on-floated": [
     "floated"
@@ -1816,9 +1824,16 @@
   "dom/chrome/security/csp.properties:ignoringReportOnlyDirective": [
     "report-only"
   ],
+  "dom/chrome/security/csp.properties:ignoringScriptSrcForStrictDynamic": [
+    "strict-dynamic"
+  ],
   "dom/chrome/security/csp.properties:ignoringSrcForStrictDynamic": [
     "script-src",
     "strict-dynamic"
+  ],
+  "dom/chrome/security/csp.properties:ignoringSrcWithinNonceOrHashDirective": [
+    "hash-source",
+    "nonce-source"
   ],
   "dom/chrome/security/csp.properties:ignoringSrcWithinScriptStyleSrc": [
     "hash-source",
@@ -1828,6 +1843,10 @@
   ],
   "dom/chrome/security/csp.properties:ignoringStrictDynamic": [
     "script-src"
+  ],
+  "dom/chrome/security/csp.properties:ignoringUnsafeEval": [
+    "unsafe-eval",
+    "wasm-unsafe-eval"
   ],
   "dom/chrome/security/csp.properties:reportURInotInReportOnlyHeader": [
     "report-only"
@@ -2247,7 +2266,7 @@
     "ns"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:duration-unit-us": [
-    "µs"
+    "\u00b5s"
   ],
   "toolkit/toolkit/about/aboutRights.ftl:rights-intro-point-1": [
     "License",
