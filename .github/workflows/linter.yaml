@@ -15,6 +15,7 @@ jobs:
           path: "linter"
       - name: Install packages
         run: |
+          sudo apt update
           sudo apt install -y python-dev libhunspell-dev mercurial
       - name: Set up Python 3
         uses: actions/setup-python@v3

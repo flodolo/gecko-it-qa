@@ -49,6 +49,9 @@
     "maxFractionalUnits",
     "mem"
   ],
+  "browser/browser/appmenu.ftl:profiler-popup-presets-power-description": [
+    "overhead"
+  ],
   "browser/browser/appmenu.ftl:profiler-popup-presets-web-developer-description": [
     "overhead"
   ],
@@ -763,6 +766,9 @@
   ],
   "devtools/client/perftools.ftl:perftools-intro-title": [
     "profiler"
+  ],
+  "devtools/client/perftools.ftl:perftools-presets-power-description": [
+    "overhead"
   ],
   "devtools/client/perftools.ftl:perftools-presets-web-developer-description": [
     "overhead"
