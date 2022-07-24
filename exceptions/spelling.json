@@ -58,14 +58,23 @@
   "browser/browser/branding/brandings.ftl:-firefox-suggest-brand-name": [
     "Suggest"
   ],
+  "browser/browser/branding/brandings.ftl:-firefoxview-brand-name": [
+    "View"
+  ],
   "browser/browser/branding/brandings.ftl:-translations-brand-name": [
     "Translations"
   ],
+  "browser/browser/browser.ftl:quickactions-cmd-inspector": [
+    "devtools"
+  ],
+  "browser/browser/browser.ftl:quickactions-cmd-screenshot": [
+    "screenshot"
+  ],
   "browser/browser/browserSets.ftl:nav-back-shortcut-alt.key": [
-    "\u00e0"
+    "à"
   ],
   "browser/browser/browserSets.ftl:nav-fwd-shortcut-alt.key": [
-    "\u00f9"
+    "ù"
   ],
   "browser/browser/migration.ftl:import-permissions-description": [
     "Bookmarks.plist"
@@ -233,6 +242,62 @@
   "browser/browser/preferences/containers.ftl:-containers-labels-style": [
     "4rem",
     "min-width"
+  ],
+  "browser/browser/preferences/formAutofill.ftl:autofill-address-county": [
+    "County"
+  ],
+  "browser/browser/preferences/formAutofill.ftl:autofill-address-eircode": [
+    "Eircode"
+  ],
+  "browser/browser/preferences/formAutofill.ftl:autofill-address-oblast": [
+    "Oblast"
+  ],
+  "browser/browser/preferences/formAutofill.ftl:autofill-address-parish": [
+    "Parish"
+  ],
+  "browser/browser/preferences/formAutofill.ftl:autofill-address-pin": [
+    "Pin"
+  ],
+  "browser/browser/preferences/formAutofill.ftl:autofill-address-post-town": [
+    "town"
+  ],
+  "browser/browser/preferences/formAutofill.ftl:autofill-address-suburb": [
+    "Suburb"
+  ],
+  "browser/browser/preferences/formAutofill.ftl:autofill-address-townland": [
+    "Townland"
+  ],
+  "browser/browser/preferences/formAutofill.ftl:autofill-address-village-township": [
+    "township"
+  ],
+  "browser/browser/preferences/formAutofill.ftl:autofill-card-expires-month": [
+    "Scad"
+  ],
+  "browser/browser/preferences/formAutofill.ftl:autofill-card-expires-year": [
+    "Scad"
+  ],
+  "browser/browser/preferences/formAutofill.ftl:autofill-card-network-amex": [
+    "American",
+    "Express"
+  ],
+  "browser/browser/preferences/formAutofill.ftl:autofill-card-network-cartebancaire": [
+    "Bancaire"
+  ],
+  "browser/browser/preferences/formAutofill.ftl:autofill-card-network-diners": [
+    "Diners"
+  ],
+  "browser/browser/preferences/formAutofill.ftl:autofill-card-network-discover": [
+    "Discover"
+  ],
+  "browser/browser/preferences/formAutofill.ftl:autofill-card-network-mastercard": [
+    "MasterCard"
+  ],
+  "browser/browser/preferences/formAutofill.ftl:autofill-card-network-unionpay": [
+    "Union",
+    "Pay"
+  ],
+  "browser/browser/preferences/formAutofill.ftl:autofill-card-network-visa": [
+    "Visa"
   ],
   "browser/browser/preferences/preferences.ftl:content-blocking-fpi-incompatibility-warning": [
     "First",
@@ -725,6 +790,9 @@
   "devtools/client/netmonitor.properties:netmonitor.context.copyAsCurl": [
     "cURL"
   ],
+  "devtools/client/netmonitor.properties:netmonitor.context.copyAsPowerShell": [
+    "PowerShell"
+  ],
   "devtools/client/netmonitor.properties:netmonitor.headers.sizeDetails": [
     "dim"
   ],
@@ -827,10 +895,10 @@
     "\\u00D7"
   ],
   "devtools/client/sourceeditor.properties:indentLess.commandkey": [
-    "\u00f2"
+    "ò"
   ],
   "devtools/client/sourceeditor.properties:indentMore.commandkey": [
-    "\u00e0"
+    "à"
   ],
   "devtools/client/sourceeditor.properties:showInformation2.commandkey": [
     "Shift-Ctrl-Space"
@@ -856,13 +924,13 @@
   "devtools/client/toolbox.ftl:toolbox-meatball-menu-pseudo-locale-bidi": [
     "bidi"
   ],
+  "devtools/client/toolbox.ftl:toolbox-mode-parent-process-container.title": [
+    "parent"
+  ],
+  "devtools/client/toolbox.ftl:toolbox-mode-parent-process-label": [
+    "parent"
+  ],
   "devtools/client/toolbox.properties:toolbox.parentProcessBrowserToolboxTitle": [
-    "parent"
-  ],
-  "devtools/client/toolbox.properties:toolbox.scope.parent-process": [
-    "parent"
-  ],
-  "devtools/client/toolbox.properties:toolbox.scope.parent-process.tooltip": [
     "parent"
   ],
   "devtools/client/tooltips.ftl:inactive-css-border-image": [
@@ -910,6 +978,12 @@
   "devtools/client/tooltips.ftl:inactive-css-property-is-impossible-to-override-in-visited": [
     "visited"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-ruby-element": [
+    "ruby"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-ruby-element-fix": [
+    "font-size"
+  ],
   "devtools/client/tooltips.ftl:inactive-scroll-padding-when-not-scroll-container": [
     "scroll"
   ],
@@ -930,6 +1004,9 @@
     "console.info",
     "console.log",
     "console.warn"
+  ],
+  "devtools/client/webconsole.properties:parentProcessBrowserConsole.title": [
+    "parent"
   ],
   "devtools/client/webconsole.properties:stacktrace.asyncStack": [
     "Asinc"
@@ -1158,9 +1235,6 @@
   ],
   "dom/chrome/dom/dom.properties:ImportMapResolutionBlockedByNullEntry": [
     "null"
-  ],
-  "dom/chrome/dom/dom.properties:ImportMapResolveInvalidBareSpecifier": [
-    "rimappato"
   ],
   "dom/chrome/dom/dom.properties:IndexedDBTransactionAbortNavigation": [
     "IndexedDB"
@@ -1455,6 +1529,9 @@
   ],
   "dom/chrome/dom/dom.properties:RewriteYouTubeEmbedPathParams": [
     "embed"
+  ],
+  "dom/chrome/dom/dom.properties:SelectOptionsLengthAssignmentWarning": [
+    "HTMLOptionsCollection.length"
   ],
   "dom/chrome/dom/dom.properties:ServiceWorkerGraceTimeoutTermination": [
     "grace",
@@ -2180,6 +2257,9 @@
   "toolkit/toolkit/about/aboutCompat.ftl:text-title": [
     "compat"
   ],
+  "toolkit/toolkit/about/aboutLogging.ftl:about-logging-log-tutorial": [
+    "Logging"
+  ],
   "toolkit/toolkit/about/aboutNetworking.ftl:about-networking-dns-lookup": [
     "lookup"
   ],
@@ -2191,6 +2271,9 @@
   ],
   "toolkit/toolkit/about/aboutNetworking.ftl:about-networking-log-tutorial": [
     "Logging"
+  ],
+  "toolkit/toolkit/about/aboutNetworking.ftl:about-networking-moved-about-logging": [
+    "logging"
   ],
   "toolkit/toolkit/about/aboutNetworking.ftl:about-networking-websockets": [
     "WebSocket"
@@ -2265,6 +2348,9 @@
     "maximumFractionDigits:0",
     "total"
   ],
+  "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-utility-actor-mf-media-engine": [
+    "Engine"
+  ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-web-serviceworker": [
     "serviceworker"
   ],
@@ -2272,7 +2358,7 @@
     "ns"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:duration-unit-us": [
-    "\u00b5s"
+    "µs"
   ],
   "toolkit/toolkit/about/aboutRights.ftl:rights-intro-point-1": [
     "License",
@@ -2344,6 +2430,9 @@
   ],
   "toolkit/toolkit/about/aboutSupport.ftl:has-seccomp-tsync": [
     "seccomp"
+  ],
+  "toolkit/toolkit/about/aboutSupport.ftl:media-codec-support-info": [
+    "codec"
   ],
   "toolkit/toolkit/about/aboutSupport.ftl:off-main-thread-paint-enabled": [
     "Main",
@@ -2501,8 +2590,97 @@
     ".com",
     "wildcard"
   ],
+  "toolkit/toolkit/global/datetimebox.ftl:datetime-day-placeholder": [
+    "gg"
+  ],
+  "toolkit/toolkit/global/datetimebox.ftl:datetime-year-placeholder": [
+    "aaaa"
+  ],
   "toolkit/toolkit/main-window/findbar.ftl:findbar-match-diacritics.tooltiptext": [
     "caffe"
+  ],
+  "toolkit/toolkit/neterror/netError.ftl:neterror-unknown-socket-type-psm-installed": [
+    "Personal"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:mozilla-pkix-error-key-pinning-failure": [
+    "pinset"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:mozilla-pkix-error-signature-algorithm-mismatch": [
+    "signature",
+    "signatureAlgorithm"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:mozilla-pkix-error-v1-cert-used-as-ca": [
+    "anchor"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:sec-error-bad-der": [
+    "DER-encoded"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:sec-error-bad-template": [
+    "template"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:sec-error-baggage-not-created": [
+    "baggage"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:sec-error-cert-usages-invalid": [
+    "usages",
+    "field"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:sec-error-extra-input": [
+    "DER-encoded"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:sec-error-filing-key": [
+    "refil"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:sec-error-invalid-policy-mapping": [
+    "anypolicy"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:sec-error-libpkix-internal": [
+    "libpkix"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:sec-error-no-nodelock": [
+    "nodelock"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:sec-error-path-len-constraint-invalid": [
+    "path",
+    "length",
+    "constraint"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:ssl-error-missing-extended-master-secret": [
+    "correct",
+    "extended_master_secret"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:ssl-error-next-protocol-no-callback": [
+    "next",
+    "protocol",
+    "negotiation",
+    "callback"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:ssl-error-rx-malformed-finished": [
+    "Finished"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:ssl-error-rx-malformed-hello-done": [
+    "Done"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:ssl-error-rx-unexpected-finished": [
+    "Finished"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:ssl-error-rx-unexpected-hello-done": [
+    "Done"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:ssl-error-unexpected-extended-master-secret": [
+    "extended_master_secret"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:ssl-error-unsupported-extension-alert": [
+    "hello"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:xp-java-cert-not-exists-error": [
+    "principal"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:xp-java-remove-principal-error": [
+    "principal"
+  ],
+  "toolkit/toolkit/neterror/nsserrors.ftl:xp-sec-fortezza-bad-pin": [
+    "Pin"
   ],
   "toolkit/toolkit/updates/backgroundupdate.ftl:backgroundupdate-task-description": [
     "BackgroundAppUpdate",
