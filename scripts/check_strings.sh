@@ -29,7 +29,7 @@ function setupVirtualEnv() {
     # Install or update dependencies
     source python-venv/bin/activate || exit 1
     pip install --upgrade --quiet pip
-    pip install -r $script_path/requirements.txt --upgrade --quiet
+    pip install -r $script_path/requirements.txt --upgrade --quiet --use-pep517
     deactivate
 }
 
