@@ -366,6 +366,9 @@
   "browser/chrome/browser/browser.properties:webextSitePerms.description.midi-sysex": [
     "SysEx"
   ],
+  "browser/chrome/browser/browser.properties:webextSitePerms.headerWithGatedPerms.midi-sysex": [
+    "SysEx"
+  ],
   "browser/chrome/browser/shellservice.properties:desktopBackgroundLeafNameWin": [
     "desktop.bmp"
   ],
@@ -915,6 +918,13 @@
   "devtools/client/storage.ftl:storage-tree-labels-indexed-db": [
     "Indexed"
   ],
+  "devtools/client/styleeditor.ftl:styleeditor-at-rules": [
+    "At-rules"
+  ],
+  "devtools/client/styleeditor.properties:showAtRulesSidebar.label": [
+    "at-rules",
+    "supports"
+  ],
   "devtools/client/toolbox-options.ftl:options-enable-chrome-label": [
     "chrome"
   ],
@@ -1401,6 +1411,10 @@
   ],
   "dom/chrome/dom/dom.properties:MozRequestFullScreenDeprecatedPrefixWarning": [
     "mozRequestFullScreen"
+  ],
+  "dom/chrome/dom/dom.properties:MozTextStyleWarning": [
+    "mozTextStyle",
+    "CanvasRenderingContext2D.font"
   ],
   "dom/chrome/dom/dom.properties:MozfullscreenchangeDeprecatedPrefixWarning": [
     "onmozfullscreenchange"
@@ -2079,6 +2093,9 @@
   "netwerk/necko.properties:CookieRejectedHttpOnlyButFromScript": [
     "HTTP-Only"
   ],
+  "netwerk/necko.properties:ResourceBlockedCORS": [
+    "Cross-Origin-Resource-Sharing"
+  ],
   "security/manager/chrome/pipnss/nsserrors.properties:MOZILLA_PKIX_ERROR_KEY_PINNING_FAILURE": [
     "pinset"
   ],
@@ -2444,6 +2461,9 @@
     "Off",
     "Painting"
   ],
+  "toolkit/toolkit/about/aboutSupport.ftl:place-database-stats-size-kib": [
+    "KiB"
+  ],
   "toolkit/toolkit/about/aboutSupport.ftl:place-database-title": [
     "Places"
   ],
@@ -2558,6 +2578,9 @@
   ],
   "toolkit/toolkit/about/url-classifier.ftl:url-classifier-title": [
     "Classifier"
+  ],
+  "toolkit/toolkit/downloads/downloadUtils.ftl:download-utils-status": [
+    "sec"
   ],
   "toolkit/toolkit/featuregates/features.ftl:experimental-features-css-constructable-stylesheets-description": [
     "CSSStyleSheet",
