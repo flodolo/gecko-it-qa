@@ -3,6 +3,7 @@
     "browser/browser/preferences/fonts.ftl",
     "browser/defines.inc",
     "browser/installer/override.properties",
+    "browser/langpack-metadata.ftl",
     "dom/chrome/accessibility/AccessFu.properties",
     "toolkit/chrome/global/charsetMenu.properties",
     "toolkit/chrome/global/intl.properties",
