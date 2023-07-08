@@ -5,6 +5,9 @@
   "browser/browser/aboutLogins.ftl:about-logins-export-file-picker-default-filename": [
     "credenziali.csv"
   ],
+  "browser/browser/aboutLogins.ftl:about-logins-export-file-picker-default-filename2": [
+    "password.csv"
+  ],
   "browser/browser/aboutRobots.ftl:page-title": [
     "Gort",
     "Klaatu",
@@ -67,14 +70,16 @@
   "browser/browser/appmenu.ftl:profiler-popup-presets-web-developer-description": [
     "overhead"
   ],
-  "browser/browser/branding/brandings.ftl:-firefox-suggest-brand-name": [
-    "Suggest"
-  ],
-  "browser/browser/branding/brandings.ftl:-translations-brand-name": [
-    "Translations"
+  "browser/browser/backgroundtasks/defaultagent.ftl:default-browser-agent-task-description": [
+    "default-browser-agent.enabled",
+    "config",
+    "DisableDefaultBrowserAgent"
   ],
   "browser/browser/browser.ftl:quickactions-cmd-inspector": [
     "devtools"
+  ],
+  "browser/browser/browser.ftl:quickactions-cmd-savepdf": [
+    "pdf"
   ],
   "browser/browser/browser.ftl:quickactions-cmd-screenshot": [
     "screenshot"
@@ -85,95 +90,8 @@
   "browser/browser/browserSets.ftl:nav-fwd-shortcut-alt.key": [
     "ù"
   ],
-  "browser/browser/migration.ftl:import-permissions-description": [
-    "Bookmarks.plist"
-  ],
   "browser/browser/newtab/newtab.ftl:newtab-label-source-read-time": [
     "min"
-  ],
-  "browser/browser/newtab/onboarding.ftl:mr1-onboarding-welcome-image-caption": [
-    "Osorio",
-    "Soraya"
-  ],
-  "browser/browser/nsserrors.ftl:mozilla-pkix-error-key-pinning-failure": [
-    "pinset"
-  ],
-  "browser/browser/nsserrors.ftl:mozilla-pkix-error-signature-algorithm-mismatch": [
-    "signature",
-    "signatureAlgorithm"
-  ],
-  "browser/browser/nsserrors.ftl:mozilla-pkix-error-v1-cert-used-as-ca": [
-    "anchor"
-  ],
-  "browser/browser/nsserrors.ftl:sec-error-bad-der": [
-    "DER-encoded"
-  ],
-  "browser/browser/nsserrors.ftl:sec-error-bad-template": [
-    "template"
-  ],
-  "browser/browser/nsserrors.ftl:sec-error-baggage-not-created": [
-    "baggage"
-  ],
-  "browser/browser/nsserrors.ftl:sec-error-cert-usages-invalid": [
-    "field",
-    "usages"
-  ],
-  "browser/browser/nsserrors.ftl:sec-error-extra-input": [
-    "DER-encoded"
-  ],
-  "browser/browser/nsserrors.ftl:sec-error-filing-key": [
-    "refil"
-  ],
-  "browser/browser/nsserrors.ftl:sec-error-invalid-policy-mapping": [
-    "anypolicy"
-  ],
-  "browser/browser/nsserrors.ftl:sec-error-libpkix-internal": [
-    "libpkix"
-  ],
-  "browser/browser/nsserrors.ftl:sec-error-no-nodelock": [
-    "nodelock"
-  ],
-  "browser/browser/nsserrors.ftl:sec-error-path-len-constraint-invalid": [
-    "constraint",
-    "length",
-    "path"
-  ],
-  "browser/browser/nsserrors.ftl:ssl-error-missing-extended-master-secret": [
-    "correct",
-    "extended_master_secret"
-  ],
-  "browser/browser/nsserrors.ftl:ssl-error-next-protocol-no-callback": [
-    "callback",
-    "negotiation",
-    "next",
-    "protocol"
-  ],
-  "browser/browser/nsserrors.ftl:ssl-error-rx-malformed-finished": [
-    "Finished"
-  ],
-  "browser/browser/nsserrors.ftl:ssl-error-rx-malformed-hello-done": [
-    "Done"
-  ],
-  "browser/browser/nsserrors.ftl:ssl-error-rx-unexpected-finished": [
-    "Finished"
-  ],
-  "browser/browser/nsserrors.ftl:ssl-error-rx-unexpected-hello-done": [
-    "Done"
-  ],
-  "browser/browser/nsserrors.ftl:ssl-error-unexpected-extended-master-secret": [
-    "extended_master_secret"
-  ],
-  "browser/browser/nsserrors.ftl:ssl-error-unsupported-extension-alert": [
-    "hello"
-  ],
-  "browser/browser/nsserrors.ftl:xp-java-cert-not-exists-error": [
-    "principal"
-  ],
-  "browser/browser/nsserrors.ftl:xp-java-remove-principal-error": [
-    "principal"
-  ],
-  "browser/browser/nsserrors.ftl:xp-sec-fortezza-bad-pin": [
-    "Pin"
   ],
   "browser/browser/pageInfo.ftl:general-quirks-mode.value": [
     "Quirks"
@@ -303,7 +221,14 @@
     "First",
     "Isolation"
   ],
+  "browser/browser/preferences/preferences.ftl:content-blocking-rfp-incompatibility-warning": [
+    "Resist"
+  ],
   "browser/browser/preferences/preferences.ftl:do-not-track-description": [
+    "Not",
+    "Track"
+  ],
+  "browser/browser/preferences/preferences.ftl:do-not-track-description2.label": [
     "Not",
     "Track"
   ],
@@ -313,6 +238,10 @@
   ],
   "browser/browser/preferences/preferences.ftl:forms-windows-sso.label": [
     "sign-on"
+  ],
+  "browser/browser/preferences/preferences.ftl:global-privacy-control-search": [
+    "Global",
+    "Control"
   ],
   "browser/browser/preferences/preferences.ftl:home-prefs-snippets-header.label": [
     "Snippet"
@@ -361,13 +290,6 @@
     "Speech",
     "Dispatcher"
   ],
-  "browser/chrome/browser/browser.properties:addonDownloadingAndVerifying": [
-    "comp",
-    "comp"
-  ],
-  "browser/chrome/browser/browser.properties:addonLocalInstallError-1": [
-    "filesystem"
-  ],
   "browser/chrome/browser/browser.properties:decoder.noCodecsLinux.message": [
     "codec"
   ],
@@ -386,9 +308,6 @@
   "browser/chrome/browser/browser.properties:midi.shareSysexWithSite": [
     "SysEx"
   ],
-  "browser/chrome/browser/browser.properties:webextSitePerms.description.midi-sysex": [
-    "SysEx"
-  ],
   "browser/chrome/browser/shellservice.properties:desktopBackgroundLeafNameWin": [
     "desktop.bmp"
   ],
@@ -397,9 +316,6 @@
   ],
   "browser/chrome/overrides/appstrings.properties:sslv3Used": [
     "SSLv3"
-  ],
-  "browser/chrome/overrides/netError.dtd:unknownSocketType.longDesc": [
-    "Personal"
   ],
   "browser/defaultagent/defaultagent_localized.ini:DefaultBrowserAgentTaskDescription": [
     "DisableDefaultBrowserAgent",
@@ -412,67 +328,8 @@
   "browser/extensions/formautofill/formautofill.properties:autocompleteFooterOptionShort2": [
     "autom"
   ],
-  "browser/extensions/formautofill/formautofill.properties:cardExpiresMonth": [
-    "Scad"
-  ],
-  "browser/extensions/formautofill/formautofill.properties:cardExpiresYear": [
-    "Scad"
-  ],
-  "browser/extensions/formautofill/formautofill.properties:cardNetwork.amex": [
-    "American",
-    "Express"
-  ],
-  "browser/extensions/formautofill/formautofill.properties:cardNetwork.cartebancaire": [
-    "Bancaire"
-  ],
-  "browser/extensions/formautofill/formautofill.properties:cardNetwork.diners": [
-    "Diners"
-  ],
-  "browser/extensions/formautofill/formautofill.properties:cardNetwork.discover": [
-    "Discover"
-  ],
-  "browser/extensions/formautofill/formautofill.properties:cardNetwork.mastercard": [
-    "MasterCard"
-  ],
-  "browser/extensions/formautofill/formautofill.properties:cardNetwork.unionpay": [
-    "Pay",
-    "Union"
-  ],
-  "browser/extensions/formautofill/formautofill.properties:cardNetwork.visa": [
-    "Visa"
-  ],
-  "browser/extensions/formautofill/formautofill.properties:county": [
-    "County"
-  ],
-  "browser/extensions/formautofill/formautofill.properties:eircode": [
-    "Eircode"
-  ],
   "browser/extensions/formautofill/formautofill.properties:fieldNameSeparator": [
     "\\u0020"
-  ],
-  "browser/extensions/formautofill/formautofill.properties:manageDialogsWidth": [
-    "600px"
-  ],
-  "browser/extensions/formautofill/formautofill.properties:oblast": [
-    "Oblast"
-  ],
-  "browser/extensions/formautofill/formautofill.properties:parish": [
-    "Parish"
-  ],
-  "browser/extensions/formautofill/formautofill.properties:pin": [
-    "Pin"
-  ],
-  "browser/extensions/formautofill/formautofill.properties:post_town": [
-    "town"
-  ],
-  "browser/extensions/formautofill/formautofill.properties:suburb": [
-    "Suburb"
-  ],
-  "browser/extensions/formautofill/formautofill.properties:townland": [
-    "Townland"
-  ],
-  "browser/extensions/formautofill/formautofill.properties:village_township": [
-    "township"
   ],
   "browser/installer/custom.properties:CONTEXT_OPTIONS": [
     "BrandShortName"
@@ -748,17 +605,21 @@
   "devtools/client/debugger.properties:settings.enableSourceMapIgnoreList.tooltip": [
     "x_google_ignoreList"
   ],
+  "devtools/client/debugger.properties:sourceFooter.mappedOriginalSource.tooltip": [
+    "bundle"
+  ],
   "devtools/client/debugger.properties:stacktrace.asyncStack": [
     "Asinc"
   ],
   "devtools/client/debugger.properties:stepOut.key": [
     "Shift+F11"
   ],
-  "devtools/client/debugger.properties:symbolSearch.searchModifier.regex": [
-    "Esp"
-  ],
   "devtools/client/debugger.properties:traceInStdout": [
     "stdout"
+  ],
+  "devtools/client/debugger.properties:traceOnNextInteraction": [
+    "mousedown",
+    "keydown"
   ],
   "devtools/client/debugger.properties:watchpoints.removeWatchpoint": [
     "watchpoint"
@@ -771,6 +632,15 @@
   ],
   "devtools/client/inspector.properties:eventsTooltip.Capturing": [
     "Capturing"
+  ],
+  "devtools/client/inspector.properties:eventsTooltip.codeIframeTitle": [
+    "listener"
+  ],
+  "devtools/client/inspector.properties:eventsTooltip.toggleButton.label": [
+    "listener"
+  ],
+  "devtools/client/inspector.properties:eventsTooltip.toggleListenerLabel": [
+    "listener"
   ],
   "devtools/client/inspector.properties:eventsTooltip.unknownLocationExplanation": [
     "Babel",
@@ -790,6 +660,9 @@
   ],
   "devtools/client/inspector.properties:markupView.event.tooltiptext": [
     "Listener"
+  ],
+  "devtools/client/inspector.properties:markupView.event.tooltiptext2": [
+    "listener"
   ],
   "devtools/client/inspector.properties:markupView.overflowBadge.label": [
     "overflow"
@@ -838,8 +711,17 @@
   "devtools/client/netmonitor.properties:netmonitor.timings.serverTiming": [
     "Timing"
   ],
+  "devtools/client/netmonitor.properties:netmonitor.timings.serviceWorkerTiming": [
+    "Timing"
+  ],
   "devtools/client/netmonitor.properties:netmonitor.waterfall.tooltip.separator": [
     "\\u0020-\\u0020"
+  ],
+  "devtools/client/netmonitor.properties:netmonitor.ws.context.copyFrameAsBase64": [
+    "Base64"
+  ],
+  "devtools/client/netmonitor.properties:netmonitor.ws.context.copyFrameAsHex": [
+    "Hex"
   ],
   "devtools/client/netmonitor.properties:netmonitor.ws.toolbar.finBit": [
     "FinBit"
@@ -899,11 +781,6 @@
   ],
   "devtools/client/perftools.ftl:perftools-thread-jvm-nimbus.title": [
     "Nimbus"
-  ],
-  "devtools/client/perftools.ftl:perftools-thread-paint-worker.title": [
-    "off-main-thread",
-    "painting",
-    "painting"
   ],
   "devtools/client/perftools.ftl:perftools-thread-render-backend.title": [
     "RenderBackend",
@@ -985,6 +862,9 @@
   "devtools/client/toolbox.properties:toolbox.parentProcessBrowserToolboxTitle": [
     "parent"
   ],
+  "devtools/client/tooltips.ftl:css-selector-warning-unconstrained-has": [
+    "has"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-border-image": [
     "border-collapse",
     "collapse"
@@ -992,6 +872,18 @@
   "devtools/client/tooltips.ftl:inactive-css-border-image-fix": [
     "border-collapse",
     "collapse"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-cue-pseudo-element-not-supported": [
+    ":cue"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-first-letter-pseudo-element-not-supported": [
+    ":first-letter"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-first-line-pseudo-element-not-supported": [
+    ":first-line"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-highlight-pseudo-elements-not-supported": [
+    "highlight"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-display-block-on-floated": [
     "floated"
@@ -1023,6 +915,16 @@
   "devtools/client/tooltips.ftl:inactive-css-not-inline-or-tablecell-fix": [
     "table-cell"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-not-multicol-container-fix": [
+    "column-count",
+    "column-width"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-not-table-cell-fix": [
+    "table-cell"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-placeholder-pseudo-element-not-supported": [
+    ":placeholder"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-position-property-on-unpositioned-box-fix": [
     "position",
     "static"
@@ -1035,6 +937,10 @@
   ],
   "devtools/client/tooltips.ftl:inactive-css-ruby-element-fix": [
     "font-size"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-text-wrap-balance-fragmented-fix": [
+    "page-break-inside",
+    "avoid"
   ],
   "devtools/client/tooltips.ftl:inactive-scroll-padding-when-not-scroll-container": [
     "scroll"
@@ -1060,6 +966,9 @@
   "devtools/client/webconsole.properties:parentProcessBrowserConsole.title": [
     "parent"
   ],
+  "devtools/client/webconsole.properties:preventedConsoleClear": [
+    "console.clear"
+  ],
   "devtools/client/webconsole.properties:stacktrace.asyncStack": [
     "Asinc"
   ],
@@ -1068,6 +977,9 @@
   ],
   "devtools/client/webconsole.properties:webconsole.error.commands.copyError": [
     "copy"
+  ],
+  "devtools/client/webconsole.properties:webconsole.message.commands.startTracingToStdout": [
+    "stdout"
   ],
   "devtools/shared/accessibility.properties:accessibility.keyboard.issue.mouse.only": [
     "clickable"
@@ -1127,6 +1039,19 @@
   ],
   "devtools/shared/styleinspector.properties:rule.flexToggle.tooltip": [
     "flexbox"
+  ],
+  "devtools/shared/webconsole-commands.ftl:webconsole-commands-usage-block": [
+    "unblock"
+  ],
+  "devtools/shared/webconsole-commands.ftl:webconsole-commands-usage-trace": [
+    "tracer",
+    "logMethod",
+    "stdout",
+    "prefix",
+    "usage"
+  ],
+  "devtools/shared/webconsole-commands.ftl:webconsole-commands-usage-unblock": [
+    "unblock"
   ],
   "dom/chrome/appstrings.properties:sslv3Used": [
     "SSLv3"
@@ -1241,9 +1166,6 @@
   "dom/chrome/dom/dom.properties:FullscreenDeniedMouseEventOnlyLeftBtn": [
     "Element.requestFullscreen"
   ],
-  "dom/chrome/dom/dom.properties:FullscreenDeniedNotDescendant": [
-    "full-screen"
-  ],
   "dom/chrome/dom/dom.properties:FullscreenDeniedNotInputDriven": [
     "Element.requestFullscreen"
   ],
@@ -1259,22 +1181,8 @@
   "dom/chrome/dom/dom.properties:GeolocationInsecureRequestIsForbidden": [
     "Geolocation"
   ],
-  "dom/chrome/dom/dom.properties:IDBDatabaseCreateMutableFileWarning": [
-    "IDBDatabase.createMutableFile",
-    "Origin",
-    "System",
-    "bugzil.la"
-  ],
-  "dom/chrome/dom/dom.properties:IDBMutableFileOpenWarning": [
-    "IDBMutableFile.open",
-    "Origin",
-    "System",
-    "bugzil.la"
-  ],
-  "dom/chrome/dom/dom.properties:IDBOpenDBOptions_StorageTypeWarning": [
-    "indexedDB.open",
-    "navigator.storage.persist",
-    "storage"
+  "dom/chrome/dom/dom.properties:IDBObjectStoreCreateIndexLocaleWarning": [
+    "IDBObjectStore.createIndex"
   ],
   "dom/chrome/dom/dom.properties:IIRFilterChannelCountChangeWarning": [
     "IIRFilterNode",
@@ -1297,6 +1205,14 @@
   "dom/chrome/dom/dom.properties:IndexedDBTransactionAbortNavigation": [
     "IndexedDB"
   ],
+  "dom/chrome/dom/dom.properties:InitMouseEventWarning": [
+    "initMouseEvent",
+    "MouseEvent"
+  ],
+  "dom/chrome/dom/dom.properties:InitNSMouseEventWarning": [
+    "initNSMouseEvent",
+    "MouseEvent"
+  ],
   "dom/chrome/dom/dom.properties:InstallTriggerDeprecatedWarning": [
     "InstallTrigger"
   ],
@@ -1315,6 +1231,12 @@
   ],
   "dom/chrome/dom/dom.properties:InterceptionCanceledWithURL": [
     "FetchEvent.preventDefault"
+  ],
+  "dom/chrome/dom/dom.properties:InvalidNamedFormControlUnfocusable": [
+    "name"
+  ],
+  "dom/chrome/dom/dom.properties:IsExternalCTAP2SecurityKeySupportedWarning": [
+    "isExternalCTAP2SecurityKeySupported"
   ],
   "dom/chrome/dom/dom.properties:LenientThisWarning": [
     "LenientThis",
@@ -1336,19 +1258,6 @@
   "dom/chrome/dom/dom.properties:ManifestImageUnusable": [
     "purpose"
   ],
-  "dom/chrome/dom/dom.properties:MathML_DeprecatedAlignmentAttributesWarning": [
-    "align",
-    "denomalign",
-    "numalign"
-  ],
-  "dom/chrome/dom/dom.properties:MathML_DeprecatedBevelledAttribute": [
-    "bevelled"
-  ],
-  "dom/chrome/dom/dom.properties:MathML_DeprecatedLineThicknessValueWarning": [
-    "linethickness",
-    "thick",
-    "thin"
-  ],
   "dom/chrome/dom/dom.properties:MathML_DeprecatedMathSizeValueWarning": [
     "big",
     "mathsize",
@@ -1365,15 +1274,8 @@
     "veryverythickmathspace",
     "veryverythinmathspace"
   ],
-  "dom/chrome/dom/dom.properties:MathML_DeprecatedMencloseNotationRadical": [
-    "notation"
-  ],
-  "dom/chrome/dom/dom.properties:MathML_DeprecatedMfencedElement": [
-    "mfenced"
-  ],
-  "dom/chrome/dom/dom.properties:MathML_DeprecatedScriptShiftAttributes": [
-    "subscriptshift",
-    "superscriptshift"
+  "dom/chrome/dom/dom.properties:MathML_DeprecatedMathVariantWarning": [
+    "mathvariant"
   ],
   "dom/chrome/dom/dom.properties:MathML_DeprecatedScriptminsizeAttributeWarning": [
     "scriptminsize"
@@ -1447,15 +1349,9 @@
     "MouseEvent.mozPressure",
     "PointerEvent.pressure"
   ],
-  "dom/chrome/dom/dom.properties:MozCurrentTransformInverseWarning": [
-    "CanvasRenderingContext2D.getTransform",
-    "CanvasRenderingContext2D.setTransform",
-    "mozCurrentTransformInverse"
-  ],
-  "dom/chrome/dom/dom.properties:MozCurrentTransformWarning": [
-    "CanvasRenderingContext2D.getTransform",
-    "CanvasRenderingContext2D.setTransform",
-    "mozCurrentTransform"
+  "dom/chrome/dom/dom.properties:MozInputSourceWarning": [
+    "MouseEvent.mozInputSource",
+    "PointerEvent.pointerType"
   ],
   "dom/chrome/dom/dom.properties:MozRequestFullScreenDeprecatedPrefixWarning": [
     "mozRequestFullScreen"
@@ -1486,6 +1382,9 @@
     "OffscreenCanvas.convertToBlob",
     "OffscreenCanvas.toBlob"
   ],
+  "dom/chrome/dom/dom.properties:PartitionKeyDifferentError": [
+    "blob"
+  ],
   "dom/chrome/dom/dom.properties:PointerLockDeniedDisabled": [
     "Lock"
   ],
@@ -1497,10 +1396,6 @@
   ],
   "dom/chrome/dom/dom.properties:PointerLockDeniedSandboxed": [
     "Lock"
-  ],
-  "dom/chrome/dom/dom.properties:PrefixedImageSmoothingEnabledWarning": [
-    "imageSmoothingEnabled",
-    "mozImageSmoothingEnabled"
   ],
   "dom/chrome/dom/dom.properties:PreloadIgnoredInvalidAttr": [
     "as"
@@ -1576,6 +1471,10 @@
   "dom/chrome/dom/dom.properties:RequestStorageAccessNullPrincipal": [
     "allow-same-origin"
   ],
+  "dom/chrome/dom/dom.properties:RequestStorageAccessPermissionsPolicy": [
+    "storage-access",
+    "Permissions"
+  ],
   "dom/chrome/dom/dom.properties:RequestStorageAccessSandboxed": [
     "allow-storage-access-by-user-activation"
   ],
@@ -1587,6 +1486,10 @@
   ],
   "dom/chrome/dom/dom.properties:RewriteYouTubeEmbedPathParams": [
     "embed"
+  ],
+  "dom/chrome/dom/dom.properties:SVGDeselectAll": [
+    "SVGSVGElement.deselectAll",
+    "Selection"
   ],
   "dom/chrome/dom/dom.properties:SVGFarthestViewportElement": [
     "SVGGraphicsElement.farthestViewportElement"
@@ -1609,11 +1512,18 @@
   "dom/chrome/dom/dom.properties:ServiceWorkerScopePathMismatch": [
     "Service-Worker-Allowed"
   ],
+  "dom/chrome/dom/dom.properties:SizeToContentWarning": [
+    "sizeToContent"
+  ],
   "dom/chrome/dom/dom.properties:SpeculationFailed2": [
     "Glossary",
     "document.write",
     "en-US",
     "speculative_parsing"
+  ],
+  "dom/chrome/dom/dom.properties:SyncXMLHttpRequestDeprecatedWarning": [
+    "xhr.spec.whatwg.org",
+    "sync-warning"
   ],
   "dom/chrome/dom/dom.properties:SyncXMLHttpRequestWarning": [
     "xhr.spec.whatwg.org"
@@ -1646,12 +1556,6 @@
   "dom/chrome/dom/dom.properties:WebExtensionUncheckedLastError": [
     "browser.runtime.lastError"
   ],
-  "dom/chrome/dom/dom.properties:WebrtcDeprecatedPrefixWarning": [
-    "moz",
-    "mozRTCIceCandidate",
-    "mozRTCPeerConnection",
-    "mozRTCSessionDescription"
-  ],
   "dom/chrome/dom/dom.properties:WindowContentUntrustedWarning": [
     "Window",
     "window.top"
@@ -1659,9 +1563,6 @@
   "dom/chrome/dom/dom.properties:Window_Cc_ontrollersWarning": [
     "Controllers",
     "window.controllers"
-  ],
-  "dom/chrome/global.dtd:locale.dir": [
-    "ltr"
   ],
   "dom/chrome/layout/HtmlForm.properties:CannotEncodeAllUnicode": [
     "accept-charset",
@@ -1951,12 +1852,6 @@
     "subscript",
     "superscript"
   ],
-  "dom/chrome/netError.dtd:dnsNotFound.longDesc": [
-    "ww"
-  ],
-  "dom/chrome/netError.dtd:unknownProtocolFound.longDesc": [
-    "wxyz"
-  ],
   "dom/chrome/nsWebBrowserPersist.properties:fileAlreadyExistsError": [
     "_files"
   ],
@@ -1978,19 +1873,9 @@
   "dom/chrome/security/csp.properties:ignoringScriptSrcForStrictDynamic": [
     "strict-dynamic"
   ],
-  "dom/chrome/security/csp.properties:ignoringSrcForStrictDynamic": [
-    "script-src",
-    "strict-dynamic"
-  ],
   "dom/chrome/security/csp.properties:ignoringSrcWithinNonceOrHashDirective": [
     "hash-source",
     "nonce-source"
-  ],
-  "dom/chrome/security/csp.properties:ignoringSrcWithinScriptStyleSrc": [
-    "hash-source",
-    "nonce-source",
-    "script-src",
-    "style-src"
   ],
   "dom/chrome/security/csp.properties:ignoringStrictDynamic": [
     "script-src"
@@ -2018,9 +1903,6 @@
   ],
   "dom/chrome/security/security.properties:BlockMixedDisplayContent": [
     "mixed"
-  ],
-  "dom/chrome/security/security.properties:BlockSubresourceFTP": [
-    "sottorisorse"
   ],
   "dom/chrome/security/security.properties:BothAllowScriptsAndSameOriginPresent": [
     "allow-same-origin",
@@ -2067,9 +1949,6 @@
   "dom/chrome/security/security.properties:IneligibleResource": [
     "CORS-enabled"
   ],
-  "dom/chrome/security/security.properties:IntegrityMismatch": [
-    "sottorisorsa"
-  ],
   "dom/chrome/security/security.properties:IntegrityMismatch2": [
     "sottorisorsa"
   ],
@@ -2091,9 +1970,6 @@
   ],
   "dom/chrome/security/security.properties:RunningClearSiteDataValue": [
     "Clear-Site-Data"
-  ],
-  "dom/chrome/security/security.properties:SanitizerOptionsDiscarded": [
-    "Sanitizer"
   ],
   "dom/chrome/security/security.properties:SanitizerRcvdNoInput": [
     "DocumentFragment"
@@ -2125,30 +2001,19 @@
   "dom/chrome/xslt/xslt.properties:8": [
     "NodeSet"
   ],
-  "mobile/android/chrome/browser.properties:webextSitePerms.description.midi-sysex": [
-    "SysEx"
-  ],
-  "mobile/overrides/appstrings.properties:sslv3Used": [
-    "SSLv3"
-  ],
-  "mobile/overrides/netError.dtd:dnsNotFound.longDesc4": [
-    "wireless",
-    "ww"
-  ],
-  "mobile/overrides/netError.dtd:proxyResolveFailure.longDesc3": [
-    "wireless"
-  ],
-  "mobile/overrides/netError.dtd:sharedLongDesc3": [
-    "wireless"
-  ],
-  "mobile/overrides/netError.dtd:unknownSocketType.longDesc": [
-    "Personal"
-  ],
   "netwerk/necko.properties:CORPBlocked": [
     "Cross-Origin-Resource-Policy"
   ],
   "netwerk/necko.properties:CookieAllowedForFpiByHeuristic": [
     "First-Party"
+  ],
+  "netwerk/necko.properties:CookieForeignNoPartitionedError": [
+    "foreign",
+    "Partitioned"
+  ],
+  "netwerk/necko.properties:CookieForeignNoPartitionedWarning": [
+    "foreign",
+    "Partitioned"
   ],
   "netwerk/necko.properties:CookiePathOversize": [
     "path"
@@ -2258,13 +2123,22 @@
   "toolkit/chrome/autoconfig/autoconfig.properties:autoConfigMsg": [
     "Netscape.cfg"
   ],
+  "toolkit/chrome/global-platform/mac/platformKeys.properties:VK_COMMAND_OR_WIN": [
+    "\\u2318"
+  ],
   "toolkit/chrome/global-platform/mac/platformKeys.properties:VK_WIN": [
     "win"
+  ],
+  "toolkit/chrome/global-platform/unix/platformKeys.properties:VK_COMMAND_OR_WIN": [
+    "Win"
   ],
   "toolkit/chrome/global-platform/unix/platformKeys.properties:VK_SHIFT": [
     "Maiusc"
   ],
   "toolkit/chrome/global-platform/unix/platformKeys.properties:VK_WIN": [
+    "Win"
+  ],
+  "toolkit/chrome/global-platform/win/platformKeys.properties:VK_COMMAND_OR_WIN": [
     "Win"
   ],
   "toolkit/chrome/global-platform/win/platformKeys.properties:VK_SHIFT": [
@@ -2273,26 +2147,11 @@
   "toolkit/chrome/global-platform/win/platformKeys.properties:VK_WIN": [
     "Win"
   ],
-  "toolkit/chrome/global/aboutReader.properties:aboutReader.fontTypeSample": [
-    "Aa"
-  ],
   "toolkit/chrome/global/aboutStudies.properties:title": [
     "Shield"
   ],
-  "toolkit/chrome/global/contentAreaCommands.properties:DefaultSaveFileName": [
-    "index"
-  ],
   "toolkit/chrome/global/contentAreaCommands.properties:filesFolder": [
     "_files"
-  ],
-  "toolkit/chrome/global/datetimebox.dtd:date.day.placeholder": [
-    "gg"
-  ],
-  "toolkit/chrome/global/datetimebox.dtd:date.year.placeholder": [
-    "aaaa"
-  ],
-  "toolkit/chrome/mozapps/downloads/downloads.properties:statusFormat3": [
-    "sec"
   ],
   "toolkit/chrome/mozapps/downloads/unknownContentType.properties:avifExtHandlerDescription": [
     "Image"
@@ -2325,6 +2184,25 @@
     "maximumFractionDigits",
     "rating"
   ],
+  "toolkit/toolkit/about/aboutAddons.ftl:plugins-openh264-description": [
+    "codec",
+    "www.openh264.org"
+  ],
+  "toolkit/toolkit/about/aboutAddons.ftl:plugins-openh264-name": [
+    "Codec",
+    "OpenH264",
+    "Cisco",
+    "Systems",
+    "Inc"
+  ],
+  "toolkit/toolkit/about/aboutAddons.ftl:plugins-widevine-description": [
+    "www.w3.org"
+  ],
+  "toolkit/toolkit/about/aboutAddons.ftl:plugins-widevine-name": [
+    "Widevine",
+    "Decryption",
+    "Inc"
+  ],
   "toolkit/toolkit/about/aboutCompat.ftl:label-smartblock": [
     "SmartBlock"
   ],
@@ -2341,6 +2219,15 @@
     "Glean.metricCategory.metricName.testGetValue",
     "glean",
     "testGetValue"
+  ],
+  "toolkit/toolkit/about/aboutGlean.ftl:about-glean-adhoc-explanation2": [
+    "glean",
+    "testGetValue",
+    "Glean.metricCategory.metricName.testGetValue",
+    "metric.category.metric_name"
+  ],
+  "toolkit/toolkit/about/aboutGlean.ftl:about-glean-adhoc-note": [
+    "camelCase"
   ],
   "toolkit/toolkit/about/aboutGlean.ftl:about-glean-data-upload": [
     "datareporting.healthreport.uploadEnabled"
@@ -2365,6 +2252,12 @@
   "toolkit/toolkit/about/aboutLogging.ftl:about-logging-preset-networking-websocket-label": [
     "WebSocket"
   ],
+  "toolkit/toolkit/about/aboutLogging.ftl:about-logging-preset-webgpu-description": [
+    "WebGPU"
+  ],
+  "toolkit/toolkit/about/aboutLogging.ftl:about-logging-preset-webgpu-label": [
+    "WebGPU"
+  ],
   "toolkit/toolkit/about/aboutLogging.ftl:about-logging-unknown-option": [
     "logging"
   ],
@@ -2379,9 +2272,6 @@
   ],
   "toolkit/toolkit/about/aboutNetworking.ftl:about-networking-dns-trr-url": [
     "DoH"
-  ],
-  "toolkit/toolkit/about/aboutNetworking.ftl:about-networking-log-tutorial": [
-    "Logging"
   ],
   "toolkit/toolkit/about/aboutNetworking.ftl:about-networking-moved-about-logging": [
     "logging"
@@ -2548,8 +2438,14 @@
   "toolkit/toolkit/about/aboutSupport.ftl:media-codec-support-codec-name": [
     "codec"
   ],
+  "toolkit/toolkit/about/aboutSupport.ftl:media-codec-support-error": [
+    "codec"
+  ],
   "toolkit/toolkit/about/aboutSupport.ftl:media-codec-support-info": [
     "codec"
+  ],
+  "toolkit/toolkit/about/aboutSupport.ftl:media-key-system-name": [
+    "System"
   ],
   "toolkit/toolkit/about/aboutSupport.ftl:off-main-thread-paint-enabled": [
     "Main",
@@ -2612,12 +2508,6 @@
   "toolkit/toolkit/about/aboutTelemetry.ftl:about-telemetry-data-type": [
     "pre-release"
   ],
-  "toolkit/toolkit/about/aboutTelemetry.ftl:about-telemetry-origin-section": [
-    "Origin"
-  ],
-  "toolkit/toolkit/about/aboutTelemetry.ftl:about-telemetry-origins-explanation": [
-    "Origin"
-  ],
   "toolkit/toolkit/about/aboutTelemetry.ftl:about-telemetry-slow-sql-hits": [
     "Num"
   ],
@@ -2633,6 +2523,37 @@
   ],
   "toolkit/toolkit/about/aboutThirdParty.ftl:third-party-tag-shellex": [
     "shell"
+  ],
+  "toolkit/toolkit/about/aboutWebauthn.ftl:about-webauthn-auth-info-max-cred-blob-length": [
+    "blob"
+  ],
+  "toolkit/toolkit/about/aboutWebauthn.ftl:about-webauthn-auth-info-max-rpids-for-set-min-pin-length": [
+    "Relying"
+  ],
+  "toolkit/toolkit/about/aboutWebauthn.ftl:about-webauthn-auth-info-max-ser-large-blob-array": [
+    "array",
+    "large",
+    "blob"
+  ],
+  "toolkit/toolkit/about/aboutWebauthn.ftl:about-webauthn-auth-info-vendor-prototype-config-commands": [
+    "vendor"
+  ],
+  "toolkit/toolkit/about/aboutWebauthn.ftl:about-webauthn-auth-option-largeblobs": [
+    "Large",
+    "blob"
+  ],
+  "toolkit/toolkit/about/aboutWebauthn.ftl:about-webauthn-auth-option-makecreduvnotrqd": [
+    "MakeCredential"
+  ],
+  "toolkit/toolkit/about/aboutWebauthn.ftl:about-webauthn-auth-option-nomcgapermissionswithclientpin": [
+    "MakeCredential",
+    "GetAssertion"
+  ],
+  "toolkit/toolkit/about/aboutWebauthn.ftl:about-webauthn-auth-option-pinuvauthtoken": [
+    "pinUvAuthToken"
+  ],
+  "toolkit/toolkit/about/aboutWebauthn.ftl:about-webauthn-page-title": [
+    "WebAuthn"
   ],
   "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-closed-peerconnection-disclosure-hide-msg": [
     "PeerConnection"
@@ -2654,6 +2575,15 @@
   ],
   "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-peerconnection-id-label": [
     "PeerConnection"
+  ],
+  "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-peerconnections-section-heading": [
+    "RTCPeerConnection"
+  ],
+  "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-peerconnections-section-hide-msg": [
+    "RTCPeerConnection"
+  ],
+  "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-peerconnections-section-show-msg": [
+    "RTCPeerConnection"
   ],
   "toolkit/toolkit/about/aboutWebrtc.ftl:about-webrtc-rtp-stats-heading": [
     "RTPStats"
@@ -2691,6 +2621,15 @@
   "toolkit/toolkit/about/url-classifier.ftl:url-classifier-title": [
     "Classifier"
   ],
+  "toolkit/toolkit/branding/brandings.ftl:-fakespot-brand-full-name": [
+    "Fakespot"
+  ],
+  "toolkit/toolkit/branding/brandings.ftl:-fakespot-brand-name": [
+    "Fakespot"
+  ],
+  "toolkit/toolkit/branding/brandings.ftl:-fakespot-website-name": [
+    "Fakespot.com"
+  ],
   "toolkit/toolkit/branding/brandings.ftl:-firefox-suggest-brand-name": [
     "Suggest"
   ],
@@ -2702,14 +2641,6 @@
   ],
   "toolkit/toolkit/downloads/downloadUtils.ftl:download-utils-status": [
     "sec"
-  ],
-  "toolkit/toolkit/featuregates/features.ftl:experimental-features-css-constructable-stylesheets-description": [
-    "CSSStyleSheet",
-    "Shadow"
-  ],
-  "toolkit/toolkit/featuregates/features.ftl:experimental-features-css-constructable-stylesheets.label": [
-    "Constructable",
-    "Stylesheets"
   ],
   "toolkit/toolkit/featuregates/features.ftl:experimental-features-css-masonry-description": [
     "Masonry",
@@ -2838,6 +2769,9 @@
   ],
   "toolkit/toolkit/neterror/nsserrors.ftl:xp-sec-fortezza-bad-pin": [
     "Pin"
+  ],
+  "toolkit/toolkit/pdfviewer/viewer.ftl:pdfjs-editor-alt-text-dialog-description": [
+    "text"
   ],
   "toolkit/toolkit/updates/backgroundupdate.ftl:backgroundupdate-task-description": [
     "BackgroundAppUpdate",

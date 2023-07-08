@@ -29,5 +29,6 @@
   "browser/installer/override.properties:Unregistering",
   "dom/chrome/dom/dom.properties:ExecCommandCutCopyDeniedNotInputDriven",
   "dom/chrome/security/csp.properties:hostNameMightBeKeyword",
-  "mobile/overrides/netError.dtd:brandDTD"
+  "mobile/overrides/netError.dtd:brandDTD",
+  "dom/chrome/dom/dom.properties:MathML_DeprecatedMathVariantWarning"
 ]
