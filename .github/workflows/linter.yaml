@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Clone l10n repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           path: "linter"
       - name: Install packages
@@ -18,9 +18,9 @@ jobs:
           sudo apt update
           sudo apt install -y python-dev-is-python3 libhunspell-dev mercurial
       - name: Set up Python 3
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.12'
       - name: Run checks
         run: |
           # Clone repository

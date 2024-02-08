@@ -608,6 +608,12 @@
   "devtools/client/debugger.properties:sourceFooter.mappedOriginalSource.tooltip": [
     "bundle"
   ],
+  "devtools/client/debugger.properties:sourceFooter.sourceMapButton.isBundleSource": [
+    "bundle"
+  ],
+  "devtools/client/debugger.properties:sourceFooter.sourceMapButton.jumpToGeneratedSource": [
+    "bundle"
+  ],
   "devtools/client/debugger.properties:stacktrace.asyncStack": [
     "Asinc"
   ],
@@ -1042,13 +1048,6 @@
   ],
   "devtools/shared/webconsole-commands.ftl:webconsole-commands-usage-block": [
     "unblock"
-  ],
-  "devtools/shared/webconsole-commands.ftl:webconsole-commands-usage-trace": [
-    "tracer",
-    "logMethod",
-    "stdout",
-    "prefix",
-    "usage"
   ],
   "devtools/shared/webconsole-commands.ftl:webconsole-commands-usage-unblock": [
     "unblock"
@@ -1491,12 +1490,23 @@
     "SVGSVGElement.deselectAll",
     "Selection"
   ],
+  "dom/chrome/dom/dom.properties:SVGDeselectAllWarning": [
+    "SVGSVGElement.deselectAll",
+    "Selection"
+  ],
   "dom/chrome/dom/dom.properties:SVGFarthestViewportElement": [
+    "SVGGraphicsElement.farthestViewportElement"
+  ],
+  "dom/chrome/dom/dom.properties:SVGFarthestViewportElementWarning": [
     "SVGGraphicsElement.farthestViewportElement"
   ],
   "dom/chrome/dom/dom.properties:SVGNearestViewportElement": [
     "SVGElement.viewportElement",
     "SVGGraphicsElement.nearestViewportElement"
+  ],
+  "dom/chrome/dom/dom.properties:SVGNearestViewportElementWarning": [
+    "SVGGraphicsElement.nearestViewportElement",
+    "SVGElement.viewportElement"
   ],
   "dom/chrome/dom/dom.properties:SelectOptionsLengthAssignmentWarning": [
     "HTMLOptionsCollection.length"
@@ -2021,6 +2031,9 @@
   "netwerk/necko.properties:CookieRejectedHttpOnlyButFromScript": [
     "HTTP-Only"
   ],
+  "netwerk/necko.properties:CookieRejectedPartitionedRequiresSecure": [
+    "Partitioned"
+  ],
   "netwerk/necko.properties:ResourceBlockedORB": [
     "OpaqueResponseBlocking"
   ],
@@ -2054,7 +2067,7 @@
     "refil"
   ],
   "security/manager/chrome/pipnss/nsserrors.properties:SEC_ERROR_INVALID_POLICY_MAPPING": [
-    "anypolicy"
+    "anyPolicy"
   ],
   "security/manager/chrome/pipnss/nsserrors.properties:SEC_ERROR_LIBPKIX_INTERNAL": [
     "libpkix"
@@ -2664,6 +2677,29 @@
   "toolkit/toolkit/featuregates/features.ftl:experimental-features-web-gpu2.label": [
     "WebGPU"
   ],
+  "toolkit/toolkit/formautofill/formAutofill.ftl:autofill-card-network-amex": [
+    "American",
+    "Express"
+  ],
+  "toolkit/toolkit/formautofill/formAutofill.ftl:autofill-card-network-cartebancaire": [
+    "Bancaire"
+  ],
+  "toolkit/toolkit/formautofill/formAutofill.ftl:autofill-card-network-diners": [
+    "Diners"
+  ],
+  "toolkit/toolkit/formautofill/formAutofill.ftl:autofill-card-network-discover": [
+    "Discover"
+  ],
+  "toolkit/toolkit/formautofill/formAutofill.ftl:autofill-card-network-mastercard": [
+    "MasterCard"
+  ],
+  "toolkit/toolkit/formautofill/formAutofill.ftl:autofill-card-network-unionpay": [
+    "Union",
+    "Pay"
+  ],
+  "toolkit/toolkit/formautofill/formAutofill.ftl:autofill-card-network-visa": [
+    "Visa"
+  ],
   "toolkit/toolkit/global/cspErrors.ftl:csp-error-illegal-host-wildcard": [
     ".com",
     "wildcard"
@@ -2683,6 +2719,15 @@
   "toolkit/toolkit/global/mozFiveStar.ftl:moz-five-star-rating.title": [
     "rating",
     "maximumFractionDigits"
+  ],
+  "toolkit/toolkit/global/processTypes.ftl:process-type-utility-actor-js-oracle": [
+    "Oracle"
+  ],
+  "toolkit/toolkit/global/processTypes.ftl:process-type-utility-actor-mf-media-engine": [
+    "Engine"
+  ],
+  "toolkit/toolkit/global/processTypes.ftl:process-type-utility-actor-windows-utils": [
+    "Utils"
   ],
   "toolkit/toolkit/main-window/findbar.ftl:findbar-match-diacritics.tooltiptext": [
     "caffe"
@@ -2720,7 +2765,7 @@
     "refil"
   ],
   "toolkit/toolkit/neterror/nsserrors.ftl:sec-error-invalid-policy-mapping": [
-    "anypolicy"
+    "anyPolicy"
   ],
   "toolkit/toolkit/neterror/nsserrors.ftl:sec-error-libpkix-internal": [
     "libpkix"
