@@ -93,6 +93,9 @@
   "browser/browser/newtab/newtab.ftl:newtab-label-source-read-time": [
     "min"
   ],
+  "browser/browser/newtab/newtab.ftl:newtab-wallpaper-dark-aurora": [
+    "Borealis"
+  ],
   "browser/browser/pageInfo.ftl:general-quirks-mode.value": [
     "Quirks"
   ],
@@ -150,6 +153,9 @@
   ],
   "browser/browser/preferences/connection.ftl:connection-proxy-socks-remote-dns.label": [
     "v5"
+  ],
+  "browser/browser/preferences/connection.ftl:connection-proxy-socks4-remote-dns.label": [
+    "v4"
   ],
   "browser/browser/preferences/connection.ftl:connection-proxy-socks4.label": [
     "v4"
@@ -1096,6 +1102,48 @@
     "CanvasRenderingContext2D",
     "createImageBitmap"
   ],
+  "dom/chrome/dom/dom.properties:DOMAttrModifiedWarning": [
+    "DOMAttrModified",
+    "MutationEvent",
+    "MutationObserver",
+    "MutationObserver"
+  ],
+  "dom/chrome/dom/dom.properties:DOMCharacterDataModifiedWarning": [
+    "DOMCharacterDataModified",
+    "MutationEvent",
+    "MutationObserver",
+    "MutationObserver"
+  ],
+  "dom/chrome/dom/dom.properties:DOMNodeInsertedIntoDocumentWarning": [
+    "DOMNodeInsertedIntoDocument",
+    "MutationEvent",
+    "MutationObserver",
+    "MutationObserver"
+  ],
+  "dom/chrome/dom/dom.properties:DOMNodeInsertedWarning": [
+    "DOMNodeInserted",
+    "MutationEvent",
+    "MutationObserver",
+    "MutationObserver"
+  ],
+  "dom/chrome/dom/dom.properties:DOMNodeRemovedFromDocumentWarning": [
+    "DOMNodeRemovedFromDocument",
+    "MutationEvent",
+    "MutationObserver",
+    "MutationObserver"
+  ],
+  "dom/chrome/dom/dom.properties:DOMNodeRemovedWarning": [
+    "DOMNodeRemoved",
+    "MutationEvent",
+    "MutationObserver",
+    "MutationObserver"
+  ],
+  "dom/chrome/dom/dom.properties:DOMSubtreeModifiedWarning": [
+    "DOMSubtreeModified",
+    "MutationEvent",
+    "MutationObserver",
+    "MutationObserver"
+  ],
   "dom/chrome/dom/dom.properties:DeprecatedTestingAttributeWarning": [
     "TestingDeprecatedInterface.deprecatedAttribute"
   ],
@@ -1233,9 +1281,6 @@
   ],
   "dom/chrome/dom/dom.properties:InvalidNamedFormControlUnfocusable": [
     "name"
-  ],
-  "dom/chrome/dom/dom.properties:IsExternalCTAP2SecurityKeySupportedWarning": [
-    "isExternalCTAP2SecurityKeySupported"
   ],
   "dom/chrome/dom/dom.properties:LenientThisWarning": [
     "LenientThis",
@@ -1485,10 +1530,6 @@
   ],
   "dom/chrome/dom/dom.properties:RewriteYouTubeEmbedPathParams": [
     "embed"
-  ],
-  "dom/chrome/dom/dom.properties:SVGDeselectAll": [
-    "SVGSVGElement.deselectAll",
-    "Selection"
   ],
   "dom/chrome/dom/dom.properties:SVGDeselectAllWarning": [
     "SVGSVGElement.deselectAll",
@@ -1871,8 +1912,47 @@
   "dom/chrome/security/caps.properties:CreateWrapperDeniedForOrigin": [
     "wrapper"
   ],
+  "dom/chrome/security/csp.properties:CSPEvalScriptViolation": [
+    "eval",
+    "'unsafe-eval"
+  ],
+  "dom/chrome/security/csp.properties:CSPROEvalScriptViolation": [
+    "Report-Only",
+    "eval",
+    "'unsafe-eval"
+  ],
+  "dom/chrome/security/csp.properties:CSPROEventHandlerScriptViolation": [
+    "Report-Only"
+  ],
+  "dom/chrome/security/csp.properties:CSPROGenericViolation": [
+    "Report-Only"
+  ],
+  "dom/chrome/security/csp.properties:CSPROInlineScriptViolation": [
+    "Report-Only"
+  ],
+  "dom/chrome/security/csp.properties:CSPROInlineStyleViolation": [
+    "Report-Only"
+  ],
+  "dom/chrome/security/csp.properties:CSPROScriptViolation": [
+    "Report-Only"
+  ],
+  "dom/chrome/security/csp.properties:CSPROStyleViolation": [
+    "Report-Only"
+  ],
   "dom/chrome/security/csp.properties:CSPROViolation": [
     "report-only"
+  ],
+  "dom/chrome/security/csp.properties:CSPROWasmEvalScriptViolation": [
+    "Report-Only",
+    "'wasm-unsafe-eval",
+    "'unsafe-eval"
+  ],
+  "dom/chrome/security/csp.properties:CSPROWorkerViolation": [
+    "Report-Only"
+  ],
+  "dom/chrome/security/csp.properties:CSPWasmEvalScriptViolation": [
+    "'wasm-unsafe-eval",
+    "'unsafe-eval"
   ],
   "dom/chrome/security/csp.properties:ignoreSrcForDirective": [
     "srcs"
@@ -1893,6 +1973,15 @@
   "dom/chrome/security/csp.properties:ignoringUnsafeEval": [
     "unsafe-eval",
     "wasm-unsafe-eval"
+  ],
+  "dom/chrome/security/csp.properties:invalidNumberOfTrustedTypesForDirectiveValues": [
+    "require-trusted-types-for"
+  ],
+  "dom/chrome/security/csp.properties:invalidRequireTrustedTypesForDirectiveValue": [
+    "require-trusted-types-for"
+  ],
+  "dom/chrome/security/csp.properties:invalidTrustedTypesExpression": [
+    "trusted-types"
   ],
   "dom/chrome/security/csp.properties:obsoleteBlockAllMixedContent": [
     "block-all-mixed-content"
@@ -2192,6 +2281,9 @@
   ],
   "toolkit/crashreporter/aboutcrashes.ftl:no-config-label": [
     "breakpad.reportURL"
+  ],
+  "toolkit/crashreporter/crashreporter.ftl:crashreporter-error-minidump-analyzer": [
+    "minidump-analyzer"
   ],
   "toolkit/toolkit/about/aboutAddons.ftl:five-star-rating.title": [
     "maximumFractionDigits",
@@ -2719,6 +2811,9 @@
   "toolkit/toolkit/global/mozFiveStar.ftl:moz-five-star-rating.title": [
     "rating",
     "maximumFractionDigits"
+  ],
+  "toolkit/toolkit/global/processTypes.ftl:process-type-forkserver": [
+    "Fork"
   ],
   "toolkit/toolkit/global/processTypes.ftl:process-type-utility-actor-js-oracle": [
     "Oracle"

@@ -5,9 +5,9 @@
   "browser/installer/override.properties:CantWrite",
   "browser/installer/override.properties:CopyTo",
   "browser/installer/override.properties:CouldNotLoad",
+  "browser/installer/override.properties:CreatedUninstaller",
   "browser/installer/override.properties:CreateFolder",
   "browser/installer/override.properties:CreateShortcut",
-  "browser/installer/override.properties:CreatedUninstaller",
   "browser/installer/override.properties:Delete",
   "browser/installer/override.properties:DeleteOnReboot",
   "browser/installer/override.properties:ErrorCreating",
@@ -28,7 +28,11 @@
   "browser/installer/override.properties:SymbolNotFound",
   "browser/installer/override.properties:Unregistering",
   "dom/chrome/dom/dom.properties:ExecCommandCutCopyDeniedNotInputDriven",
+  "dom/chrome/dom/dom.properties:MathML_DeprecatedMathVariantWarning",
+  "dom/chrome/security/csp.properties:CSPEvalScriptViolation",
+  "dom/chrome/security/csp.properties:CSPROEvalScriptViolation",
+  "dom/chrome/security/csp.properties:CSPROWasmEvalScriptViolation",
+  "dom/chrome/security/csp.properties:CSPWasmEvalScriptViolation",
   "dom/chrome/security/csp.properties:hostNameMightBeKeyword",
-  "mobile/overrides/netError.dtd:brandDTD",
-  "dom/chrome/dom/dom.properties:MathML_DeprecatedMathVariantWarning"
+  "mobile/overrides/netError.dtd:brandDTD"
 ]
