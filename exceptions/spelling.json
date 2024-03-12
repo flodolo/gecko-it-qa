@@ -1234,9 +1234,6 @@
   "dom/chrome/dom/dom.properties:InvalidNamedFormControlUnfocusable": [
     "name"
   ],
-  "dom/chrome/dom/dom.properties:IsExternalCTAP2SecurityKeySupportedWarning": [
-    "isExternalCTAP2SecurityKeySupported"
-  ],
   "dom/chrome/dom/dom.properties:LenientThisWarning": [
     "LenientThis",
     "this"
@@ -1485,10 +1482,6 @@
   ],
   "dom/chrome/dom/dom.properties:RewriteYouTubeEmbedPathParams": [
     "embed"
-  ],
-  "dom/chrome/dom/dom.properties:SVGDeselectAll": [
-    "SVGSVGElement.deselectAll",
-    "Selection"
   ],
   "dom/chrome/dom/dom.properties:SVGDeselectAllWarning": [
     "SVGSVGElement.deselectAll",
@@ -1871,8 +1864,47 @@
   "dom/chrome/security/caps.properties:CreateWrapperDeniedForOrigin": [
     "wrapper"
   ],
+  "dom/chrome/security/csp.properties:CSPEvalScriptViolation": [
+    "eval",
+    "'unsafe-eval"
+  ],
+  "dom/chrome/security/csp.properties:CSPROEvalScriptViolation": [
+    "Report-Only",
+    "eval",
+    "'unsafe-eval"
+  ],
+  "dom/chrome/security/csp.properties:CSPROEventHandlerScriptViolation": [
+    "Report-Only"
+  ],
+  "dom/chrome/security/csp.properties:CSPROGenericViolation": [
+    "Report-Only"
+  ],
+  "dom/chrome/security/csp.properties:CSPROInlineScriptViolation": [
+    "Report-Only"
+  ],
+  "dom/chrome/security/csp.properties:CSPROInlineStyleViolation": [
+    "Report-Only"
+  ],
+  "dom/chrome/security/csp.properties:CSPROScriptViolation": [
+    "Report-Only"
+  ],
+  "dom/chrome/security/csp.properties:CSPROStyleViolation": [
+    "Report-Only"
+  ],
   "dom/chrome/security/csp.properties:CSPROViolation": [
     "report-only"
+  ],
+  "dom/chrome/security/csp.properties:CSPROWasmEvalScriptViolation": [
+    "Report-Only",
+    "'wasm-unsafe-eval",
+    "'unsafe-eval"
+  ],
+  "dom/chrome/security/csp.properties:CSPROWorkerViolation": [
+    "Report-Only"
+  ],
+  "dom/chrome/security/csp.properties:CSPWasmEvalScriptViolation": [
+    "'wasm-unsafe-eval",
+    "'unsafe-eval"
   ],
   "dom/chrome/security/csp.properties:ignoreSrcForDirective": [
     "srcs"
@@ -2192,6 +2224,9 @@
   ],
   "toolkit/crashreporter/aboutcrashes.ftl:no-config-label": [
     "breakpad.reportURL"
+  ],
+  "toolkit/crashreporter/crashreporter.ftl:crashreporter-error-minidump-analyzer": [
+    "minidump-analyzer"
   ],
   "toolkit/toolkit/about/aboutAddons.ftl:five-star-rating.title": [
     "maximumFractionDigits",
