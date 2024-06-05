@@ -885,6 +885,13 @@
     "border-collapse",
     "collapse"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-column-span": [
+    "spanning"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-column-span-fix": [
+    "column-count",
+    "column-width"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-cue-pseudo-element-not-supported": [
     ":cue"
   ],
@@ -943,6 +950,15 @@
   ],
   "devtools/client/tooltips.ftl:inactive-css-property-is-impossible-to-override-in-visited": [
     "visited"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-resize": [
+    "overflow",
+    "visible",
+    "textarea"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-resize-fix": [
+    "overflow",
+    "visible"
   ],
   "devtools/client/tooltips.ftl:inactive-css-ruby-element": [
     "ruby"

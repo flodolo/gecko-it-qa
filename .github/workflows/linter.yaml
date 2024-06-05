@@ -21,14 +21,18 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Clone it folder from firefox-l10n
+        uses: actions/checkout@v4
+        with:
+          repository: mozilla-l10n/firefox-l10n
+          path: l10n
+          sparse-checkout: |
+            it
       - name: Run checks
         run: |
-          # Clone repository
-          hg clone https://hg.mozilla.org/l10n-central/it l10n-central
-
           # Set up config
           echo "[default]" > linter/config/config.ini
-          echo "repo_path = $PWD/l10n-central" >> linter/config/config.ini
+          echo "repo_path = $PWD/l10n/it" >> linter/config/config.ini
 
           # Run checks
           ./linter/scripts/check_strings.sh
