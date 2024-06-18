@@ -239,7 +239,7 @@ class CheckStrings:
                 # DATETIME()
                 re.compile(r"\{\s*DATETIME\(.*\)\s*\}"),
                 # Variants syntax
-                re.compile(r"\{\s*\$[a-zA-Z]+\s*->"),
+                re.compile(r"\{?\s*\$[a-zA-Z]+\s*->"),
                 # Variants names
                 re.compile(r"^\s*\*?\[[a-zA-Z0-9_-]*\]"),
             ],
