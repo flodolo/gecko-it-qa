@@ -170,9 +170,6 @@
     "4rem",
     "min-width"
   ],
-  "browser/browser/preferences/formAutofill.ftl:autofill-address-county": [
-    "County"
-  ],
   "browser/browser/preferences/formAutofill.ftl:autofill-address-eircode": [
     "Eircode"
   ],
@@ -636,6 +633,9 @@
     "keydown",
     "mousedown"
   ],
+  "devtools/client/debugger.properties:tracer.header": [
+    "Tracer"
+  ],
   "devtools/client/debugger.properties:watchpoints.removeWatchpoint": [
     "watchpoint"
   ],
@@ -837,6 +837,16 @@
   "devtools/client/sourceeditor.properties:showInformation2.commandkey": [
     "Shift-Ctrl-Space"
   ],
+  "devtools/client/startup.properties:toolbox.buttons.jstracer": [
+    "Tracer"
+  ],
+  "devtools/client/startup.properties:traceInStdout": [
+    "stdout"
+  ],
+  "devtools/client/startup.properties:traceOnNextInteraction": [
+    "mousedown",
+    "keydown"
+  ],
   "devtools/client/storage.ftl:storage-table-headers-cookies-expires": [
     "Max-Age"
   ],
@@ -891,6 +901,9 @@
     "border-collapse",
     "collapse"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-collapsed-table-borders-fix": [
+    "border-collapse"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-column-span": [
     "spanning"
   ],
@@ -910,10 +923,26 @@
   "devtools/client/tooltips.ftl:inactive-css-highlight-pseudo-elements-not-supported": [
     "highlight"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-not-block": [
+    "block-level"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-not-block-fix": [
+    "float",
+    "left"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-not-display-block-on-floated": [
     "floated"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-not-display-block-on-floated-2": [
+    "floated"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-not-display-block-on-floated-fix": [
+    "float"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-not-floated": [
+    "floated"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-not-floated-fix": [
     "float"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-for-internal-table-elements-except-table-cells-fix": [
@@ -946,6 +975,9 @@
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-table-cell-fix": [
     "table-cell"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-only-non-grid-or-flex-item-fix": [
+    "float"
   ],
   "devtools/client/tooltips.ftl:inactive-css-placeholder-pseudo-element-not-supported": [
     ":placeholder"
@@ -1961,6 +1993,11 @@
   "dom/chrome/security/csp.properties:CSPROStyleViolation": [
     "Report-Only"
   ],
+  "dom/chrome/security/csp.properties:CSPROTrustedTypesPolicyViolation": [
+    "Report-Only",
+    "Trusted",
+    "Types"
+  ],
   "dom/chrome/security/csp.properties:CSPROViolation": [
     "report-only"
   ],
@@ -1971,6 +2008,10 @@
   ],
   "dom/chrome/security/csp.properties:CSPROWorkerViolation": [
     "Report-Only"
+  ],
+  "dom/chrome/security/csp.properties:CSPTrustedTypesPolicyViolation": [
+    "Trusted",
+    "Types"
   ],
   "dom/chrome/security/csp.properties:CSPWasmEvalScriptViolation": [
     "'unsafe-eval",
@@ -2759,6 +2800,9 @@
   ],
   "toolkit/toolkit/branding/brandings.ftl:-firefox-suggest-brand-name": [
     "Suggest"
+  ],
+  "toolkit/toolkit/branding/brandings.ftl:-firefoxlabs-brand-name": [
+    "Labs"
   ],
   "toolkit/toolkit/branding/brandings.ftl:-firefoxview-brand-name": [
     "View"
