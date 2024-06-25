@@ -170,9 +170,6 @@
     "4rem",
     "min-width"
   ],
-  "browser/browser/preferences/formAutofill.ftl:autofill-address-county": [
-    "County"
-  ],
   "browser/browser/preferences/formAutofill.ftl:autofill-address-eircode": [
     "Eircode"
   ],
@@ -891,6 +888,9 @@
     "border-collapse",
     "collapse"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-collapsed-table-borders-fix": [
+    "border-collapse"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-column-span": [
     "spanning"
   ],
@@ -911,6 +911,9 @@
     "highlight"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-display-block-on-floated": [
+    "floated"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-not-display-block-on-floated-2": [
     "floated"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-display-block-on-floated-fix": [
