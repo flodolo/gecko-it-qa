@@ -2049,8 +2049,12 @@
   "dom/chrome/security/csp.properties:obsoleteBlockAllMixedContent": [
     "block-all-mixed-content"
   ],
+  "dom/chrome/security/csp.properties:reportURINorReportToNotInReportOnlyHeader": [
+    "Report-Only",
+    "report-to"
+  ],
   "dom/chrome/security/csp.properties:reportURInotInReportOnlyHeader": [
-    "report-only"
+    "Report-Only"
   ],
   "dom/chrome/security/csp.properties:strictDynamicButNoHashOrNonce": [
     "nonce",
