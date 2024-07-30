@@ -93,8 +93,39 @@
   "browser/browser/browserSets.ftl:nav-fwd-shortcut-alt.key": [
     "ù"
   ],
+  "browser/browser/genai.ftl:genai-settings-chat-chatgpt-links": [
+    "ChatGPT",
+    "OpenAI"
+  ],
+  "browser/browser/genai.ftl:genai-settings-chat-claude-links": [
+    "Anthropic",
+    "Claude",
+    "Anthropic"
+  ],
+  "browser/browser/genai.ftl:genai-settings-chat-copilot-links": [
+    "Copilot",
+    "Copilot",
+    "Experiences"
+  ],
+  "browser/browser/genai.ftl:genai-settings-chat-gemini-links": [
+    "Apps"
+  ],
+  "browser/browser/genai.ftl:genai-settings-chat-huggingchat-links": [
+    "HuggingChat",
+    "HuggingChat",
+    "Hugging",
+    "Face"
+  ],
+  "browser/browser/genai.ftl:genai-settings-chat-localhost-links": [
+    "llamafile",
+    "Innovation"
+  ],
   "browser/browser/newtab/newtab.ftl:newtab-label-source-read-time": [
     "min"
+  ],
+  "browser/browser/newtab/newtab.ftl:newtab-topic-label-society": [
+    "Like",
+    "hacks"
   ],
   "browser/browser/newtab/newtab.ftl:newtab-wallpaper-dark-aurora": [
     "Borealis"
@@ -275,6 +306,12 @@
   ],
   "browser/browser/screenshots.ftl:screenshots-too-large-error-title": [
     "screenshot"
+  ],
+  "browser/browser/sidebar.ftl:menu-view-genai-chat.label": [
+    "Chatbot"
+  ],
+  "browser/browser/sidebar.ftl:sidebar-menu-genai-chat-label.label": [
+    "Chatbot"
   ],
   "browser/browser/speechDispatcher.ftl:speech-dispatcher-lib-missing": [
     "Dispatcher",
@@ -2823,6 +2860,9 @@
   ],
   "toolkit/toolkit/featuregates/features.ftl:experimental-features-css-masonry2.label": [
     "Masonry"
+  ],
+  "toolkit/toolkit/featuregates/features.ftl:experimental-features-group-customize-browsing-description": [
+    "Connect"
   ],
   "toolkit/toolkit/featuregates/features.ftl:experimental-features-ime-search-description": [
     "Method"
