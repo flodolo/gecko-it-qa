@@ -43,5 +43,5 @@ source $root_path/python-venv/bin/activate || exit 1
 python $script_path/check_extra_dict.py
 
 # Running main script
-python -c "import nltk;nltk.download('stopwords');nltk.download('punkt')"
+python -c "import nltk;nltk.download('stopwords');nltk.download('punkt');nltk.download('punkt_tab')"
 python $script_path/check_strings.py $@

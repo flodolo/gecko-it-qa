@@ -3027,6 +3027,14 @@
   "toolkit/toolkit/neterror/nsserrors.ftl:xp-sec-fortezza-bad-pin": [
     "Pin"
   ],
+  "toolkit/toolkit/pdfviewer/viewer.ftl:pdfjs-document-properties-size-kb": [
+    "kb",
+    "maximumSignificantDigits"
+  ],
+  "toolkit/toolkit/pdfviewer/viewer.ftl:pdfjs-document-properties-size-mb": [
+    "mb",
+    "maximumSignificantDigits"
+  ],
   "toolkit/toolkit/pdfviewer/viewer.ftl:pdfjs-editor-alt-text-dialog-description": [
     "text"
   ],
