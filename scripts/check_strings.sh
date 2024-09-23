@@ -1,9 +1,8 @@
 #! /usr/bin/env bash
 
 script_path="$( cd -- "$( dirname -- "${BASH_SOURCE[0]:-$0}"; )" &> /dev/null && pwd 2> /dev/null; )";
-root_path="${script_path}/.."
 
-cd $root_path
+cd $script_path/..
 
 # Get sha of latest commit on the dictionary repo
 latest=$(curl -s https://api.github.com/repos/flodolo/dizionario-it/git/refs/heads/v.next | jq ".object.sha")
@@ -18,27 +17,14 @@ then
     curl -s -o dictionaries/mozilla_qa_specialized.dic https://raw.githubusercontent.com/flodolo/dizionario-it/v.next/mozilla_qa/mozilla_qa_specialized.dic
 fi
 
-function setupVirtualEnv() {
-    # Create virtualenv folder if missing
-    if [ ! -d python-venv ]
-    then
-        echo "Setting up new virtualenv..."
-        python3 -m venv python-venv || exit 1
-    fi
-
-    # Install or update dependencies
-    source python-venv/bin/activate || exit 1
-    pip install --upgrade --quiet pip
-    pip install -r $script_path/requirements.txt --upgrade --quiet --use-pep517
-    deactivate
-}
-
-# Setup virtualenv
-setupVirtualEnv
-
-# Activate virtualenv
-source $root_path/python-venv/bin/activate || exit 1
-
+# Keep the existing .venv (required for macOS)
+uv venv --python 3.12 --allow-existing
+source .venv/bin/activate
+uv pip install -r scripts/requirements.txt
+if [ -d .venv/chunspell ];
+then
+    export PYTHONPATH=".venv/chunspell"
+fi
 # Check extra dictionary
 python $script_path/check_extra_dict.py
 

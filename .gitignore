@@ -2,4 +2,4 @@ config/config.ini
 dictionaries/latest.txt
 dictionaries/*.aff
 dictionaries/*.dic
-python-venv
+.venv
