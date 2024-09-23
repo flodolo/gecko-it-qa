@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import hunspell
+from hunspell import Hunspell
 import os
 
 
@@ -9,10 +9,7 @@ def main():
 
     # Load Hunspell dictionaries
     dictionary_path = os.path.join(script_path, os.path.pardir, "dictionaries")
-    spellchecker = hunspell.HunSpell(
-        os.path.join(dictionary_path, "it_IT.dic"),
-        os.path.join(dictionary_path, "it_IT.aff"),
-    )
+    spellchecker = Hunspell("it_IT", hunspell_data_dir=f"{dictionary_path}")
 
     # Load the extra dictionary as a normal file
     extra_dict = os.path.join(dictionary_path, "mozilla_qa_specialized.dic")
