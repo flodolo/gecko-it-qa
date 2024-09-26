@@ -14,32 +14,6 @@
     "barada",
     "nikto"
   ],
-  "browser/browser/aboutUnloads.ftl:about-unloads-last-accessed": [
-    "year",
-    "numeric",
-    "month",
-    "numeric",
-    "numeric",
-    "hour",
-    "numeric",
-    "numeric",
-    "second",
-    "numeric",
-    "hour12"
-  ],
-  "browser/browser/aboutUnloads.ftl:about-unloads-last-updated": [
-    "year",
-    "numeric",
-    "month",
-    "numeric",
-    "numeric",
-    "hour",
-    "numeric",
-    "numeric",
-    "second",
-    "numeric",
-    "hour12"
-  ],
   "browser/browser/aboutUnloads.ftl:about-unloads-learn-more": [
     "Tab",
     "Unloading"
@@ -105,6 +79,12 @@
   "browser/browser/genai.ftl:genai-onboarding-claude-tooltip.title": [
     "Anthropic",
     "Claude"
+  ],
+  "browser/browser/genai.ftl:genai-onboarding-copilot-learn": [
+    "Copilot"
+  ],
+  "browser/browser/genai.ftl:genai-onboarding-copilot-tooltip.title": [
+    "Copilot"
   ],
   "browser/browser/genai.ftl:genai-onboarding-huggingchat-learn": [
     "HuggingChat"
@@ -288,6 +268,10 @@
     "Track"
   ],
   "browser/browser/preferences/preferences.ftl:do-not-track-description2.label": [
+    "Not",
+    "Track"
+  ],
+  "browser/browser/preferences/preferences.ftl:do-not-track-removal": [
     "Not",
     "Track"
   ],
@@ -754,6 +738,10 @@
   "devtools/client/netmonitor.properties:netmonitor.context.copyAsPowerShell": [
     "PowerShell"
   ],
+  "devtools/client/netmonitor.properties:netmonitor.headers.earlyHintsStatus": [
+    "Early",
+    "Hints"
+  ],
   "devtools/client/netmonitor.properties:netmonitor.headers.sizeDetails": [
     "dim"
   ],
@@ -956,6 +944,10 @@
   ],
   "devtools/client/tooltips.ftl:inactive-css-highlight-pseudo-elements-not-supported": [
     "highlight"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-no-size-containment-fix": [
+    "contents",
+    "ruby"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-block": [
     "block-level"
@@ -1735,7 +1727,18 @@
   "dom/chrome/layout/css.properties:PENeverMatchingHostSelector": [
     "featureless"
   ],
+  "dom/chrome/layout/css.properties:PEPRInheritsFieldInvalid": [
+    "property",
+    "inherits"
+  ],
+  "dom/chrome/layout/css.properties:PEPRInheritsFieldMissing": [
+    "property",
+    "inherits"
+  ],
   "dom/chrome/layout/css.properties:PEPRSyntaxFieldEmptyInput": [
+    "property"
+  ],
+  "dom/chrome/layout/css.properties:PEPRSyntaxFieldMissing": [
     "property"
   ],
   "dom/chrome/layout/css.properties:PEPseudoSelEndOrUserActionPC": [
@@ -1903,6 +1906,9 @@
     "-moz-element",
     "clipping",
     "masking"
+  ],
+  "dom/chrome/layout/layout_errors.properties:CompositorAnimationWarningNonScalingStroke": [
+    "non-scaling-stroke"
   ],
   "dom/chrome/layout/layout_errors.properties:CompositorAnimationWarningOpacityFrameInactive": [
     "opacity"
@@ -2402,6 +2408,9 @@
   "toolkit/toolkit/about/aboutCompat.ftl:text-title": [
     "compat"
   ],
+  "toolkit/toolkit/about/aboutGlean.ftl:about-glean-about-data-list-item-about-telemetry": [
+    "telemetry"
+  ],
   "toolkit/toolkit/about/aboutGlean.ftl:about-glean-adhoc-explanation": [
     "glean",
     "testGetValue",
@@ -2526,15 +2535,16 @@
     "Sottoframe"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-total-memory-size-changed": [
-    "total",
-    "maximumFractionDigits:0"
+    "maximumFractionDigits",
+    "total"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-total-memory-size-changed.title": [
-    "maximumFractionDigits:0"
+    "maximumFractionDigits",
+    "total"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-total-memory-size-no-change": [
-    "total",
-    "maximumFractionDigits:0"
+    "maximumFractionDigits",
+    "total"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-utility-actor-js-oracle": [
     "Oracle"
@@ -2880,6 +2890,10 @@
     "Visa"
   ],
   "toolkit/toolkit/global/antiTracking.ftl:btp-warning-tracker-classified": [
+    "bounce",
+    "tracker"
+  ],
+  "toolkit/toolkit/global/antiTracking.ftl:btp-warning-tracker-purged": [
     "bounce",
     "tracker"
   ],
