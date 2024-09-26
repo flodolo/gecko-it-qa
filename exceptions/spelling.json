@@ -14,32 +14,6 @@
     "barada",
     "nikto"
   ],
-  "browser/browser/aboutUnloads.ftl:about-unloads-last-accessed": [
-    "year",
-    "numeric",
-    "month",
-    "numeric",
-    "numeric",
-    "hour",
-    "numeric",
-    "numeric",
-    "second",
-    "numeric",
-    "hour12"
-  ],
-  "browser/browser/aboutUnloads.ftl:about-unloads-last-updated": [
-    "year",
-    "numeric",
-    "month",
-    "numeric",
-    "numeric",
-    "hour",
-    "numeric",
-    "numeric",
-    "second",
-    "numeric",
-    "hour12"
-  ],
   "browser/browser/aboutUnloads.ftl:about-unloads-learn-more": [
     "Tab",
     "Unloading"
@@ -87,6 +61,10 @@
   "browser/browser/browser.ftl:quickactions-cmd-screenshot": [
     "screenshot"
   ],
+  "browser/browser/browser.ftl:urlbar-result-action-calculator-result-2": [
+    "result",
+    "maximumSignificantDigits"
+  ],
   "browser/browser/browserSets.ftl:nav-back-shortcut-alt.key": [
     "à"
   ],
@@ -105,6 +83,12 @@
   "browser/browser/genai.ftl:genai-onboarding-claude-tooltip.title": [
     "Anthropic",
     "Claude"
+  ],
+  "browser/browser/genai.ftl:genai-onboarding-copilot-learn": [
+    "Copilot"
+  ],
+  "browser/browser/genai.ftl:genai-onboarding-copilot-tooltip.title": [
+    "Copilot"
   ],
   "browser/browser/genai.ftl:genai-onboarding-huggingchat-learn": [
     "HuggingChat"
@@ -145,6 +129,9 @@
   "browser/browser/newtab/newtab.ftl:newtab-topic-label-society": [
     "Life",
     "hacks"
+  ],
+  "browser/browser/newtab/newtab.ftl:newtab-wallpaper-celestial-eclipse-time-lapse": [
+    "Time-lapse"
   ],
   "browser/browser/newtab/newtab.ftl:newtab-wallpaper-dark-aurora": [
     "Borealis"
@@ -288,6 +275,10 @@
     "Track"
   ],
   "browser/browser/preferences/preferences.ftl:do-not-track-description2.label": [
+    "Not",
+    "Track"
+  ],
+  "browser/browser/preferences/preferences.ftl:do-not-track-removal": [
     "Not",
     "Track"
   ],
@@ -745,6 +736,10 @@
     "Garbage",
     "Collector"
   ],
+  "devtools/client/netmonitor.properties:earlyHintsResponseHeaders": [
+    "Early",
+    "Hints"
+  ],
   "devtools/client/netmonitor.properties:jsonpScopeName": [
     "callback"
   ],
@@ -753,6 +748,10 @@
   ],
   "devtools/client/netmonitor.properties:netmonitor.context.copyAsPowerShell": [
     "PowerShell"
+  ],
+  "devtools/client/netmonitor.properties:netmonitor.headers.earlyHintsStatus": [
+    "Early",
+    "Hints"
   ],
   "devtools/client/netmonitor.properties:netmonitor.headers.sizeDetails": [
     "dim"
@@ -957,6 +956,10 @@
   "devtools/client/tooltips.ftl:inactive-css-highlight-pseudo-elements-not-supported": [
     "highlight"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-no-size-containment-fix": [
+    "contents",
+    "ruby"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-not-block": [
     "block-level"
   ],
@@ -1149,6 +1152,9 @@
   "dom/chrome/appstrings.properties:unknownSocketType": [
     "Personal"
   ],
+  "dom/chrome/dom/dom.properties:AfterScriptExecuteEventWarning": [
+    "afterscriptexecute"
+  ],
   "dom/chrome/dom/dom.properties:AllEntryTypesIgnored": [
     "entryTypes"
   ],
@@ -1169,6 +1175,9 @@
   "dom/chrome/dom/dom.properties:BadRedirectModeInterceptionWithURL": [
     "RedirectMode",
     "follow"
+  ],
+  "dom/chrome/dom/dom.properties:BeforeScriptExecuteEventWarning": [
+    "beforescriptexecute"
   ],
   "dom/chrome/dom/dom.properties:BiquadFilterChannelCountChangeWarning": [
     "BiquadFilterNode",
@@ -1633,6 +1642,9 @@
     "SVGGraphicsElement.nearestViewportElement",
     "SVGElement.viewportElement"
   ],
+  "dom/chrome/dom/dom.properties:SectioningH1WithNoFontSizeOrMargins": [
+    "h1"
+  ],
   "dom/chrome/dom/dom.properties:SelectOptionsLengthAssignmentWarning": [
     "HTMLOptionsCollection.length"
   ],
@@ -1735,7 +1747,18 @@
   "dom/chrome/layout/css.properties:PENeverMatchingHostSelector": [
     "featureless"
   ],
+  "dom/chrome/layout/css.properties:PEPRInheritsFieldInvalid": [
+    "property",
+    "inherits"
+  ],
+  "dom/chrome/layout/css.properties:PEPRInheritsFieldMissing": [
+    "property",
+    "inherits"
+  ],
   "dom/chrome/layout/css.properties:PEPRSyntaxFieldEmptyInput": [
+    "property"
+  ],
+  "dom/chrome/layout/css.properties:PEPRSyntaxFieldMissing": [
     "property"
   ],
   "dom/chrome/layout/css.properties:PEPseudoSelEndOrUserActionPC": [
@@ -1904,6 +1927,9 @@
     "clipping",
     "masking"
   ],
+  "dom/chrome/layout/layout_errors.properties:CompositorAnimationWarningNonScalingStroke": [
+    "non-scaling-stroke"
+  ],
   "dom/chrome/layout/layout_errors.properties:CompositorAnimationWarningOpacityFrameInactive": [
     "opacity"
   ],
@@ -2039,6 +2065,9 @@
   "dom/chrome/security/csp.properties:ignoreSrcForDirective": [
     "srcs"
   ],
+  "dom/chrome/security/csp.properties:ignoringInvalidGroupSyntax": [
+    "report-to"
+  ],
   "dom/chrome/security/csp.properties:ignoringReportOnlyDirective": [
     "report-only"
   ],
@@ -2129,9 +2158,6 @@
   ],
   "dom/chrome/security/security.properties:IneligibleResource": [
     "CORS-enabled"
-  ],
-  "dom/chrome/security/security.properties:IntegrityMismatch2": [
-    "sottorisorsa"
   ],
   "dom/chrome/security/security.properties:MimeTypeMismatch2": [
     "X-Content-Type-Options",
@@ -2402,6 +2428,9 @@
   "toolkit/toolkit/about/aboutCompat.ftl:text-title": [
     "compat"
   ],
+  "toolkit/toolkit/about/aboutGlean.ftl:about-glean-about-data-list-item-about-telemetry": [
+    "telemetry"
+  ],
   "toolkit/toolkit/about/aboutGlean.ftl:about-glean-adhoc-explanation": [
     "glean",
     "testGetValue",
@@ -2438,6 +2467,12 @@
   ],
   "toolkit/toolkit/about/aboutLogging.ftl:about-logging-preset-networking-websocket-label": [
     "WebSocket"
+  ],
+  "toolkit/toolkit/about/aboutLogging.ftl:about-logging-preset-webcodecs-description": [
+    "WebCodecs"
+  ],
+  "toolkit/toolkit/about/aboutLogging.ftl:about-logging-preset-webcodecs-label": [
+    "WebCodecs"
   ],
   "toolkit/toolkit/about/aboutLogging.ftl:about-logging-preset-webgpu-description": [
     "WebGPU"
@@ -2526,15 +2561,16 @@
     "Sottoframe"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-total-memory-size-changed": [
-    "total",
-    "maximumFractionDigits:0"
+    "maximumFractionDigits",
+    "total"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-total-memory-size-changed.title": [
-    "maximumFractionDigits:0"
+    "maximumFractionDigits",
+    "total"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-total-memory-size-no-change": [
-    "total",
-    "maximumFractionDigits:0"
+    "maximumFractionDigits",
+    "total"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-utility-actor-js-oracle": [
     "Oracle"
@@ -2883,6 +2919,10 @@
     "bounce",
     "tracker"
   ],
+  "toolkit/toolkit/global/antiTracking.ftl:btp-warning-tracker-purged": [
+    "bounce",
+    "tracker"
+  ],
   "toolkit/toolkit/global/cspErrors.ftl:csp-error-illegal-host-wildcard": [
     "wildcard",
     ".com"
@@ -2898,6 +2938,10 @@
   ],
   "toolkit/toolkit/global/extensions.ftl:webext-site-perms-midi-sysex": [
     "SysEx"
+  ],
+  "toolkit/toolkit/global/mozFiveStar.ftl:moz-five-star-rating-rate-text.title": [
+    "rating",
+    "maximumFractionDigits"
   ],
   "toolkit/toolkit/global/mozFiveStar.ftl:moz-five-star-rating.title": [
     "rating",
@@ -2917,6 +2961,14 @@
   ],
   "toolkit/toolkit/main-window/findbar.ftl:findbar-match-diacritics.tooltiptext": [
     "caffe"
+  ],
+  "toolkit/toolkit/neterror/netError.ftl:certerror-coep-learn-more": [
+    "Origin",
+    "Embedder"
+  ],
+  "toolkit/toolkit/neterror/netError.ftl:certerror-coop-learn-more": [
+    "Origin",
+    "Opener"
   ],
   "toolkit/toolkit/neterror/netError.ftl:neterror-unknown-socket-type-psm-installed": [
     "Personal"
