@@ -93,6 +93,25 @@
   "browser/browser/browserSets.ftl:nav-fwd-shortcut-alt.key": [
     "ù"
   ],
+  "browser/browser/genai.ftl:genai-onboarding-chatgpt-learn": [
+    "ChatGPT"
+  ],
+  "browser/browser/genai.ftl:genai-onboarding-chatgpt-tooltip.title": [
+    "ChatGPT"
+  ],
+  "browser/browser/genai.ftl:genai-onboarding-claude-learn": [
+    "Claude"
+  ],
+  "browser/browser/genai.ftl:genai-onboarding-claude-tooltip.title": [
+    "Anthropic",
+    "Claude"
+  ],
+  "browser/browser/genai.ftl:genai-onboarding-huggingchat-learn": [
+    "HuggingChat"
+  ],
+  "browser/browser/genai.ftl:genai-onboarding-huggingchat-tooltip.title": [
+    "HuggingChat"
+  ],
   "browser/browser/genai.ftl:genai-settings-chat-chatgpt-links": [
     "ChatGPT",
     "OpenAI"
