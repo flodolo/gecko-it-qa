@@ -106,6 +106,12 @@
     "Anthropic",
     "Claude"
   ],
+  "browser/browser/genai.ftl:genai-onboarding-copilot-learn": [
+    "Copilot"
+  ],
+  "browser/browser/genai.ftl:genai-onboarding-copilot-tooltip.title": [
+    "Copilot"
+  ],
   "browser/browser/genai.ftl:genai-onboarding-huggingchat-learn": [
     "HuggingChat"
   ],
@@ -1903,6 +1909,9 @@
     "-moz-element",
     "clipping",
     "masking"
+  ],
+  "dom/chrome/layout/layout_errors.properties:CompositorAnimationWarningNonScalingStroke": [
+    "non-scaling-stroke"
   ],
   "dom/chrome/layout/layout_errors.properties:CompositorAnimationWarningOpacityFrameInactive": [
     "opacity"
