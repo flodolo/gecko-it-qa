@@ -149,9 +149,11 @@ class CheckStrings:
 
         # Load exceptions
         exceptions = []
-        file_name = os.path.join(self.exceptions_path, "quotes.json")
-        with open(file_name, "r") as f:
+        exceptions_filename = os.path.join(self.exceptions_path, "quotes.json")
+        with open(exceptions_filename, "r") as f:
             exceptions = json.load(f)
+        # Keep track of the exceptions used to clean up the file
+        matched_exceptions = []
 
         ftl_functions = [
             # Parameterized terms
@@ -168,6 +170,7 @@ class CheckStrings:
         all_errors = []
         for message_id, message in self.strings.items():
             if message_id in exceptions:
+                matched_exceptions.append(message_id)
                 continue
             if message and straight_quotes.findall(message):
                 # Remove HTML tags
@@ -188,6 +191,12 @@ class CheckStrings:
             os.path.join(self.errors_path, "quotes.json"), "w", encoding="utf8"
         ) as f:
             json.dump(all_errors, f, indent=2, sort_keys=True, ensure_ascii=False)
+
+        if matched_exceptions != exceptions:
+            with open(exceptions_filename, "w") as f:
+                json.dump(
+                    matched_exceptions, f, indent=2, sort_keys=True, ensure_ascii=False
+                )
 
         self.quote_errors = all_errors
 
@@ -406,7 +415,7 @@ class CheckStrings:
             print(f"Total number of strings with errors: {len(all_errors)}")
             print(f"Total number of errors: {total_errors}")
 
-        # Display mispelled words and their count, if above 4
+        # Display misspelled words and their count, if above 4
         threshold = 4
         above_threshold = []
         for k in sorted(misspelled_words, key=misspelled_words.get, reverse=True):
