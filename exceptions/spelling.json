@@ -19,12 +19,12 @@
     "Unloading"
   ],
   "browser/browser/aboutUnloads.ftl:about-unloads-memory-in-mb": [
-    "mem",
-    "maxFractionalUnits"
+    "maxFractionalUnits",
+    "mem"
   ],
   "browser/browser/aboutUnloads.ftl:about-unloads-memory-in-mb-tooltip.title": [
-    "mem",
-    "maxFractionalUnits"
+    "maxFractionalUnits",
+    "mem"
   ],
   "browser/browser/addonNotifications.ftl:addon-downloading-and-verifying": [
     "comp",
@@ -34,8 +34,8 @@
     "filesystem"
   ],
   "browser/browser/addonNotifications.ftl:site-permission-install-first-prompt-midi-header": [
-    "Instrument",
     "Digital",
+    "Instrument",
     "Interface"
   ],
   "browser/browser/appmenu.ftl:profiler-popup-presets-debug-description": [
@@ -48,9 +48,9 @@
     "overhead"
   ],
   "browser/browser/backgroundtasks/defaultagent.ftl:default-browser-agent-task-description": [
-    "default-browser-agent.enabled",
+    "DisableDefaultBrowserAgent",
     "config",
-    "DisableDefaultBrowserAgent"
+    "default-browser-agent.enabled"
   ],
   "browser/browser/browser.ftl:quickactions-cmd-firefoxview": [
     "view",
@@ -60,8 +60,8 @@
     "devtools"
   ],
   "browser/browser/browser.ftl:quickactions-cmd-inspector2": [
-    "inspector",
-    "devtools"
+    "devtools",
+    "inspector"
   ],
   "browser/browser/browser.ftl:quickactions-cmd-savepdf": [
     "pdf"
@@ -76,13 +76,13 @@
     "screenshot"
   ],
   "browser/browser/browser.ftl:urlbar-result-action-calculator-result-3": [
+    "maximumFractionDigits",
     "result",
-    "useGrouping",
-    "maximumFractionDigits"
+    "useGrouping"
   ],
   "browser/browser/browser.ftl:urlbar-result-action-calculator-result-decimal": [
-    "result",
-    "maximumSignificantDigits"
+    "maximumSignificantDigits",
+    "result"
   ],
   "browser/browser/browserSets.ftl:nav-back-shortcut-alt.key": [
     "à"
@@ -121,8 +121,8 @@
   ],
   "browser/browser/genai.ftl:genai-settings-chat-claude-links": [
     "Anthropic",
-    "Claude",
-    "Anthropic"
+    "Anthropic",
+    "Claude"
   ],
   "browser/browser/genai.ftl:genai-settings-chat-copilot-links": [
     "Copilot",
@@ -133,14 +133,14 @@
     "Apps"
   ],
   "browser/browser/genai.ftl:genai-settings-chat-huggingchat-links": [
-    "HuggingChat",
-    "HuggingChat",
+    "Face",
     "Hugging",
-    "Face"
+    "HuggingChat",
+    "HuggingChat"
   ],
   "browser/browser/genai.ftl:genai-settings-chat-localhost-links": [
-    "llamafile",
-    "Innovation"
+    "Innovation",
+    "llamafile"
   ],
   "browser/browser/newtab/newtab.ftl:newtab-label-source-read-time": [
     "min"
@@ -188,9 +188,6 @@
   "browser/browser/policies/policies-descriptions.ftl:policy-DisableProfileRefresh": [
     "support"
   ],
-  "browser/browser/policies/policies-descriptions.ftl:policy-DisableSafeMode": [
-    "Maiusc"
-  ],
   "browser/browser/policies/policies-descriptions.ftl:policy-MicrosoftEntraSSO": [
     "sign-on"
   ],
@@ -226,8 +223,8 @@
     "v5"
   ],
   "browser/browser/preferences/containers.ftl:-containers-labels-style": [
-    "min-width",
-    "4rem"
+    "4rem",
+    "min-width"
   ],
   "browser/browser/preferences/formAutofill.ftl:autofill-address-eircode": [
     "Eircode"
@@ -276,8 +273,8 @@
     "MasterCard"
   ],
   "browser/browser/preferences/formAutofill.ftl:autofill-card-network-unionpay": [
-    "Union",
-    "Pay"
+    "Pay",
+    "Union"
   ],
   "browser/browser/preferences/formAutofill.ftl:autofill-card-network-visa": [
     "Visa"
@@ -309,8 +306,8 @@
     "sign-on"
   ],
   "browser/browser/preferences/preferences.ftl:global-privacy-control-search": [
-    "Global",
-    "Control"
+    "Control",
+    "Global"
   ],
   "browser/browser/preferences/preferences.ftl:home-prefs-snippets-header.label": [
     "Snippet"
@@ -340,24 +337,24 @@
     "screenshot"
   ],
   "browser/browser/speechDispatcher.ftl:speech-dispatcher-lib-missing": [
-    "Speech",
-    "Dispatcher"
+    "Dispatcher",
+    "Speech"
   ],
   "browser/browser/speechDispatcher.ftl:speech-dispatcher-lib-too-old": [
-    "Speech",
-    "Dispatcher"
+    "Dispatcher",
+    "Speech"
   ],
   "browser/browser/speechDispatcher.ftl:speech-dispatcher-missing-symbol": [
-    "Speech",
-    "Dispatcher"
+    "Dispatcher",
+    "Speech"
   ],
   "browser/browser/speechDispatcher.ftl:speech-dispatcher-no-voices": [
-    "Speech",
-    "Dispatcher"
+    "Dispatcher",
+    "Speech"
   ],
   "browser/browser/speechDispatcher.ftl:speech-dispatcher-open-fail": [
-    "Speech",
-    "Dispatcher"
+    "Dispatcher",
+    "Speech"
   ],
   "browser/chrome/browser/browser.properties:decoder.noCodecsLinux.message": [
     "codec"
@@ -387,9 +384,9 @@
     "SSLv3"
   ],
   "browser/defaultagent/defaultagent_localized.ini:DefaultBrowserAgentTaskDescription": [
-    "default-browser-agent.enabled",
+    "DisableDefaultBrowserAgent",
     "config",
-    "DisableDefaultBrowserAgent"
+    "default-browser-agent.enabled"
   ],
   "browser/extensions/formautofill/formautofill.properties:autocompleteFooterOptionOSXShort2": [
     "autom"
@@ -592,9 +589,9 @@
     "buildID"
   ],
   "devtools/client/aboutdebugging.ftl:about-debugging-tmp-extension-install-message": [
-    "manifest.json",
     ".xpi",
-    ".zip"
+    ".zip",
+    "manifest.json"
   ],
   "devtools/client/accessibility.ftl:accessibility-keyboard-issue-mouse-only": [
     "clickable"
@@ -615,8 +612,8 @@
     "fieldset"
   ],
   "devtools/client/accessibility.ftl:accessibility-text-label-issue-fieldset-legend2": [
-    "legend",
-    "fieldset"
+    "fieldset",
+    "legend"
   ],
   "devtools/client/accessibility.ftl:accessibility-text-label-issue-figure": [
     "caption"
@@ -662,8 +659,8 @@
     "override"
   ],
   "devtools/client/debugger.properties:projectTextSearch.excludePatterns.placeholder": [
-    "node_modules",
-    "app.js"
+    "app.js",
+    "node_modules"
   ],
   "devtools/client/debugger.properties:sealedTooltip": [
     "sealed"
@@ -690,8 +687,8 @@
     "stdout"
   ],
   "devtools/client/debugger.properties:traceOnNextInteraction": [
-    "mousedown",
-    "keydown"
+    "keydown",
+    "mousedown"
   ],
   "devtools/client/debugger.properties:tracer.header": [
     "Tracer"
@@ -709,8 +706,8 @@
     "Capturing"
   ],
   "devtools/client/inspector.properties:eventsTooltip.unknownLocationExplanation": [
-    "transpiled",
-    "Babel"
+    "Babel",
+    "transpiled"
   ],
   "devtools/client/inspector.properties:markupView.display.flex.tooltiptext2": [
     "flexbox",
@@ -752,8 +749,8 @@
     "shallow"
   ],
   "devtools/client/memory.properties:shortest-paths.header": [
-    "Garbage",
-    "Collector"
+    "Collector",
+    "Garbage"
   ],
   "devtools/client/netmonitor.ftl:network-menu-summary-tooltip-domcontentloaded.title": [
     "DOMContentLoaded"
@@ -847,32 +844,32 @@
   ],
   "devtools/client/perftools.ftl:perftools-thread-jvm-arch-disk-io.title": [
     "Dispatcher",
-    "coroutine",
-    "Kotlin"
+    "Kotlin",
+    "coroutine"
   ],
   "devtools/client/perftools.ftl:perftools-thread-jvm-default-dispatcher.title": [
     "Dispatcher",
-    "coroutine",
-    "Kotlin"
+    "Kotlin",
+    "coroutine"
   ],
   "devtools/client/perftools.ftl:perftools-thread-jvm-nimbus.title": [
     "Nimbus"
   ],
   "devtools/client/perftools.ftl:perftools-thread-render-backend.title": [
-    "WebRender",
-    "RenderBackend"
+    "RenderBackend",
+    "WebRender"
   ],
   "devtools/client/perftools.ftl:perftools-thread-renderer.title": [
-    "WebRender",
-    "OpenGL"
+    "OpenGL",
+    "WebRender"
   ],
   "devtools/client/perftools.ftl:perftools-thread-task-controller.title": [
     "TaskController"
   ],
   "devtools/client/perftools.ftl:perftools-thread-timer.title": [
-    "setTimeout",
+    "nsITimer",
     "setInterval",
-    "nsITimer"
+    "setTimeout"
   ],
   "devtools/client/perftools.ftl:perftools-tools-threads-input-label.title": [
     "profiler"
@@ -902,8 +899,8 @@
     "stdout"
   ],
   "devtools/client/startup.properties:traceOnNextInteraction": [
-    "mousedown",
-    "keydown"
+    "keydown",
+    "mousedown"
   ],
   "devtools/client/storage.ftl:storage-table-headers-cookies-expires": [
     "Max-Age"
@@ -1009,18 +1006,18 @@
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-for-internal-table-elements-except-table-cells-fix": [
     "table-column",
-    "table-row",
     "table-column-group",
-    "table-row-group",
-    "table-footer-group"
+    "table-footer-group",
+    "table-row",
+    "table-row-group"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-for-internal-table-elements-fix": [
     "table-cell",
     "table-column",
-    "table-row",
     "table-column-group",
-    "table-row-group",
-    "table-footer-group"
+    "table-footer-group",
+    "table-row",
+    "table-row-group"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-grid-or-flex-container-or-multicol-container-fix": [
     "columns:2"
@@ -1053,8 +1050,8 @@
   ],
   "devtools/client/tooltips.ftl:inactive-css-resize": [
     "overflow",
-    "visible",
-    "textarea"
+    "textarea",
+    "visible"
   ],
   "devtools/client/tooltips.ftl:inactive-css-resize-fix": [
     "overflow",
@@ -1067,8 +1064,8 @@
     "font-size"
   ],
   "devtools/client/tooltips.ftl:inactive-css-text-wrap-balance-fragmented-fix": [
-    "page-break-inside",
-    "avoid"
+    "avoid",
+    "page-break-inside"
   ],
   "devtools/client/tooltips.ftl:inactive-scroll-padding-when-not-scroll-container": [
     "scroll"
@@ -1076,8 +1073,8 @@
   "devtools/client/tooltips.ftl:inactive-scroll-padding-when-not-scroll-container-fix": [
     "overflow",
     "overflow",
-    "scroll",
-    "overflow"
+    "overflow",
+    "scroll"
   ],
   "devtools/client/tooltips.ftl:inactive-text-overflow-when-no-overflow": [
     "overflow"
@@ -1086,10 +1083,10 @@
     "overflow"
   ],
   "devtools/client/webconsole.properties:ConsoleAPIDisabled": [
-    "console.log",
+    "console.error",
     "console.info",
-    "console.warn",
-    "console.error"
+    "console.log",
+    "console.warn"
   ],
   "devtools/client/webconsole.properties:parentProcessBrowserConsole.title": [
     "parent"
@@ -1128,8 +1125,8 @@
     "fieldset"
   ],
   "devtools/shared/accessibility.properties:accessibility.text.label.issue.fieldset.legend2": [
-    "legend",
-    "fieldset"
+    "fieldset",
+    "legend"
   ],
   "devtools/shared/accessibility.properties:accessibility.text.label.issue.figure": [
     "caption"
@@ -1187,15 +1184,15 @@
     "AppCache"
   ],
   "dom/chrome/dom/dom.properties:BadOpaqueInterceptionRequestModeWithURL": [
-    "Opaque",
     "FetchEvent",
+    "Opaque",
     "Opaque",
     "RequestMode",
     "no-cors"
   ],
   "dom/chrome/dom/dom.properties:BadOpaqueRedirectInterceptionWithURL": [
-    "Opaqueredirect",
-    "FetchEvent"
+    "FetchEvent",
+    "Opaqueredirect"
   ],
   "dom/chrome/dom/dom.properties:BadRedirectModeInterceptionWithURL": [
     "RedirectMode",
@@ -1274,41 +1271,41 @@
   ],
   "dom/chrome/dom/dom.properties:DocumentReleaseCaptureWarning": [
     "Document.releaseCapture",
-    "Element.releasePointerCapture",
     "Element",
+    "Element.releasePointerCapture",
     "releasePointerCapture"
   ],
   "dom/chrome/dom/dom.properties:DocumentWriteIgnored": [
     "document.write"
   ],
   "dom/chrome/dom/dom.properties:DrawWindowCanvasRenderingContext2DWarning": [
-    "drawWindow",
-    "CanvasRenderingContext2D",
-    "tabs.captureTab",
     "Add-ons",
+    "CanvasRenderingContext2D",
     "WebExtensions",
+    "captureTab",
+    "drawWindow",
     "tabs",
-    "captureTab"
+    "tabs.captureTab"
   ],
   "dom/chrome/dom/dom.properties:ElementReleaseCaptureWarning": [
+    "Element",
     "Element.releaseCapture",
     "Element.releasePointerCapture",
-    "Element",
     "releasePointerCapture"
   ],
   "dom/chrome/dom/dom.properties:ElementSetCaptureWarning": [
+    "Element",
     "Element.setCapture",
     "Element.setPointerCapture",
-    "Element",
     "setPointerCapture"
   ],
   "dom/chrome/dom/dom.properties:EmptyGetElementByIdParam": [
     "getElementById"
   ],
   "dom/chrome/dom/dom.properties:ExecCommandCutCopyDeniedNotInputDriven": [
-    "document.execCommand",
+    "'copy",
     "'cut",
-    "'copy"
+    "document.execCommand"
   ],
   "dom/chrome/dom/dom.properties:External_AddSearchProviderWarning": [
     "AddSearchProvider"
@@ -1359,8 +1356,8 @@
     "will-change"
   ],
   "dom/chrome/dom/dom.properties:ImageBitmapRenderingContext_TransferImageBitmapWarning": [
-    "ImageBitmapRenderingContext.transferImageBitmap",
-    "ImageBitmapRenderingContext.transferFromImageBitmap"
+    "ImageBitmapRenderingContext.transferFromImageBitmap",
+    "ImageBitmapRenderingContext.transferImageBitmap"
   ],
   "dom/chrome/dom/dom.properties:ImportMapResolutionBlockedByAfterPrefix": [
     "sottostringa"
@@ -1372,20 +1369,20 @@
     "IndexedDB"
   ],
   "dom/chrome/dom/dom.properties:InitMouseEventWarning": [
-    "initMouseEvent",
-    "MouseEvent"
+    "MouseEvent",
+    "initMouseEvent"
   ],
   "dom/chrome/dom/dom.properties:InitNSMouseEventWarning": [
-    "initNSMouseEvent",
-    "MouseEvent"
+    "MouseEvent",
+    "initNSMouseEvent"
   ],
   "dom/chrome/dom/dom.properties:InstallTriggerDeprecatedWarning": [
     "InstallTrigger"
   ],
   "dom/chrome/dom/dom.properties:InstallTriggerInstallDeprecatedWarning": [
     "InstallTrigger.install",
-    "extensionworkshop.com",
     "documentation",
+    "extensionworkshop.com",
     "publish",
     "self-distribution"
   ],
@@ -1406,8 +1403,8 @@
     "this"
   ],
   "dom/chrome/dom/dom.properties:LocChangeFloodingPrevented": [
-    "Location",
-    "History"
+    "History",
+    "Location"
   ],
   "dom/chrome/dom/dom.properties:ManifestIdNotSameOrigin": [
     "start_url"
@@ -1422,20 +1419,20 @@
     "purpose"
   ],
   "dom/chrome/dom/dom.properties:MathML_DeprecatedMathSizeValueWarning": [
-    "small",
-    "normal",
     "big",
-    "mathsize"
+    "mathsize",
+    "normal",
+    "small"
   ],
   "dom/chrome/dom/dom.properties:MathML_DeprecatedMathSpaceValueWarning": [
-    "veryverythinmathspace",
-    "verythinmathspace",
-    "thinmathspace",
+    "lengths",
     "mediummathspace",
     "thickmathspace",
+    "thinmathspace",
     "verythickmathspace",
+    "verythinmathspace",
     "veryverythickmathspace",
-    "lengths"
+    "veryverythinmathspace"
   ],
   "dom/chrome/dom/dom.properties:MathML_DeprecatedMathVariantWarning": [
     "mathvariant"
@@ -1447,8 +1444,8 @@
     "scriptsizemultiplier"
   ],
   "dom/chrome/dom/dom.properties:MathML_DeprecatedStixgeneralOperatorStretchingWarning": [
-    "stretched",
-    "STIXGeneral"
+    "STIXGeneral",
+    "stretched"
   ],
   "dom/chrome/dom/dom.properties:MathML_DeprecatedStyleAttributeWarning": [
     "fontfamily",
@@ -1460,18 +1457,18 @@
     "PulseAudio"
   ],
   "dom/chrome/dom/dom.properties:MediaEMENoCapabilitiesDeprecatedWarning": [
-    "navigator.requestMediaKeySystemAccess",
     "MediaKeySystemConfiguration",
     "audioCapabilities",
+    "navigator.requestMediaKeySystemAccess",
     "videoCapabilities"
   ],
   "dom/chrome/dom/dom.properties:MediaEMENoCodecsDeprecatedWarning": [
-    "navigator.requestMediaKeySystemAccess",
     "MediaKeySystemConfiguration",
     "audioCapabilities",
-    "videoCapabilities",
+    "codecs",
     "contentType",
-    "codecs"
+    "navigator.requestMediaKeySystemAccess",
+    "videoCapabilities"
   ],
   "dom/chrome/dom/dom.properties:MediaElementAudioSourceNodeCrossOrigin": [
     "createMediaElementSource"
@@ -1489,8 +1486,8 @@
     "createMediaStreamSource"
   ],
   "dom/chrome/dom/dom.properties:MediaStreamAudioSourceNodeDifferentRate": [
-    "AudioNode",
-    "AudioContext"
+    "AudioContext",
+    "AudioNode"
   ],
   "dom/chrome/dom/dom.properties:MediaStreamTrackAudioSourceNodeCrossOrigin": [
     "MediaStreamTrack",
@@ -1500,13 +1497,13 @@
     "libavcodec"
   ],
   "dom/chrome/dom/dom.properties:MediaWMFNeeded": [
-    "kb",
-    "fix-video-audio-problems-firefox-windows"
+    "fix-video-audio-problems-firefox-windows",
+    "kb"
   ],
   "dom/chrome/dom/dom.properties:MediaWidevineNoWMF": [
     "Widevine",
-    "kb",
-    "fix-video-audio-problems-firefox-windows"
+    "fix-video-audio-problems-firefox-windows",
+    "kb"
   ],
   "dom/chrome/dom/dom.properties:MouseEvent_MozPressureWarning": [
     "MouseEvent.mozPressure",
@@ -1526,24 +1523,24 @@
     "onmozfullscreenerror"
   ],
   "dom/chrome/dom/dom.properties:MutationEventWarning": [
-    "Mutation",
     "Events",
+    "Mutation",
     "MutationObserver"
   ],
   "dom/chrome/dom/dom.properties:NavigatorGetUserMediaWarning": [
-    "navigator.mozGetUserMedia",
-    "navigator.mediaDevices.getUserMedia"
+    "navigator.mediaDevices.getUserMedia",
+    "navigator.mozGetUserMedia"
   ],
   "dom/chrome/dom/dom.properties:NodeIteratorDetachWarning": [
-    "detach",
-    "NodeIterator"
+    "NodeIterator",
+    "detach"
   ],
   "dom/chrome/dom/dom.properties:NotificationsCrossOriginIframeRequestIsForbidden": [
     "top-level"
   ],
   "dom/chrome/dom/dom.properties:OffscreenCanvasToBlobWarning": [
-    "OffscreenCanvas.toBlob",
-    "OffscreenCanvas.convertToBlob"
+    "OffscreenCanvas.convertToBlob",
+    "OffscreenCanvas.toBlob"
   ],
   "dom/chrome/dom/dom.properties:PartitionKeyDifferentError": [
     "blob"
@@ -1589,10 +1586,10 @@
     "section-3.1"
   ],
   "dom/chrome/dom/dom.properties:PushMessageBadEncryptionKeyHeader": [
-    "dh",
-    "Crypto-Key",
     "Content-Encoding",
+    "Crypto-Key",
     "aesgcm",
+    "dh",
     "section-4"
   ],
   "dom/chrome/dom/dom.properties:PushMessageBadPaddingError": [
@@ -1603,26 +1600,26 @@
     "section-3.1"
   ],
   "dom/chrome/dom/dom.properties:PushMessageBadSalt": [
-    "salt",
+    "appendix-C",
     "base64url",
     "rfc7515",
-    "appendix-C",
+    "salt",
     "section-3.1"
   ],
   "dom/chrome/dom/dom.properties:PushMessageBadSenderKey": [
-    "dh",
     "Crypto-Key",
-    "base64url",
-    "rfc7515",
     "appendix-C",
-    "uncompressed",
-    "section-4"
+    "base64url",
+    "dh",
+    "rfc7515",
+    "section-4",
+    "uncompressed"
   ],
   "dom/chrome/dom/dom.properties:RTCPeerConnectionGetStreamsWarning": [
     "RTCPeerConnection.getLocalStreams",
-    "getRemoteStreams",
     "RTCPeerConnection.getSenders",
-    "getReceivers"
+    "getReceivers",
+    "getRemoteStreams"
   ],
   "dom/chrome/dom/dom.properties:ReadableStreamReadingFailed": [
     "ReadableStream"
@@ -1637,8 +1634,8 @@
     "allow-same-origin"
   ],
   "dom/chrome/dom/dom.properties:RequestStorageAccessPermissionsPolicy": [
-    "storage-access",
-    "Permissions"
+    "Permissions",
+    "storage-access"
   ],
   "dom/chrome/dom/dom.properties:RequestStorageAccessSandboxed": [
     "allow-storage-access-by-user-activation"
@@ -1663,12 +1660,12 @@
     "SVGGraphicsElement.farthestViewportElement"
   ],
   "dom/chrome/dom/dom.properties:SVGNearestViewportElement": [
-    "SVGGraphicsElement.nearestViewportElement",
-    "SVGElement.viewportElement"
+    "SVGElement.viewportElement",
+    "SVGGraphicsElement.nearestViewportElement"
   ],
   "dom/chrome/dom/dom.properties:SVGNearestViewportElementWarning": [
-    "SVGGraphicsElement.nearestViewportElement",
-    "SVGElement.viewportElement"
+    "SVGElement.viewportElement",
+    "SVGGraphicsElement.nearestViewportElement"
   ],
   "dom/chrome/dom/dom.properties:SectioningH1WithNoFontSizeOrMargins": [
     "h1"
@@ -1680,9 +1677,9 @@
     "Selection.modify"
   ],
   "dom/chrome/dom/dom.properties:ServiceWorkerGraceTimeoutTermination": [
-    "waitUntil",
+    "grace",
     "respondWith",
-    "grace"
+    "waitUntil"
   ],
   "dom/chrome/dom/dom.properties:ServiceWorkerPostMessageStorageError": [
     "postMessage"
@@ -1697,39 +1694,39 @@
     "sizeToContent"
   ],
   "dom/chrome/dom/dom.properties:SpeculationFailed2": [
+    "Glossary",
     "document.write",
     "en-US",
-    "Glossary",
     "speculative_parsing"
   ],
   "dom/chrome/dom/dom.properties:SyncXMLHttpRequestDeprecatedWarning": [
-    "xhr.spec.whatwg.org",
-    "sync-warning"
+    "sync-warning",
+    "xhr.spec.whatwg.org"
   ],
   "dom/chrome/dom/dom.properties:SyncXMLHttpRequestWarning": [
     "xhr.spec.whatwg.org"
   ],
   "dom/chrome/dom/dom.properties:TargetPrincipalDoesNotMatch": [
-    "postMessage",
-    "DOMWindow"
+    "DOMWindow",
+    "postMessage"
   ],
   "dom/chrome/dom/dom.properties:UnsupportedEntryTypesIgnored": [
     "entryTypes"
   ],
   "dom/chrome/dom/dom.properties:UseOfCaptureEventsWarning": [
-    "captureEvents",
     "addEventListener",
+    "captureEvents",
     "element.addEventListener"
   ],
   "dom/chrome/dom/dom.properties:UseOfReleaseEventsWarning": [
+    "element.removeEventListener",
     "releaseEvents",
-    "removeEventListener",
-    "element.removeEventListener"
+    "removeEventListener"
   ],
   "dom/chrome/dom/dom.properties:UseSendBeaconDuringUnloadAndPagehideWarning": [
     "navigator.sendBeacon",
-    "unload",
-    "pagehide"
+    "pagehide",
+    "unload"
   ],
   "dom/chrome/dom/dom.properties:WebExtContentScriptModuleSourceNotAllowed": [
     "moz-extension"
@@ -1742,19 +1739,19 @@
     "window.top"
   ],
   "dom/chrome/dom/dom.properties:Window_Cc_ontrollersWarning": [
-    "window.controllers",
-    "Controllers"
+    "Controllers",
+    "window.controllers"
   ],
   "dom/chrome/layout/HtmlForm.properties:CannotEncodeAllUnicode": [
-    "form",
     "accept-charset",
+    "form",
     "utf-8"
   ],
   "dom/chrome/layout/HtmlForm.properties:ForgotFileEnctypeWarning": [
-    "method",
     "enctype",
-    "multipart",
-    "form-data"
+    "form-data",
+    "method",
+    "multipart"
   ],
   "dom/chrome/layout/HtmlForm.properties:ForgotPostWarning": [
     "enctype",
@@ -1762,12 +1759,12 @@
     "method"
   ],
   "dom/chrome/layout/css.properties:MimeNotCss": [
-    "text",
-    "css"
+    "css",
+    "text"
   ],
   "dom/chrome/layout/css.properties:MimeNotCssWarn": [
-    "text",
-    "css"
+    "css",
+    "text"
   ],
   "dom/chrome/layout/css.properties:PEImportantDeclError": [
     "important"
@@ -1782,12 +1779,12 @@
     "featureless"
   ],
   "dom/chrome/layout/css.properties:PEPRInheritsFieldInvalid": [
-    "property",
-    "inherits"
+    "inherits",
+    "property"
   ],
   "dom/chrome/layout/css.properties:PEPRInheritsFieldMissing": [
-    "property",
-    "inherits"
+    "inherits",
+    "property"
   ],
   "dom/chrome/layout/css.properties:PEPRSyntaxFieldEmptyInput": [
     "property"
@@ -1814,20 +1811,20 @@
     "dotted"
   ],
   "dom/chrome/layout/htmlparser.properties:EncDetectorReload": [
-    "order",
-    "mark"
+    "mark",
+    "order"
   ],
   "dom/chrome/layout/htmlparser.properties:EncDetectorReloadPlain": [
-    "order",
-    "mark"
+    "mark",
+    "order"
   ],
   "dom/chrome/layout/htmlparser.properties:EncErrorFrame": [
-    "order",
-    "mark"
+    "mark",
+    "order"
   ],
   "dom/chrome/layout/htmlparser.properties:EncErrorFramePlain": [
-    "order",
-    "mark"
+    "mark",
+    "order"
   ],
   "dom/chrome/layout/htmlparser.properties:EncMetaAfterHeadInKilobyte": [
     "head"
@@ -1839,16 +1836,16 @@
     "head"
   ],
   "dom/chrome/layout/htmlparser.properties:EncMetaUserDefined": [
-    "x-user-defined",
-    "windows-1252"
+    "windows-1252",
+    "x-user-defined"
   ],
   "dom/chrome/layout/htmlparser.properties:EncNoDecl": [
-    "order",
-    "mark"
+    "mark",
+    "order"
   ],
   "dom/chrome/layout/htmlparser.properties:EncNoDeclPlain": [
-    "order",
-    "mark"
+    "mark",
+    "order"
   ],
   "dom/chrome/layout/htmlparser.properties:EncSpeculationFailMeta": [
     "head"
@@ -1863,8 +1860,8 @@
     "escape"
   ],
   "dom/chrome/layout/htmlparser.properties:errBadStartTagInNoscriptInHead": [
-    "noscript",
-    "head"
+    "head",
+    "noscript"
   ],
   "dom/chrome/layout/htmlparser.properties:errEndTagBr": [
     "br"
@@ -1916,8 +1913,8 @@
     "frameset"
   ],
   "dom/chrome/layout/htmlparser.properties:errNonSpaceInNoscriptInHead": [
-    "noscript",
-    "head"
+    "head",
+    "noscript"
   ],
   "dom/chrome/layout/htmlparser.properties:errQuirkyDoctype": [
     "Quirks"
@@ -1956,10 +1953,10 @@
     "current-color"
   ],
   "dom/chrome/layout/layout_errors.properties:CompositorAnimationWarningHasRenderingObserver": [
-    "observer",
     "-moz-element",
     "clipping",
-    "masking"
+    "masking",
+    "observer"
   ],
   "dom/chrome/layout/layout_errors.properties:CompositorAnimationWarningNonScalingStroke": [
     "non-scaling-stroke"
@@ -1984,42 +1981,42 @@
   ],
   "dom/chrome/layout/layout_errors.properties:ImageMapPolyOddNumberOfCoords": [
     "x1",
-    "y1",
     "x2",
+    "y1",
     "y2"
   ],
   "dom/chrome/layout/layout_errors.properties:ImageMapPolyWrongNumberOfCoords": [
+    "format",
     "x1",
-    "y1",
     "x2",
-    "y2",
-    "format"
+    "y1",
+    "y2"
   ],
   "dom/chrome/layout/layout_errors.properties:ImageMapRectBoundsError": [
+    "bottom",
     "left",
-    "right",
-    "bottom"
+    "right"
   ],
   "dom/chrome/layout/layout_errors.properties:PrincipalWritingModePropagationWarning": [
-    "writing-mode",
-    "direction",
-    "text-orientation",
-    "root",
-    "The",
     "Principal",
+    "The",
     "Writing",
-    "www.w3.org",
     "css-writing-modes-3",
-    "principal-flow"
+    "direction",
+    "principal-flow",
+    "root",
+    "text-orientation",
+    "writing-mode",
+    "www.w3.org"
   ],
   "dom/chrome/layout/layout_errors.properties:ScrollAnchoringDisabledInContainer": [
-    "scroll",
     "anchoring",
+    "scroll",
     "scroll"
   ],
   "dom/chrome/layout/layout_errors.properties:ScrollLinkedEffectFound3": [
-    "scroll-linked",
     "panning",
+    "scroll-linked",
     "scroll-linked_effects.html"
   ],
   "dom/chrome/layout/layout_errors.properties:ZoomPropertyWarning": [
@@ -2042,8 +2039,8 @@
     "well-formed"
   ],
   "dom/chrome/layout/xul.properties:PINotInProlog": [
-    "processing",
     "instruction",
+    "processing",
     "prolog"
   ],
   "dom/chrome/layout/xul.properties:PINotInProlog2": [
@@ -2063,12 +2060,12 @@
     "wrapper"
   ],
   "dom/chrome/security/csp.properties:CSPEvalScriptViolation": [
-    "eval",
-    "'unsafe-eval"
+    "'unsafe-eval",
+    "eval"
   ],
   "dom/chrome/security/csp.properties:CSPROEvalScriptViolation": [
-    "eval",
-    "'unsafe-eval"
+    "'unsafe-eval",
+    "eval"
   ],
   "dom/chrome/security/csp.properties:CSPROTrustedTypesPolicyViolation": [
     "Trusted",
@@ -2076,15 +2073,15 @@
   ],
   "dom/chrome/security/csp.properties:CSPROTrustedTypesSinkViolation": [
     "injection",
-    "sink",
-    "require-trusted-types-for"
+    "require-trusted-types-for",
+    "sink"
   ],
   "dom/chrome/security/csp.properties:CSPROViolation": [
     "report-only"
   ],
   "dom/chrome/security/csp.properties:CSPROWasmEvalScriptViolation": [
-    "'wasm-unsafe-eval",
-    "'unsafe-eval"
+    "'unsafe-eval",
+    "'wasm-unsafe-eval"
   ],
   "dom/chrome/security/csp.properties:CSPTrustedTypesPolicyViolation": [
     "Trusted",
@@ -2092,12 +2089,12 @@
   ],
   "dom/chrome/security/csp.properties:CSPTrustedTypesSinkViolation": [
     "injection",
-    "sink",
-    "require-trusted-types-for"
+    "require-trusted-types-for",
+    "sink"
   ],
   "dom/chrome/security/csp.properties:CSPWasmEvalScriptViolation": [
-    "'wasm-unsafe-eval",
-    "'unsafe-eval"
+    "'unsafe-eval",
+    "'wasm-unsafe-eval"
   ],
   "dom/chrome/security/csp.properties:ignoreSrcForDirective": [
     "srcs"
@@ -2112,8 +2109,8 @@
     "strict-dynamic"
   ],
   "dom/chrome/security/csp.properties:ignoringSrcWithinNonceOrHashDirective": [
-    "nonce-source",
-    "hash-source"
+    "hash-source",
+    "nonce-source"
   ],
   "dom/chrome/security/csp.properties:ignoringStrictDynamic": [
     "script-src"
@@ -2138,22 +2135,22 @@
     "report-to"
   ],
   "dom/chrome/security/csp.properties:strictDynamicButNoHashOrNonce": [
-    "strict-dynamic",
-    "nonce"
+    "nonce",
+    "strict-dynamic"
   ],
   "dom/chrome/security/security.properties:BlockImportScriptsWithWrongMimeType": [
     "importScripts"
   ],
   "dom/chrome/security/security.properties:BlockMixedActiveContent": [
-    "mixed",
-    "active"
+    "active",
+    "mixed"
   ],
   "dom/chrome/security/security.properties:BlockMixedDisplayContent": [
     "mixed"
   ],
   "dom/chrome/security/security.properties:BothAllowScriptsAndSameOriginPresent": [
-    "allow-scripts",
-    "allow-same-origin"
+    "allow-same-origin",
+    "allow-scripts"
   ],
   "dom/chrome/security/security.properties:BothAllowTopNavigationAndUserActivationPresent": [
     "allow-top-navigation",
@@ -2161,9 +2158,9 @@
   ],
   "dom/chrome/security/security.properties:CORSAllowHeaderFromPreflightDeprecation": [
     "Access-Control-Allow-Headers",
+    "Access-Control-Allow-Headers",
     "Authorization",
-    "Authorization",
-    "Access-Control-Allow-Headers"
+    "Authorization"
   ],
   "dom/chrome/security/security.properties:CORSExternalRedirectNotAllowed": [
     "redirect"
@@ -2206,11 +2203,11 @@
     "unsafe-url"
   ],
   "dom/chrome/security/security.properties:RestrictBrowserEvalUsage": [
-    "eval",
-    "eval-like",
     "Parent",
     "Process",
-    "System"
+    "System",
+    "eval",
+    "eval-like"
   ],
   "dom/chrome/security/security.properties:RunningClearSiteDataValue": [
     "Clear-Site-Data"
@@ -2252,12 +2249,12 @@
     "First-Party"
   ],
   "netwerk/necko.properties:CookieForeignNoPartitionedError": [
-    "foreign",
-    "Partitioned"
+    "Partitioned",
+    "foreign"
   ],
   "netwerk/necko.properties:CookieForeignNoPartitionedWarning": [
-    "foreign",
-    "Partitioned"
+    "Partitioned",
+    "foreign"
   ],
   "netwerk/necko.properties:CookiePathOversize": [
     "path"
@@ -2291,8 +2288,8 @@
     "baggage"
   ],
   "security/manager/chrome/pipnss/nsserrors.properties:SEC_ERROR_CERT_USAGES_INVALID": [
-    "usages",
-    "field"
+    "field",
+    "usages"
   ],
   "security/manager/chrome/pipnss/nsserrors.properties:SEC_ERROR_EXTRA_INPUT": [
     "DER-encoded"
@@ -2310,19 +2307,19 @@
     "nodelock"
   ],
   "security/manager/chrome/pipnss/nsserrors.properties:SEC_ERROR_PATH_LEN_CONSTRAINT_INVALID": [
-    "path",
+    "constraint",
     "length",
-    "constraint"
+    "path"
   ],
   "security/manager/chrome/pipnss/nsserrors.properties:SSL_ERROR_MISSING_EXTENDED_MASTER_SECRET": [
     "correct",
     "extended_master_secret"
   ],
   "security/manager/chrome/pipnss/nsserrors.properties:SSL_ERROR_NEXT_PROTOCOL_NO_CALLBACK": [
-    "next",
-    "protocol",
+    "callback",
     "negotiation",
-    "callback"
+    "next",
+    "protocol"
   ],
   "security/manager/chrome/pipnss/nsserrors.properties:SSL_ERROR_RX_MALFORMED_FINISHED": [
     "Finished"
@@ -2364,8 +2361,8 @@
     "smart"
   ],
   "security/manager/security/certificates/deviceManager.ftl:load-module-help-root-certs-module-name.value": [
-    "Root",
-    "Certs"
+    "Certs",
+    "Root"
   ],
   "toolkit/chrome/autoconfig/autoconfig.properties:autoConfigMsg": [
     "Netscape.cfg"
@@ -2379,17 +2376,11 @@
   "toolkit/chrome/global-platform/unix/platformKeys.properties:VK_COMMAND_OR_WIN": [
     "Win"
   ],
-  "toolkit/chrome/global-platform/unix/platformKeys.properties:VK_SHIFT": [
-    "Maiusc"
-  ],
   "toolkit/chrome/global-platform/unix/platformKeys.properties:VK_WIN": [
     "Win"
   ],
   "toolkit/chrome/global-platform/win/platformKeys.properties:VK_COMMAND_OR_WIN": [
     "Win"
-  ],
-  "toolkit/chrome/global-platform/win/platformKeys.properties:VK_SHIFT": [
-    "Maiusc"
   ],
   "toolkit/chrome/global-platform/win/platformKeys.properties:VK_WIN": [
     "Win"
@@ -2404,22 +2395,22 @@
     "Image"
   ],
   "toolkit/chrome/mozapps/downloads/unknownContentType.properties:pdfExtHandlerDescription": [
-    "Portable",
     "Document",
-    "Format"
+    "Format",
+    "Portable"
   ],
   "toolkit/chrome/mozapps/downloads/unknownContentType.properties:svgExtHandlerDescription": [
+    "Graphics",
     "Scalable",
-    "Vector",
-    "Graphics"
+    "Vector"
   ],
   "toolkit/chrome/mozapps/downloads/unknownContentType.properties:webpExtHandlerDescription": [
     "WebP"
   ],
   "toolkit/chrome/mozapps/downloads/unknownContentType.properties:xmlExtHandlerDescription": [
     "Extensible",
-    "Markup",
-    "Language"
+    "Language",
+    "Markup"
   ],
   "toolkit/chrome/mozapps/update/updates.properties:patchApplyFailure": [
     "patch"
@@ -2431,27 +2422,27 @@
     "minidump-analyzer"
   ],
   "toolkit/toolkit/about/aboutAddons.ftl:five-star-rating.title": [
-    "rating",
-    "maximumFractionDigits"
+    "maximumFractionDigits",
+    "rating"
   ],
   "toolkit/toolkit/about/aboutAddons.ftl:plugins-openh264-description": [
     "codec",
     "www.openh264.org"
   ],
   "toolkit/toolkit/about/aboutAddons.ftl:plugins-openh264-name": [
-    "Codec",
-    "OpenH264",
     "Cisco",
-    "Systems",
-    "Inc"
+    "Codec",
+    "Inc",
+    "OpenH264",
+    "Systems"
   ],
   "toolkit/toolkit/about/aboutAddons.ftl:plugins-widevine-description": [
     "www.w3.org"
   ],
   "toolkit/toolkit/about/aboutAddons.ftl:plugins-widevine-name": [
-    "Widevine",
     "Decryption",
-    "Inc"
+    "Inc",
+    "Widevine"
   ],
   "toolkit/toolkit/about/aboutCompat.ftl:label-smartblock": [
     "SmartBlock"
@@ -2469,15 +2460,15 @@
     "telemetry"
   ],
   "toolkit/toolkit/about/aboutGlean.ftl:about-glean-adhoc-explanation": [
+    "Glean.metricCategory.metricName.testGetValue",
     "glean",
-    "testGetValue",
-    "Glean.metricCategory.metricName.testGetValue"
+    "testGetValue"
   ],
   "toolkit/toolkit/about/aboutGlean.ftl:about-glean-adhoc-explanation2": [
-    "glean",
-    "testGetValue",
     "Glean.metricCategory.metricName.testGetValue",
-    "metric.category.metric_name"
+    "glean",
+    "metric.category.metric_name",
+    "testGetValue"
   ],
   "toolkit/toolkit/about/aboutGlean.ftl:about-glean-adhoc-note": [
     "camelCase"
@@ -2524,10 +2515,10 @@
     "profiler"
   ],
   "toolkit/toolkit/about/aboutLogging.ftl:about-logging-uploading-progress": [
-    "percent",
     "maximumSignificantDigits",
-    "style",
-    "percent"
+    "percent",
+    "percent",
+    "style"
   ],
   "toolkit/toolkit/about/aboutNetworking.ftl:about-networking-dns-lookup": [
     "lookup"
@@ -2562,37 +2553,37 @@
     "www.openh264.org"
   ],
   "toolkit/toolkit/about/aboutPlugins.ftl:plugins-openh264-name": [
-    "Codec",
-    "OpenH264",
     "Cisco",
-    "Systems",
-    "Inc"
+    "Codec",
+    "Inc",
+    "OpenH264",
+    "Systems"
   ],
   "toolkit/toolkit/about/aboutPlugins.ftl:plugins-widevine-description": [
     "www.w3.org"
   ],
   "toolkit/toolkit/about/aboutPlugins.ftl:plugins-widevine-name": [
-    "Widevine",
     "Decryption",
-    "Inc"
+    "Inc",
+    "Widevine"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-cpu": [
-    "percent",
     "maximumSignificantDigits",
-    "style",
-    "percent"
+    "percent",
+    "percent",
+    "style"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-cpu-almost-idle.title": [
-    "total",
-    "maximumFractionDigits"
+    "maximumFractionDigits",
+    "total"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-cpu-fully-idle.title": [
-    "total",
-    "maximumFractionDigits"
+    "maximumFractionDigits",
+    "total"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-cpu.title": [
-    "total",
-    "maximumFractionDigits"
+    "maximumFractionDigits",
+    "total"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-fork-server-process": [
     "Fork"
@@ -2608,8 +2599,7 @@
     "total"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-total-memory-size-changed.title": [
-    "maximumFractionDigits",
-    "total"
+    "maximumFractionDigits"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-total-memory-size-no-change": [
     "maximumFractionDigits",
@@ -2674,8 +2664,8 @@
     "Tiling"
   ],
   "toolkit/toolkit/about/aboutSupport.ftl:content-win32k-lockdown-state": [
-    "Win32k",
-    "Lockdown"
+    "Lockdown",
+    "Win32k"
   ],
   "toolkit/toolkit/about/aboutSupport.ftl:fission-status-disabled-by-default": [
     "impostaz"
@@ -2714,13 +2704,13 @@
     "System"
   ],
   "toolkit/toolkit/about/aboutSupport.ftl:off-main-thread-paint-enabled": [
-    "Off",
     "Main",
+    "Off",
     "Painting"
   ],
   "toolkit/toolkit/about/aboutSupport.ftl:off-main-thread-paint-worker-count": [
-    "Off",
     "Main",
+    "Off",
     "Painting"
   ],
   "toolkit/toolkit/about/aboutSupport.ftl:place-database-stats-size-kib": [
@@ -2797,8 +2787,8 @@
   ],
   "toolkit/toolkit/about/aboutWebauthn.ftl:about-webauthn-auth-info-max-ser-large-blob-array": [
     "array",
-    "large",
-    "blob"
+    "blob",
+    "large"
   ],
   "toolkit/toolkit/about/aboutWebauthn.ftl:about-webauthn-auth-info-vendor-prototype-config-commands": [
     "vendor"
@@ -2811,8 +2801,8 @@
     "MakeCredential"
   ],
   "toolkit/toolkit/about/aboutWebauthn.ftl:about-webauthn-auth-option-nomcgapermissionswithclientpin": [
-    "MakeCredential",
-    "GetAssertion"
+    "GetAssertion",
+    "MakeCredential"
   ],
   "toolkit/toolkit/about/aboutWebauthn.ftl:about-webauthn-auth-option-pinuvauthtoken": [
     "pinUvAuthToken"
@@ -2941,9 +2931,6 @@
   "toolkit/toolkit/firefoxlabs/features.ftl:experimental-features-js-warp.label": [
     "Warp"
   ],
-  "toolkit/toolkit/firefoxlabs/features.ftl:experimental-features-link-previews-description": [
-    "Maiusc"
-  ],
   "toolkit/toolkit/formautofill/formAutofill.ftl:autofill-card-network-amex": [
     "American",
     "Express"
@@ -2961,8 +2948,8 @@
     "MasterCard"
   ],
   "toolkit/toolkit/formautofill/formAutofill.ftl:autofill-card-network-unionpay": [
-    "Union",
-    "Pay"
+    "Pay",
+    "Union"
   ],
   "toolkit/toolkit/formautofill/formAutofill.ftl:autofill-card-network-visa": [
     "Visa"
@@ -2976,8 +2963,8 @@
     "tracker"
   ],
   "toolkit/toolkit/global/cspErrors.ftl:csp-error-illegal-host-wildcard": [
-    "wildcard",
-    ".com"
+    ".com",
+    "wildcard"
   ],
   "toolkit/toolkit/global/datetimebox.ftl:datetime-day-placeholder": [
     "gg"
@@ -2992,12 +2979,12 @@
     "SysEx"
   ],
   "toolkit/toolkit/global/mozFiveStar.ftl:moz-five-star-rating-rate-text.title": [
-    "rating",
-    "maximumFractionDigits"
+    "maximumFractionDigits",
+    "rating"
   ],
   "toolkit/toolkit/global/mozFiveStar.ftl:moz-five-star-rating.title": [
-    "rating",
-    "maximumFractionDigits"
+    "maximumFractionDigits",
+    "rating"
   ],
   "toolkit/toolkit/global/processTypes.ftl:process-type-forkserver": [
     "Fork"
@@ -3015,12 +3002,12 @@
     "caffe"
   ],
   "toolkit/toolkit/neterror/netError.ftl:certerror-coep-learn-more": [
-    "Origin",
-    "Embedder"
+    "Embedder",
+    "Origin"
   ],
   "toolkit/toolkit/neterror/netError.ftl:certerror-coop-learn-more": [
-    "Origin",
-    "Opener"
+    "Opener",
+    "Origin"
   ],
   "toolkit/toolkit/neterror/netError.ftl:neterror-unknown-socket-type-psm-installed": [
     "Personal"
@@ -3045,8 +3032,8 @@
     "baggage"
   ],
   "toolkit/toolkit/neterror/nsserrors.ftl:sec-error-cert-usages-invalid": [
-    "usages",
-    "field"
+    "field",
+    "usages"
   ],
   "toolkit/toolkit/neterror/nsserrors.ftl:sec-error-extra-input": [
     "DER-encoded"
@@ -3064,19 +3051,19 @@
     "nodelock"
   ],
   "toolkit/toolkit/neterror/nsserrors.ftl:sec-error-path-len-constraint-invalid": [
-    "path",
+    "constraint",
     "length",
-    "constraint"
+    "path"
   ],
   "toolkit/toolkit/neterror/nsserrors.ftl:ssl-error-missing-extended-master-secret": [
     "correct",
     "extended_master_secret"
   ],
   "toolkit/toolkit/neterror/nsserrors.ftl:ssl-error-next-protocol-no-callback": [
-    "next",
-    "protocol",
+    "callback",
     "negotiation",
-    "callback"
+    "next",
+    "protocol"
   ],
   "toolkit/toolkit/neterror/nsserrors.ftl:ssl-error-rx-malformed-finished": [
     "Finished"
@@ -3110,14 +3097,14 @@
     "maximumSignificantDigits"
   ],
   "toolkit/toolkit/pdfviewer/viewer.ftl:pdfjs-document-properties-size-mb": [
-    "mb",
-    "maximumSignificantDigits"
+    "maximumSignificantDigits",
+    "mb"
   ],
   "toolkit/toolkit/pdfviewer/viewer.ftl:pdfjs-editor-alt-text-dialog-description": [
     "text"
   ],
   "toolkit/toolkit/updates/backgroundupdate.ftl:backgroundupdate-task-description": [
-    "Update",
-    "BackgroundAppUpdate"
+    "BackgroundAppUpdate",
+    "Update"
   ]
 }
