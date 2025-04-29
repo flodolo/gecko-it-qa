@@ -38,8 +38,22 @@
     "Instrument",
     "Interface"
   ],
+  "browser/browser/appmenu.ftl:profiler-button-dropmarker.label": [
+    "profiler"
+  ],
+  "browser/browser/appmenu.ftl:profiler-button-dropmarker.tooltiptext": [
+    "profiler"
+  ],
   "browser/browser/appmenu.ftl:profiler-popup-presets-debug-description": [
     "Overhead"
+  ],
+  "browser/browser/appmenu.ftl:profiler-popup-presets-ml-description": [
+    "machine",
+    "learning"
+  ],
+  "browser/browser/appmenu.ftl:profiler-popup-presets-ml-label.label": [
+    "Machine",
+    "learning"
   ],
   "browser/browser/appmenu.ftl:profiler-popup-presets-power-description": [
     "overhead"
@@ -74,6 +88,9 @@
   ],
   "browser/browser/browser.ftl:quickactions-cmd-screenshot2": [
     "screenshot"
+  ],
+  "browser/browser/browser.ftl:trustpanel-cryptominer-tab-list-header": [
+    "cryptomining"
   ],
   "browser/browser/browser.ftl:urlbar-result-action-calculator-result-3": [
     "maximumFractionDigits",
@@ -335,6 +352,13 @@
   ],
   "browser/browser/screenshots.ftl:screenshots-too-large-error-title": [
     "screenshot"
+  ],
+  "browser/browser/search.ftl:add-engine-keyword-placeholder.placeholder": [
+    "mdn"
+  ],
+  "browser/browser/search.ftl:add-engine-url-placeholder.placeholder": [
+    "developer.mozilla.com",
+    "search"
   ],
   "browser/browser/speechDispatcher.ftl:speech-dispatcher-lib-missing": [
     "Dispatcher",
@@ -785,7 +809,7 @@
     "Timing"
   ],
   "devtools/client/netmonitor.properties:netmonitor.waterfall.tooltip.separator": [
-    "\\u0020-\\u0020"
+    "-\\u0020"
   ],
   "devtools/client/netmonitor.properties:netmonitor.ws.context.copyFrameAsBase64": [
     "Base64"
@@ -828,6 +852,14 @@
   ],
   "devtools/client/perftools.ftl:perftools-presets-debug-description": [
     "Overhead"
+  ],
+  "devtools/client/perftools.ftl:perftools-presets-ml-description2": [
+    "machine",
+    "learning"
+  ],
+  "devtools/client/perftools.ftl:perftools-presets-ml-label": [
+    "Machine",
+    "learning"
   ],
   "devtools/client/perftools.ftl:perftools-presets-power-description": [
     "overhead"
@@ -879,9 +911,6 @@
   ],
   "devtools/client/responsive.properties:responsive.deviceAdderSize": [
     "Dim"
-  ],
-  "devtools/client/shared.properties:dimensions": [
-    "\\u00D7"
   ],
   "devtools/client/sourceeditor.properties:indentLess.commandkey": [
     "ò"
@@ -1174,6 +1203,9 @@
   "dom/chrome/appstrings.properties:unknownSocketType": [
     "Personal"
   ],
+  "dom/chrome/dom/dom.properties:AfterScriptExecuteEventNotSupportedWarning": [
+    "afterscriptexecute"
+  ],
   "dom/chrome/dom/dom.properties:AfterScriptExecuteEventWarning": [
     "afterscriptexecute"
   ],
@@ -1197,6 +1229,9 @@
   "dom/chrome/dom/dom.properties:BadRedirectModeInterceptionWithURL": [
     "RedirectMode",
     "follow"
+  ],
+  "dom/chrome/dom/dom.properties:BeforeScriptExecuteEventNotSupportedWarning": [
+    "beforescriptexecute"
   ],
   "dom/chrome/dom/dom.properties:BeforeScriptExecuteEventWarning": [
     "beforescriptexecute"
@@ -2063,9 +2098,35 @@
     "'unsafe-eval",
     "eval"
   ],
+  "dom/chrome/security/csp.properties:CSPEventHandlerScriptViolation2": [
+    "sha256-",
+    "unsafe-hashes"
+  ],
+  "dom/chrome/security/csp.properties:CSPInlineScriptViolation2": [
+    "sha256-",
+    "nonce"
+  ],
+  "dom/chrome/security/csp.properties:CSPInlineStyleViolation2": [
+    "sha256-",
+    "unsafe-hashes",
+    "nonce"
+  ],
   "dom/chrome/security/csp.properties:CSPROEvalScriptViolation": [
     "'unsafe-eval",
     "eval"
+  ],
+  "dom/chrome/security/csp.properties:CSPROEventHandlerScriptViolation2": [
+    "sha256-",
+    "unsafe-hashes"
+  ],
+  "dom/chrome/security/csp.properties:CSPROInlineScriptViolation2": [
+    "sha256-",
+    "nonce"
+  ],
+  "dom/chrome/security/csp.properties:CSPROInlineStyleViolation2": [
+    "sha256-",
+    "unsafe-hashes",
+    "nonce"
   ],
   "dom/chrome/security/csp.properties:CSPROTrustedTypesPolicyViolation": [
     "Trusted",
@@ -2242,6 +2303,22 @@
   "dom/chrome/xslt/xslt.properties:8": [
     "NodeSet"
   ],
+  "dom/dom/xslt.ftl:xpath-bad-bang": [
+    "not"
+  ],
+  "dom/dom/xslt.ftl:xpath-no-node-type-test": [
+    "Name",
+    "Nodetype"
+  ],
+  "dom/dom/xslt.ftl:xslt-bad-node-name": [
+    "QName"
+  ],
+  "dom/dom/xslt.ftl:xslt-nodeset-expected": [
+    "NodeSet"
+  ],
+  "dom/dom/xslt.ftl:xslt-var-already-set": [
+    "template"
+  ],
   "netwerk/necko.properties:CORPBlocked": [
     "Cross-Origin-Resource-Policy"
   ],
@@ -2257,6 +2334,12 @@
     "foreign"
   ],
   "netwerk/necko.properties:CookiePathOversize": [
+    "path"
+  ],
+  "netwerk/necko.properties:CookieRejectedAttributeDomainOversize": [
+    "domain"
+  ],
+  "netwerk/necko.properties:CookieRejectedAttributePathOversize": [
     "path"
   ],
   "netwerk/necko.properties:CookieRejectedHttpOnlyButFromScript": [
@@ -2367,9 +2450,6 @@
   "toolkit/chrome/autoconfig/autoconfig.properties:autoConfigMsg": [
     "Netscape.cfg"
   ],
-  "toolkit/chrome/global-platform/mac/platformKeys.properties:VK_COMMAND_OR_WIN": [
-    "\\u2318"
-  ],
   "toolkit/chrome/global-platform/mac/platformKeys.properties:VK_WIN": [
     "win"
   ],
@@ -2424,6 +2504,13 @@
   "toolkit/toolkit/about/aboutAddons.ftl:five-star-rating.title": [
     "maximumFractionDigits",
     "rating"
+  ],
+  "toolkit/toolkit/about/aboutAddons.ftl:mlmodel-about-inference": [
+    "inference"
+  ],
+  "toolkit/toolkit/about/aboutAddons.ftl:mlmodel-addon-detail-model-card-link-label": [
+    "Hugging",
+    "Face"
   ],
   "toolkit/toolkit/about/aboutAddons.ftl:plugins-openh264-description": [
     "codec",
@@ -2490,6 +2577,14 @@
   "toolkit/toolkit/about/aboutLogging.ftl:about-logging-log-tutorial": [
     "Logging"
   ],
+  "toolkit/toolkit/about/aboutLogging.ftl:about-logging-preset-ml-description": [
+    "machine",
+    "learning"
+  ],
+  "toolkit/toolkit/about/aboutLogging.ftl:about-logging-preset-ml-label": [
+    "Machine",
+    "learning"
+  ],
   "toolkit/toolkit/about/aboutLogging.ftl:about-logging-preset-networking-websocket-description": [
     "WebSocket"
   ],
@@ -2519,6 +2614,9 @@
     "percent",
     "percent",
     "style"
+  ],
+  "toolkit/toolkit/about/aboutNetworking.ftl:about-networking-dns-https-rrs-lookup-table-column": [
+    "RRs"
   ],
   "toolkit/toolkit/about/aboutNetworking.ftl:about-networking-dns-lookup": [
     "lookup"
