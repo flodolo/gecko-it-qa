@@ -20,10 +20,10 @@ Traceback (most recent call last):
 ImportError: dlopen(.venv/lib/python3.12/site-packages/hunspell/hunspell.cpython-312-darwin.so, 0x0002): symbol not found in flat namespace '__ZN8Hunspell14add_with_affixERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_'
 ````
 
-First, you need to install Hunspell and `jq` via `brew`:
+First, you need to install Hunspell and other commands via `brew`:
 
 ```
-brew install hunspell jq
+brew install hunspell jq autoconf automake libtool
 ```
 
 Then you will need to manually activate the virtualenv in `.venv` and run these commands to install `chunspell` from the repository (note that the version of Hunspell might change, these commands work for `1.7.2`):
