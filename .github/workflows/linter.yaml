@@ -22,12 +22,12 @@ jobs:
         with:
           python-version: '3.12'
       - name: Set up uv
-        uses: astral-sh/setup-uv@v2
+        uses: astral-sh/setup-uv@v6
         with:
           enable-cache: true
-          version: "0.4.15"
+          version: "0.8.11"
       - name: Clone it folder from firefox-l10n
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: mozilla-l10n/firefox-l10n
           path: l10n
