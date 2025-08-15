@@ -159,6 +159,10 @@
     "Innovation",
     "llamafile"
   ],
+  "browser/browser/newtab/asrouter.ftl:windows-10-eos-challenger-callout-title": [
+    "Big",
+    "Tech"
+  ],
   "browser/browser/newtab/newtab.ftl:newtab-label-source-read-time": [
     "min"
   ],
