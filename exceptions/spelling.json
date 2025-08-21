@@ -77,9 +77,6 @@
     "devtools",
     "inspector"
   ],
-  "browser/browser/browser.ftl:quickactions-cmd-savepdf": [
-    "pdf"
-  ],
   "browser/browser/browser.ftl:quickactions-cmd-savepdf2": [
     "pdf"
   ],
@@ -106,6 +103,12 @@
   ],
   "browser/browser/browserSets.ftl:nav-fwd-shortcut-alt.key": [
     "ù"
+  ],
+  "browser/browser/featureCallout.ftl:taskbar-tabs-chat-callout-title": [
+    "Chatta"
+  ],
+  "browser/browser/featureCallout.ftl:taskbar-tabs-email-callout-subtitle": [
+    "webmail"
   ],
   "browser/browser/genai.ftl:genai-onboarding-chatgpt-learn": [
     "ChatGPT"
@@ -311,11 +314,11 @@
     "Not",
     "Track"
   ],
-  "browser/browser/preferences/preferences.ftl:do-not-track-description2.label": [
+  "browser/browser/preferences/preferences.ftl:do-not-track-removal": [
     "Not",
     "Track"
   ],
-  "browser/browser/preferences/preferences.ftl:do-not-track-removal": [
+  "browser/browser/preferences/preferences.ftl:do-not-track-removal2.label": [
     "Not",
     "Track"
   ],
@@ -714,10 +717,6 @@
   "devtools/client/debugger.properties:traceInStdout": [
     "stdout"
   ],
-  "devtools/client/debugger.properties:traceOnNextInteraction": [
-    "keydown",
-    "mousedown"
-  ],
   "devtools/client/debugger.properties:tracer.header": [
     "Tracer"
   ],
@@ -1018,9 +1017,15 @@
   "devtools/client/tooltips.ftl:inactive-css-not-block": [
     "block-level"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-not-block-container-fix": [
+    "flow-root"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-not-block-fix": [
     "float",
     "left"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-not-block-flex-grid-container-fix": [
+    "flow-root"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-display-block-on-floated": [
     "floated"
@@ -1728,9 +1733,6 @@
   ],
   "dom/chrome/dom/dom.properties:SetHTMLScript": [
     "setHTML"
-  ],
-  "dom/chrome/dom/dom.properties:SizeToContentWarning": [
-    "sizeToContent"
   ],
   "dom/chrome/dom/dom.properties:SpeculationFailed2": [
     "Glossary",
@@ -2502,9 +2504,6 @@
   "toolkit/crashreporter/aboutcrashes.ftl:no-config-label": [
     "breakpad.reportURL"
   ],
-  "toolkit/crashreporter/crashreporter.ftl:crashreporter-error-minidump-analyzer": [
-    "minidump-analyzer"
-  ],
   "toolkit/toolkit/about/aboutAddons.ftl:five-star-rating.title": [
     "maximumFractionDigits",
     "rating"
@@ -2571,6 +2570,9 @@
     "event",
     "events",
     "metrics"
+  ],
+  "toolkit/toolkit/about/aboutGlean.ftl:about-glean-labeled-metric-warning": [
+    "glean"
   ],
   "toolkit/toolkit/about/aboutGlean.ftl:about-glean-local-port": [
     "telemetry.fog.test.localhost_port"
@@ -3032,6 +3034,10 @@
   ],
   "toolkit/toolkit/firefoxlabs/features.ftl:experimental-features-js-warp.label": [
     "Warp"
+  ],
+  "toolkit/toolkit/firefoxlabs/features.ftl:experimental-features-semantic-history-search-description": [
+    "Machine",
+    "Learning"
   ],
   "toolkit/toolkit/formautofill/formAutofill.ftl:autofill-card-network-amex": [
     "American",
