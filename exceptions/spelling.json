@@ -2279,6 +2279,10 @@
   "dom/chrome/security/security.properties:RunningClearSiteDataValue": [
     "Clear-Site-Data"
   ],
+  "dom/chrome/security/security.properties:SanitizerAllowElementIgnroed": [
+    "allowElement",
+    "removeElements"
+  ],
   "dom/chrome/security/security.properties:SanitizerRcvdNoInput": [
     "DocumentFragment"
   ],
