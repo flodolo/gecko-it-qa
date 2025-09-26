@@ -1,5 +1,10 @@
 #!/usr/bin/python3
 
+from moz.l10n.formats import Format
+from moz.l10n.message import serialize_message
+from moz.l10n.model import Entry, Message, Resource
+from moz.l10n.resource import parse_resource
+
 import argparse
 import configparser
 import os
@@ -11,14 +16,6 @@ from hunspell import Hunspell
 import nltk
 import string
 
-# Import libraries
-try:
-    from compare_locales import parser
-except ImportError as e:
-    print("FATAL: make sure that dependencies are installed")
-    print(e)
-    sys.exit(1)
-
 
 class MLStripper(HTMLParser):
     def __init__(self):
@@ -28,8 +25,8 @@ class MLStripper(HTMLParser):
         self.convert_charrefs = True
         self.fed = []
 
-    def handle_data(self, d):
-        self.fed.append(d)
+    def handle_data(self, data):
+        self.fed.append(data)
 
     def get_data(self):
         return " ".join(self.fed)
@@ -71,6 +68,44 @@ class CheckStrings:
         self.checkSpelling()
         self.printOutput()
 
+    def parse_file(
+        self,
+        resource: Resource,
+        storage: dict[str, str],
+        filename: str,
+        id_format: str,
+    ) -> None:
+        def get_entry_value(value: Message) -> str:
+            entry_value = serialize_message(resource.format, value)
+            if resource.format == Format.android:
+                # In Android resources, unescape quotes
+                entry_value = entry_value.replace('\\"', '"').replace("\\'", "'")
+
+            return entry_value
+
+        try:
+            for section in resource.sections:
+                for entry in section.entries:
+                    if isinstance(entry, Entry):
+                        if resource.format == Format.ini:
+                            entry_id = ".".join(entry.id)
+                        else:
+                            entry_id = ".".join(section.id + entry.id)
+                        string_id = f"{id_format}:{entry_id}"
+                        if entry.properties:
+                            # Store the value of an entry with attributes only
+                            # if the value is not empty.
+                            if not entry.value.is_empty():
+                                storage[string_id] = get_entry_value(entry.value)
+                            for attribute, attr_value in entry.properties.items():
+                                attr_id = f"{string_id}.{attribute}"
+                                storage[attr_id] = get_entry_value(attr_value)
+                        else:
+                            storage[string_id] = get_entry_value(entry.value)
+        except Exception as e:
+            print(f"Error parsing file: {filename}")
+            print(e)
+
     def extractStrings(self):
         """Extract strings in files"""
 
@@ -78,33 +113,14 @@ class CheckStrings:
         self.extractFileList()
 
         for file_path in self.file_list:
-            file_extension = os.path.splitext(file_path)[1]
             file_name = self.getRelativePath(file_path)
-
             if file_name.endswith("region.properties"):
                 continue
-
-            file_parser = parser.getParser(file_extension)
-            file_parser.readFile(file_path)
             try:
-                entities = file_parser.parse()
-                for entity in entities:
-                    # Ignore Junk
-                    if isinstance(entity, parser.Junk):
-                        continue
-
-                    string_id = f"{file_name}:{entity}"
-                    if file_extension == ".ftl":
-                        if entity.raw_val != "":
-                            self.strings[string_id] = entity.raw_val
-                        # Store attributes
-                        for attribute in entity.attributes:
-                            attr_string_id = f"{file_name}:{entity}.{attribute}"
-                            self.strings[attr_string_id] = attribute.raw_val
-                    else:
-                        self.strings[string_id] = entity.raw_val
+                resource = parse_resource(file_path)
+                self.parse_file(resource, self.strings, file_name, f"{file_name}")
             except Exception as e:
-                print(f"Error parsing file: {file_path}")
+                print(f"Error parsing resource: {file_name}")
                 print(e)
 
     def extractFileList(self):
@@ -305,7 +321,7 @@ class CheckStrings:
             if extension in placeables:
                 try:
                     # Check placeables line by line
-                    lines = cleaned_message.splitlines()
+                    lines = str(cleaned_message).splitlines()
                     for i in range(len(lines)):
                         for pattern in placeables[extension]:
                             lines[i] = pattern.sub(" ", lines[i])
@@ -388,7 +404,6 @@ class CheckStrings:
 
         # Remove things that are not errors from the list of exceptions.
         for message_id in list(exceptions.keys()):
-
             if message_id not in self.strings:
                 # String does not exist anymore
                 del exceptions[message_id]
@@ -418,9 +433,11 @@ class CheckStrings:
         # Display misspelled words and their count, if above 4
         threshold = 4
         above_threshold = []
-        for k in sorted(misspelled_words, key=misspelled_words.get, reverse=True):
-            if misspelled_words[k] >= threshold:
-                above_threshold.append(f"{k}: {misspelled_words[k]}")
+        for k, v in sorted(
+            misspelled_words.items(), key=lambda item: item[1], reverse=True
+        ):
+            if v >= threshold:
+                above_threshold.append(f"{k}: {v}")
         if above_threshold:
             print(f"Errors and number of occurrences (only above {threshold}):")
             print("\n".join(above_threshold))
