@@ -33,7 +33,7 @@ class MLStripper(HTMLParser):
 
 
 class CheckStrings:
-    def __init__(self, script_path, repository_path, verbose):
+    def __init__(self, script_path, repository_path, args):
         """Initialize object"""
 
         # Set defaults
@@ -45,8 +45,13 @@ class CheckStrings:
             ".properties",
         ]
         self.file_list = []
-        self.verbose = verbose
+        self.verbose = args.verbose
+        self.write_errors = args.errors
         self.strings = {}
+        self.errors = {
+            "quotes": [],
+            "spelling": {},
+        }
         self.script_path = script_path
         self.exceptions_path = os.path.join(script_path, os.path.pardir, "exceptions")
         self.errors_path = os.path.join(script_path, os.path.pardir, "errors")
@@ -203,10 +208,14 @@ class CheckStrings:
                 if self.verbose:
                     print(f"{message_id}: wrong quotes\n{message}")
 
-        with open(
-            os.path.join(self.errors_path, "quotes.json"), "w", encoding="utf8"
-        ) as f:
-            json.dump(all_errors, f, indent=2, sort_keys=True, ensure_ascii=False)
+        if self.write_errors:
+            with open(
+                os.path.join(self.errors_path, "quotes.json"), "w", encoding="utf8"
+            ) as f:
+                json.dump(all_errors, f, indent=2, sort_keys=True, ensure_ascii=False)
+
+        # Add new errors
+        matched_exceptions.extend(all_errors)
 
         if matched_exceptions != exceptions:
             with open(exceptions_filename, "w") as f:
@@ -214,7 +223,7 @@ class CheckStrings:
                     matched_exceptions, f, indent=2, sort_keys=True, ensure_ascii=False
                 )
 
-        self.quote_errors = all_errors
+        self.errors["quotes"] = all_errors
 
     def excludeToken(self, token):
         """Exclude specific tokens after spellcheck"""
@@ -397,10 +406,11 @@ class CheckStrings:
                         print(nltk.word_tokenize(cleaned_message))
                 all_errors[message_id] = errors
 
-        with open(
-            os.path.join(self.errors_path, "spelling.json"), "w", encoding="utf8"
-        ) as f:
-            json.dump(all_errors, f, indent=2, sort_keys=True, ensure_ascii=False)
+        if self.write_errors:
+            with open(
+                os.path.join(self.errors_path, "spelling.json"), "w", encoding="utf8"
+            ) as f:
+                json.dump(all_errors, f, indent=2, sort_keys=True, ensure_ascii=False)
 
         # Remove things that are not errors from the list of exceptions.
         for message_id in list(exceptions.keys()):
@@ -422,6 +432,8 @@ class CheckStrings:
                 # Assume the tokens in exceptions need to be updated
                 exceptions[message_id] = all_errors[message_id]
 
+        # Add new errors to exceptions
+        exceptions.update(all_errors)
         # Write back updated exceptions file
         with open(exceptions_filename, "w", encoding="utf8") as f:
             json.dump(exceptions, f, indent=2, sort_keys=True, ensure_ascii=False)
@@ -442,17 +454,16 @@ class CheckStrings:
             print(f"Errors and number of occurrences (only above {threshold}):")
             print("\n".join(above_threshold))
 
-        self.spelling_errors = total_errors
+        self.errors["spelling"] = all_errors
 
     def printOutput(self):
-        if self.spelling_errors or self.quote_errors:
-            for type in ["quotes", "spelling"]:
-                filename = os.path.join(self.errors_path, f"{type}.json")
-                with open(filename, "r") as f:
-                    json_data = json.load(f)
-                    if json_data:
-                        print(f"Errors for {type}:")
-                        print(json.dumps(json_data, indent=2))
+        errors_found = False
+        for type in ["quotes", "spelling"]:
+            if self.errors[type]:
+                errors_found = True
+                print(f"Errors for {type}:")
+                print(json.dumps(self.errors[type], indent=2))
+        if errors_found:
             sys.exit(1)
         else:
             print("No errors found.")
@@ -472,11 +483,16 @@ def main():
 
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--verbose", action="store_true", help="Verbose output (e.g. tokens"
+        "--verbose", action="store_true", help="Verbose output (e.g. tokens)"
+    )
+    parser.add_argument(
+        "--errors",
+        action="store_true",
+        help="Write errors to separate files in /errors",
     )
     args = parser.parse_args()
 
-    CheckStrings(script_path, repo_path, args.verbose)
+    CheckStrings(script_path, repo_path, args)
 
 
 if __name__ == "__main__":
