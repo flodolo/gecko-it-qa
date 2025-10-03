@@ -1361,6 +1361,9 @@
     "submit",
     "trusted"
   ],
+  "dom/chrome/dom/dom.properties:FullscreenAttributeWarning": [
+    "window.fullScreen"
+  ],
   "dom/chrome/dom/dom.properties:FullscreenDeniedContainerNotAllowed": [
     "allowfullscreen"
   ],
