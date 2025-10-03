@@ -1,20 +1,22 @@
 #!/usr/bin/python3
 
+import argparse
+import configparser
+import json
+import os
+import re
+import string
+import sys
+
+from html.parser import HTMLParser
+
+import nltk
+
+from hunspell import Hunspell
 from moz.l10n.formats import Format
 from moz.l10n.message import serialize_message
 from moz.l10n.model import Entry, Message, Resource
 from moz.l10n.resource import parse_resource
-
-import argparse
-import configparser
-import os
-import json
-import re
-import sys
-from html.parser import HTMLParser
-from hunspell import Hunspell
-import nltk
-import string
 
 
 class MLStripper(HTMLParser):

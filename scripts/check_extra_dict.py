@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 
-from hunspell import Hunspell
 import os
+
+from hunspell import Hunspell
 
 
 def main():
