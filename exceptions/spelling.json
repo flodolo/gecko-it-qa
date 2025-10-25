@@ -962,6 +962,12 @@
   "devtools/client/toolbox-options.ftl:options-inspector-simplified-highlighters-tooltip.title": [
     "prefers-reduced-motion"
   ],
+  "devtools/client/toolbox-options.ftl:options-show-user-agent-shadow-dom-label": [
+    "shadow"
+  ],
+  "devtools/client/toolbox-options.ftl:options-show-user-agent-shadow-dom-tooltip.title": [
+    "Shadow"
+  ],
   "devtools/client/toolbox.ftl:toolbox-meatball-menu-pseudo-locale-accented": [
     "accented"
   ],
