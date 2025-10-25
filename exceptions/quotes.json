@@ -27,6 +27,7 @@
   "browser/installer/override.properties:Rename",
   "browser/installer/override.properties:Skipped",
   "dom/chrome/dom/dom.properties:ExecCommandCutCopyDeniedNotInputDriven",
+  "dom/chrome/dom/dom.properties:ExecCommandPasteDeniedNotInputDriven",
   "dom/chrome/dom/dom.properties:MathML_DeprecatedMathVariantWarning",
   "dom/chrome/security/csp.properties:CSPEvalScriptViolation",
   "dom/chrome/security/csp.properties:CSPROEvalScriptViolation",

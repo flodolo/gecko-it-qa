@@ -257,19 +257,16 @@
     "Oblast"
   ],
   "browser/browser/preferences/formAutofill.ftl:autofill-address-parish": [
-    "Parish"
-  ],
-  "browser/browser/preferences/formAutofill.ftl:autofill-address-pin": [
-    "Pin"
+    "parish"
   ],
   "browser/browser/preferences/formAutofill.ftl:autofill-address-post-town": [
     "town"
   ],
   "browser/browser/preferences/formAutofill.ftl:autofill-address-suburb": [
-    "Suburb"
+    "suburb"
   ],
   "browser/browser/preferences/formAutofill.ftl:autofill-address-townland": [
-    "Townland"
+    "townland"
   ],
   "browser/browser/preferences/formAutofill.ftl:autofill-address-village-township": [
     "township"
@@ -339,8 +336,14 @@
   "browser/browser/preferences/preferences.ftl:permissions-block-popups-exceptions-button.searchkeywords": [
     "popup"
   ],
+  "browser/browser/preferences/preferences.ftl:permissions-block-popups-exceptions-button2.searchkeywords": [
+    "popup"
+  ],
   "browser/browser/profile/default-bookmarks.ftl:default-bookmarks-planet": [
     "Planet"
+  ],
+  "browser/browser/safebrowsing/blockedSite.ftl:safeb-blocked-addon-page-error-desc4-override": [
+    "addons"
   ],
   "browser/browser/safebrowsing/blockedSite.ftl:safeb-blocked-phishing-page-learn-more": [
     "www.antiphishing.org"
@@ -962,6 +965,12 @@
   "devtools/client/toolbox-options.ftl:options-inspector-simplified-highlighters-tooltip.title": [
     "prefers-reduced-motion"
   ],
+  "devtools/client/toolbox-options.ftl:options-show-user-agent-shadow-dom-label": [
+    "shadow"
+  ],
+  "devtools/client/toolbox-options.ftl:options-show-user-agent-shadow-dom-tooltip.title": [
+    "Shadow"
+  ],
   "devtools/client/toolbox.ftl:toolbox-meatball-menu-pseudo-locale-accented": [
     "accented"
   ],
@@ -977,8 +986,14 @@
   "devtools/client/toolbox.properties:toolbox.parentProcessBrowserToolboxTitle": [
     "parent"
   ],
+  "devtools/client/tooltips.ftl:css-selector-warning-sibling-combinator-after-scope": [
+    "sibling"
+  ],
   "devtools/client/tooltips.ftl:css-selector-warning-unconstrained-has": [
     "has"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-at-position-try-not-supported": [
+    "position-try"
   ],
   "devtools/client/tooltips.ftl:inactive-css-border-image": [
     "border-collapse",
@@ -1057,8 +1072,16 @@
     "table-row",
     "table-row-group"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-not-grid-or-absolutely-positioned-item-fix": [
+    "position",
+    "absolute"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-not-grid-or-flex-container-or-multicol-container-fix": [
     "columns:2"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-not-grid-or-flex-or-absolutely-positioned-item-fix": [
+    "position",
+    "absolute"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-inline-or-tablecell": [
     "table-cell"
@@ -1255,6 +1278,10 @@
   "dom/chrome/dom/dom.properties:BlockAutoplayWebAudioStartError": [
     "AudioContext"
   ],
+  "dom/chrome/dom/dom.properties:CKEditor4CompatHackWarning": [
+    "timing",
+    "CKEditor"
+  ],
   "dom/chrome/dom/dom.properties:ComponentsWarning": [
     "Components"
   ],
@@ -1351,6 +1378,10 @@
     "'cut",
     "document.execCommand"
   ],
+  "dom/chrome/dom/dom.properties:ExecCommandPasteDeniedNotInputDriven": [
+    "document.execCommand",
+    "'paste"
+  ],
   "dom/chrome/dom/dom.properties:External_AddSearchProviderWarning": [
     "AddSearchProvider"
   ],
@@ -1378,6 +1409,9 @@
   ],
   "dom/chrome/dom/dom.properties:FullscreenDeniedNotInputDriven": [
     "Element.requestFullscreen"
+  ],
+  "dom/chrome/dom/dom.properties:FullscreenDeniedPiP": [
+    "Document"
   ],
   "dom/chrome/dom/dom.properties:FullscreenDeniedPopoverOpen": [
     "popover"
@@ -1484,6 +1518,17 @@
   "dom/chrome/dom/dom.properties:MathML_DeprecatedMathVariantWarning": [
     "mathvariant"
   ],
+  "dom/chrome/dom/dom.properties:MathML_DeprecatedMoExplicitAccentWarning": [
+    "accent"
+  ],
+  "dom/chrome/dom/dom.properties:MathML_DeprecatedMoverNonExplicitAccentWarning": [
+    "accent",
+    "accent"
+  ],
+  "dom/chrome/dom/dom.properties:MathML_DeprecatedMunderNonExplicitAccentunderWarning": [
+    "accentunder",
+    "accentunder"
+  ],
   "dom/chrome/dom/dom.properties:MathML_DeprecatedScriptminsizeAttributeWarning": [
     "scriptminsize"
   ],
@@ -1568,6 +1613,22 @@
   ],
   "dom/chrome/dom/dom.properties:MozfullscreenerrorDeprecatedPrefixWarning": [
     "onmozfullscreenerror"
+  ],
+  "dom/chrome/dom/dom.properties:MozlockorientationDeprecatedWarning": [
+    "mozLockOrientation",
+    "orientation.lock"
+  ],
+  "dom/chrome/dom/dom.properties:MozorientationDeprecatedWarning": [
+    "mozOrientation",
+    "orientation.type"
+  ],
+  "dom/chrome/dom/dom.properties:MozorientationchangeDeprecatedWarning": [
+    "onmozorientationchange",
+    "orientation.onchange"
+  ],
+  "dom/chrome/dom/dom.properties:MozunlockorientationDeprecatedWarning": [
+    "mozUnlockOrientation",
+    "orientation.unlock"
   ],
   "dom/chrome/dom/dom.properties:MutationEventWarning": [
     "Events",
@@ -1785,6 +1846,12 @@
   "dom/chrome/dom/dom.properties:Window_Cc_ontrollersWarning": [
     "Controllers",
     "window.controllers"
+  ],
+  "dom/chrome/dom/dom.properties:XSLTDeprecatedWarning": [
+    "github.com",
+    "mozilla",
+    "standards-positions",
+    "issues"
   ],
   "dom/chrome/layout/HtmlForm.properties:CannotEncodeAllUnicode": [
     "accept-charset",
@@ -2288,6 +2355,13 @@
     "removeAttributes",
     "removeElements"
   ],
+  "dom/chrome/security/security.properties:SanitizerAllowElementIgnored2": [
+    "Sanitizer",
+    "allowElement",
+    "attributes",
+    "removeAttributes",
+    "removeElements"
+  ],
   "dom/chrome/security/security.properties:SanitizerRcvdNoInput": [
     "DocumentFragment"
   ],
@@ -2575,6 +2649,10 @@
   "toolkit/toolkit/about/aboutGlean.ftl:about-glean-data-upload": [
     "datareporting.healthreport.uploadEnabled"
   ],
+  "toolkit/toolkit/about/aboutGlean.ftl:about-glean-dual-labeled-metric-warning": [
+    "DualLabeledCounter",
+    "glean"
+  ],
   "toolkit/toolkit/about/aboutGlean.ftl:about-glean-label-for-ping-names": [
     "event",
     "events",
@@ -2825,6 +2903,13 @@
     "Main",
     "Off",
     "Painting"
+  ],
+  "toolkit/toolkit/about/aboutSupport.ftl:place-database-last-idle-maintenance-data": [
+    "Idle",
+    "Maintenance"
+  ],
+  "toolkit/toolkit/about/aboutSupport.ftl:place-database-last-vacuum-date": [
+    "Vacuum"
   ],
   "toolkit/toolkit/about/aboutSupport.ftl:place-database-stats-size-kib": [
     "KiB"
