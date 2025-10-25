@@ -339,6 +339,9 @@
   "browser/browser/preferences/preferences.ftl:permissions-block-popups-exceptions-button.searchkeywords": [
     "popup"
   ],
+  "browser/browser/preferences/preferences.ftl:permissions-block-popups-exceptions-button2.searchkeywords": [
+    "popup"
+  ],
   "browser/browser/profile/default-bookmarks.ftl:default-bookmarks-planet": [
     "Planet"
   ],
@@ -962,6 +965,12 @@
   "devtools/client/toolbox-options.ftl:options-inspector-simplified-highlighters-tooltip.title": [
     "prefers-reduced-motion"
   ],
+  "devtools/client/toolbox-options.ftl:options-show-user-agent-shadow-dom-label": [
+    "shadow"
+  ],
+  "devtools/client/toolbox-options.ftl:options-show-user-agent-shadow-dom-tooltip.title": [
+    "Shadow"
+  ],
   "devtools/client/toolbox.ftl:toolbox-meatball-menu-pseudo-locale-accented": [
     "accented"
   ],
@@ -1484,6 +1493,17 @@
   "dom/chrome/dom/dom.properties:MathML_DeprecatedMathVariantWarning": [
     "mathvariant"
   ],
+  "dom/chrome/dom/dom.properties:MathML_DeprecatedMoExplicitAccentWarning": [
+    "accent"
+  ],
+  "dom/chrome/dom/dom.properties:MathML_DeprecatedMoverNonExplicitAccentWarning": [
+    "accent",
+    "accent"
+  ],
+  "dom/chrome/dom/dom.properties:MathML_DeprecatedMunderNonExplicitAccentunderWarning": [
+    "accentunder",
+    "accentunder"
+  ],
   "dom/chrome/dom/dom.properties:MathML_DeprecatedScriptminsizeAttributeWarning": [
     "scriptminsize"
   ],
@@ -1785,6 +1805,12 @@
   "dom/chrome/dom/dom.properties:Window_Cc_ontrollersWarning": [
     "Controllers",
     "window.controllers"
+  ],
+  "dom/chrome/dom/dom.properties:XSLTDeprecatedWarning": [
+    "github.com",
+    "mozilla",
+    "standards-positions",
+    "issues"
   ],
   "dom/chrome/layout/HtmlForm.properties:CannotEncodeAllUnicode": [
     "accept-charset",
@@ -2574,6 +2600,10 @@
   ],
   "toolkit/toolkit/about/aboutGlean.ftl:about-glean-data-upload": [
     "datareporting.healthreport.uploadEnabled"
+  ],
+  "toolkit/toolkit/about/aboutGlean.ftl:about-glean-dual-labeled-metric-warning": [
+    "DualLabeledCounter",
+    "glean"
   ],
   "toolkit/toolkit/about/aboutGlean.ftl:about-glean-label-for-ping-names": [
     "event",
