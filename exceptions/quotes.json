@@ -1,6 +1,9 @@
 [
   "browser/browser/aboutUnloads.ftl:about-unloads-last-updated",
   "browser/browser/aboutUnloads.ftl:about-unloads-last-accessed",
+  "browser/browser/enterprise/felt.ftl:felt-error-contact-admin",
+  "browser/browser/enterprise/felt.ftl:felt-error-unsupported-system-contact-admin",
+  "browser/browser/enterprise/felt.ftl:felt-error-checking-failed-contact-admin",
   "browser/installer/override.properties:SpaceAvailable",
   "browser/installer/override.properties:SpaceRequired",
   "browser/installer/override.properties:CantWrite",
