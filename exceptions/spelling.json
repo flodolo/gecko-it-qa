@@ -582,10 +582,16 @@
   "browser/installer/nsisstrings.properties:ERROR_DOWNLOAD_CONT": [
     "BrandShortName"
   ],
+  "browser/installer/nsisstrings.properties:ERROR_DOWNLOAD_CONT2": [
+    "BrandShortName"
+  ],
   "browser/installer/nsisstrings.properties:INSTALLER_WIN_CAPTION": [
     "BrandShortName"
   ],
   "browser/installer/nsisstrings.properties:STUB_BLURB_FIRST1": [
+    "BrandShortName"
+  ],
+  "browser/installer/nsisstrings.properties:STUB_BLURB_THIRD2_DEVEDITION": [
     "BrandShortName"
   ],
   "browser/installer/nsisstrings.properties:STUB_CANCEL_PROMPT_BUTTON_CONTINUE": [
@@ -600,19 +606,37 @@
   "browser/installer/nsisstrings.properties:STUB_CLEANUP_PAVEOVER_HEADER2": [
     "BrandShortName"
   ],
+  "browser/installer/nsisstrings.properties:STUB_CLEANUP_PAVEOVER_HEADER3": [
+    "BrandShortName"
+  ],
   "browser/installer/nsisstrings.properties:STUB_CLEANUP_REINSTALL_HEADER2": [
+    "BrandShortName"
+  ],
+  "browser/installer/nsisstrings.properties:STUB_CLEANUP_REINSTALL_HEADER3": [
     "BrandShortName"
   ],
   "browser/installer/nsisstrings.properties:STUB_INSTALLING_BODY2": [
     "BrandShortName"
   ],
+  "browser/installer/nsisstrings.properties:WARN_DISK_SPACE_QUIT2": [
+    "BrandShortName"
+  ],
   "browser/installer/nsisstrings.properties:WARN_MIN_SUPPORTED_CPU_MSG": [
+    "BrandShortName"
+  ],
+  "browser/installer/nsisstrings.properties:WARN_MIN_SUPPORTED_CPU_MSG2": [
     "BrandShortName"
   ],
   "browser/installer/nsisstrings.properties:WARN_MIN_SUPPORTED_OSVER_CPU_MSG": [
     "BrandShortName"
   ],
+  "browser/installer/nsisstrings.properties:WARN_MIN_SUPPORTED_OSVER_CPU_MSG2": [
+    "BrandShortName"
+  ],
   "browser/installer/nsisstrings.properties:WARN_MIN_SUPPORTED_OSVER_MSG": [
+    "BrandShortName"
+  ],
+  "browser/installer/nsisstrings.properties:WARN_MIN_SUPPORTED_OSVER_MSG2": [
     "BrandShortName"
   ],
   "browser/updater/updater.ini:MozillaMaintenanceDescription": [
@@ -2801,6 +2825,10 @@
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-utility-actor-mf-media-engine": [
     "Engine"
+  ],
+  "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-utility-actor-pkcs11-module": [
+    "Module",
+    "Helper"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-web-serviceworker": [
     "serviceworker"
