@@ -300,6 +300,9 @@
   "browser/browser/preferences/formAutofill.ftl:autofill-card-network-visa": [
     "Visa"
   ],
+  "browser/browser/preferences/formAutofill.ftl:autofill-card-search-term-credit-cards": [
+    "checkout"
+  ],
   "browser/browser/preferences/preferences.ftl:content-blocking-fpi-incompatibility-warning": [
     "First",
     "Isolation"
@@ -323,6 +326,10 @@
     "Digital",
     "Rights"
   ],
+  "browser/browser/preferences/preferences.ftl:drm-group.label": [
+    "Digital",
+    "Rights"
+  ],
   "browser/browser/preferences/preferences.ftl:forms-windows-sso.label": [
     "sign-on"
   ],
@@ -333,11 +340,24 @@
   "browser/browser/preferences/preferences.ftl:home-prefs-snippets-header.label": [
     "Snippet"
   ],
+  "browser/browser/preferences/preferences.ftl:is-not-default-browser-2.message": [
+    "Psst"
+  ],
   "browser/browser/preferences/preferences.ftl:permissions-block-popups-exceptions-button.searchkeywords": [
     "popup"
   ],
   "browser/browser/preferences/preferences.ftl:permissions-block-popups-exceptions-button2.searchkeywords": [
     "popup"
+  ],
+  "browser/browser/preferences/preferences.ftl:preferences-ai-controls-block-ai-description": [
+    "machine",
+    "learning"
+  ],
+  "browser/browser/preferences/preferences.ftl:preferences-ai-controls-sidebar-chatbot-group.description": [
+    "Anthropic",
+    "Claude",
+    "ChatGPT",
+    "Copilot"
   ],
   "browser/browser/profile/default-bookmarks.ftl:default-bookmarks-planet": [
     "Planet"
@@ -389,6 +409,12 @@
   "browser/browser/speechDispatcher.ftl:speech-dispatcher-open-fail": [
     "Dispatcher",
     "Speech"
+  ],
+  "browser/browser/tabbrowser.ftl:tab-note-editor-character-limit": [
+    "totalCharacters",
+    "useGrouping",
+    "maxAllowedCharacters",
+    "useGrouping"
   ],
   "browser/chrome/browser/browser.properties:decoder.noCodecsLinux.message": [
     "codec"
@@ -582,10 +608,16 @@
   "browser/installer/nsisstrings.properties:ERROR_DOWNLOAD_CONT": [
     "BrandShortName"
   ],
+  "browser/installer/nsisstrings.properties:ERROR_DOWNLOAD_CONT2": [
+    "BrandShortName"
+  ],
   "browser/installer/nsisstrings.properties:INSTALLER_WIN_CAPTION": [
     "BrandShortName"
   ],
   "browser/installer/nsisstrings.properties:STUB_BLURB_FIRST1": [
+    "BrandShortName"
+  ],
+  "browser/installer/nsisstrings.properties:STUB_BLURB_THIRD2_DEVEDITION": [
     "BrandShortName"
   ],
   "browser/installer/nsisstrings.properties:STUB_CANCEL_PROMPT_BUTTON_CONTINUE": [
@@ -600,19 +632,37 @@
   "browser/installer/nsisstrings.properties:STUB_CLEANUP_PAVEOVER_HEADER2": [
     "BrandShortName"
   ],
+  "browser/installer/nsisstrings.properties:STUB_CLEANUP_PAVEOVER_HEADER3": [
+    "BrandShortName"
+  ],
   "browser/installer/nsisstrings.properties:STUB_CLEANUP_REINSTALL_HEADER2": [
+    "BrandShortName"
+  ],
+  "browser/installer/nsisstrings.properties:STUB_CLEANUP_REINSTALL_HEADER3": [
     "BrandShortName"
   ],
   "browser/installer/nsisstrings.properties:STUB_INSTALLING_BODY2": [
     "BrandShortName"
   ],
+  "browser/installer/nsisstrings.properties:WARN_DISK_SPACE_QUIT2": [
+    "BrandShortName"
+  ],
   "browser/installer/nsisstrings.properties:WARN_MIN_SUPPORTED_CPU_MSG": [
+    "BrandShortName"
+  ],
+  "browser/installer/nsisstrings.properties:WARN_MIN_SUPPORTED_CPU_MSG2": [
     "BrandShortName"
   ],
   "browser/installer/nsisstrings.properties:WARN_MIN_SUPPORTED_OSVER_CPU_MSG": [
     "BrandShortName"
   ],
+  "browser/installer/nsisstrings.properties:WARN_MIN_SUPPORTED_OSVER_CPU_MSG2": [
+    "BrandShortName"
+  ],
   "browser/installer/nsisstrings.properties:WARN_MIN_SUPPORTED_OSVER_MSG": [
+    "BrandShortName"
+  ],
+  "browser/installer/nsisstrings.properties:WARN_MIN_SUPPORTED_OSVER_MSG2": [
     "BrandShortName"
   ],
   "browser/updater/updater.ini:MozillaMaintenanceDescription": [
@@ -1600,6 +1650,14 @@
   "dom/chrome/dom/dom.properties:MouseEvent_MozPressureWarning": [
     "MouseEvent.mozPressure",
     "PointerEvent.pressure"
+  ],
+  "dom/chrome/dom/dom.properties:MozAudioCapturedDeprecatedWarning": [
+    "mozAudioCaptured"
+  ],
+  "dom/chrome/dom/dom.properties:MozCaptureStreamDeprecatedWarning": [
+    "mozCaptureStream",
+    "mozCaptureStreamUntilEnded",
+    "captureStream"
   ],
   "dom/chrome/dom/dom.properties:MozInputSourceWarning": [
     "MouseEvent.mozInputSource",
@@ -2658,9 +2716,6 @@
     "events",
     "metrics"
   ],
-  "toolkit/toolkit/about/aboutGlean.ftl:about-glean-labeled-metric-warning": [
-    "glean"
-  ],
   "toolkit/toolkit/about/aboutGlean.ftl:about-glean-local-port": [
     "telemetry.fog.test.localhost_port"
   ],
@@ -2801,6 +2856,10 @@
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-utility-actor-mf-media-engine": [
     "Engine"
+  ],
+  "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-utility-actor-pkcs11-module": [
+    "Module",
+    "Helper"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-web-serviceworker": [
     "serviceworker"
@@ -3095,6 +3154,9 @@
   "toolkit/toolkit/branding/brandings.ftl:-translations-brand-name": [
     "Translations"
   ],
+  "toolkit/toolkit/branding/brandings.ftl:-yelp-brand-name": [
+    "Yelp"
+  ],
   "toolkit/toolkit/downloads/downloadUtils.ftl:download-utils-status": [
     "sec"
   ],
@@ -3199,6 +3261,9 @@
   ],
   "toolkit/toolkit/global/processTypes.ftl:process-type-utility-actor-windows-utils": [
     "Utils"
+  ],
+  "toolkit/toolkit/global/profileSelection.ftl:profile-has-selectable-profiles-message": [
+    "profiles"
   ],
   "toolkit/toolkit/main-window/findbar.ftl:findbar-match-diacritics.tooltiptext": [
     "caffe"
