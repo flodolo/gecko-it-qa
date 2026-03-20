@@ -38,18 +38,12 @@
     "Instrument",
     "Interface"
   ],
-  "browser/browser/appmenu.ftl:profiler-button-dropmarker.label": [
-    "profiler"
-  ],
-  "browser/browser/appmenu.ftl:profiler-button-dropmarker.tooltiptext": [
-    "profiler"
-  ],
   "browser/browser/appmenu.ftl:profiler-popup-presets-debug-description": [
     "Overhead"
   ],
   "browser/browser/appmenu.ftl:profiler-popup-presets-ml-description": [
-    "machine",
-    "learning"
+    "learning",
+    "machine"
   ],
   "browser/browser/appmenu.ftl:profiler-popup-presets-ml-label.label": [
     "Machine",
@@ -359,17 +353,17 @@
   "browser/browser/preferences/preferences.ftl:permissions-block-popups-exceptions-button2.searchkeywords": [
     "popup"
   ],
-  "browser/browser/preferences/preferences.ftl:permissions-block-popups-exceptions-button3.searchkeywords": [
+  "browser/browser/preferences/preferences.ftl:permissions-block-popups-exceptions-button4.searchkeywords": [
     "popup"
   ],
   "browser/browser/preferences/preferences.ftl:preferences-ai-controls-block-ai-description": [
-    "machine",
-    "learning"
+    "learning",
+    "machine"
   ],
   "browser/browser/preferences/preferences.ftl:preferences-ai-controls-sidebar-chatbot-group.description": [
     "Anthropic",
-    "Claude",
     "ChatGPT",
+    "Claude",
     "Copilot"
   ],
   "browser/browser/preferences/preferences.ftl:preferences-etp-rfp-warning-message.message": [
@@ -433,9 +427,9 @@
     "Speech"
   ],
   "browser/browser/tabbrowser.ftl:tab-note-editor-character-limit": [
+    "maxAllowedCharacters",
     "totalCharacters",
     "useGrouping",
-    "maxAllowedCharacters",
     "useGrouping"
   ],
   "browser/chrome/browser/browser.properties:decoder.noCodecsLinux.message": [
@@ -925,15 +919,12 @@
   "devtools/client/perftools.ftl:perftools-intro-description": [
     "profiler.firefox.com"
   ],
-  "devtools/client/perftools.ftl:perftools-intro-title": [
-    "profiler"
-  ],
   "devtools/client/perftools.ftl:perftools-presets-debug-description": [
     "Overhead"
   ],
   "devtools/client/perftools.ftl:perftools-presets-ml-description2": [
-    "machine",
-    "learning"
+    "learning",
+    "machine"
   ],
   "devtools/client/perftools.ftl:perftools-presets-ml-label": [
     "Machine",
@@ -980,9 +971,6 @@
     "nsITimer",
     "setInterval",
     "setTimeout"
-  ],
-  "devtools/client/perftools.ftl:perftools-tools-threads-input-label.title": [
-    "profiler"
   ],
   "devtools/client/perftools.ftl:pref-thread-stream-trans.title": [
     "stream"
@@ -1105,8 +1093,8 @@
     "ruby"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-absolutely-positioned-item-fix": [
-    "position",
-    "absolute"
+    "absolute",
+    "position"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-block": [
     "block-level"
@@ -1152,15 +1140,15 @@
     "table-row-group"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-grid-or-absolutely-positioned-item-fix": [
-    "position",
-    "absolute"
+    "absolute",
+    "position"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-grid-or-flex-container-or-multicol-container-fix": [
     "columns:2"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-grid-or-flex-or-absolutely-positioned-item-fix": [
-    "position",
-    "absolute"
+    "absolute",
+    "position"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-inline-or-tablecell": [
     "table-cell"
@@ -1358,8 +1346,8 @@
     "AudioContext"
   ],
   "dom/chrome/dom/dom.properties:CKEditor4CompatHackWarning": [
-    "timing",
-    "CKEditor"
+    "CKEditor",
+    "timing"
   ],
   "dom/chrome/dom/dom.properties:ComponentsWarning": [
     "Components"
@@ -1458,8 +1446,8 @@
     "document.execCommand"
   ],
   "dom/chrome/dom/dom.properties:ExecCommandPasteDeniedNotInputDriven": [
-    "document.execCommand",
-    "'paste"
+    "'paste",
+    "document.execCommand"
   ],
   "dom/chrome/dom/dom.properties:External_AddSearchProviderWarning": [
     "AddSearchProvider"
@@ -1499,8 +1487,8 @@
     "focused"
   ],
   "dom/chrome/dom/dom.properties:GWTRichTextAreaCompatHackWarning": [
-    "timing",
-    "RichTextArea"
+    "RichTextArea",
+    "timing"
   ],
   "dom/chrome/dom/dom.properties:GenericImageNamePNG": [
     "immagine.png"
@@ -1700,9 +1688,9 @@
     "mozAudioCaptured"
   ],
   "dom/chrome/dom/dom.properties:MozCaptureStreamDeprecatedWarning": [
+    "captureStream",
     "mozCaptureStream",
-    "mozCaptureStreamUntilEnded",
-    "captureStream"
+    "mozCaptureStreamUntilEnded"
   ],
   "dom/chrome/dom/dom.properties:MozInputSourceWarning": [
     "MouseEvent.mozInputSource",
@@ -1882,8 +1870,8 @@
     "SVGGraphicsElement.nearestViewportElement"
   ],
   "dom/chrome/dom/dom.properties:ScreenFingerprintingProtectionWarning": [
-    "screen.availWidth",
-    "screen.availHeight"
+    "screen.availHeight",
+    "screen.availWidth"
   ],
   "dom/chrome/dom/dom.properties:SectioningH1WithNoFontSizeOrMargins": [
     "h1"
@@ -1959,9 +1947,9 @@
   ],
   "dom/chrome/dom/dom.properties:XSLTDeprecatedWarning": [
     "github.com",
+    "issues",
     "mozilla",
-    "standards-positions",
-    "issues"
+    "standards-positions"
   ],
   "dom/chrome/layout/HtmlForm.properties:CannotEncodeAllUnicode": [
     "accept-charset",
@@ -2289,13 +2277,13 @@
     "unsafe-hashes"
   ],
   "dom/chrome/security/csp.properties:CSPInlineScriptViolation2": [
-    "sha256-",
-    "nonce"
+    "nonce",
+    "sha256-"
   ],
   "dom/chrome/security/csp.properties:CSPInlineStyleViolation2": [
+    "nonce",
     "sha256-",
-    "unsafe-hashes",
-    "nonce"
+    "unsafe-hashes"
   ],
   "dom/chrome/security/csp.properties:CSPROEvalScriptViolation": [
     "'unsafe-eval",
@@ -2306,13 +2294,13 @@
     "unsafe-hashes"
   ],
   "dom/chrome/security/csp.properties:CSPROInlineScriptViolation2": [
-    "sha256-",
-    "nonce"
+    "nonce",
+    "sha256-"
   ],
   "dom/chrome/security/csp.properties:CSPROInlineStyleViolation2": [
+    "nonce",
     "sha256-",
-    "unsafe-hashes",
-    "nonce"
+    "unsafe-hashes"
   ],
   "dom/chrome/security/csp.properties:CSPROTrustedTypesPolicyViolation": [
     "Trusted",
@@ -2702,8 +2690,8 @@
     "inference"
   ],
   "toolkit/toolkit/about/aboutAddons.ftl:mlmodel-addon-detail-model-card-link-label": [
-    "Hugging",
-    "Face"
+    "Face",
+    "Hugging"
   ],
   "toolkit/toolkit/about/aboutAddons.ftl:plugins-openh264-description": [
     "codec",
@@ -2768,15 +2756,12 @@
   "toolkit/toolkit/about/aboutGlean.ftl:about-glean-local-port": [
     "telemetry.fog.test.localhost_port"
   ],
-  "toolkit/toolkit/about/aboutLogging.ftl:about-logging-file-and-profiler-override": [
-    "profiler"
-  ],
   "toolkit/toolkit/about/aboutLogging.ftl:about-logging-log-tutorial": [
     "Logging"
   ],
   "toolkit/toolkit/about/aboutLogging.ftl:about-logging-preset-ml-description": [
-    "machine",
-    "learning"
+    "learning",
+    "machine"
   ],
   "toolkit/toolkit/about/aboutLogging.ftl:about-logging-preset-ml-label": [
     "Machine",
@@ -2802,9 +2787,6 @@
   ],
   "toolkit/toolkit/about/aboutLogging.ftl:about-logging-unknown-option": [
     "logging"
-  ],
-  "toolkit/toolkit/about/aboutLogging.ftl:about-logging-unknown-profiler-preset": [
-    "profiler"
   ],
   "toolkit/toolkit/about/aboutLogging.ftl:about-logging-uploading-progress": [
     "maximumSignificantDigits",
@@ -2907,8 +2889,8 @@
     "Engine"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-utility-actor-pkcs11-module": [
-    "Module",
-    "Helper"
+    "Helper",
+    "Module"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-web-isolated-property-serviceworker": [
     "serviceworker"
@@ -3244,8 +3226,8 @@
     "Warp"
   ],
   "toolkit/toolkit/firefoxlabs/features.ftl:experimental-features-semantic-history-search-description": [
-    "Machine",
-    "Learning"
+    "Learning",
+    "Machine"
   ],
   "toolkit/toolkit/firefoxlabs/features.ftl:experimental-features-tab-notes-description": [
     "post-it"
