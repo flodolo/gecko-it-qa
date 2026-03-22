@@ -922,6 +922,50 @@
   "devtools/client/perftools.ftl:perftools-intro-description": [
     "profiler.firefox.com"
   ],
+  "devtools/client/perftools.ftl:perftools-memory-unit-b": [
+    "num",
+    "maxFractionalUnits"
+  ],
+  "devtools/client/perftools.ftl:perftools-memory-unit-eib": [
+    "num",
+    "maxFractionalUnits",
+    "EiB"
+  ],
+  "devtools/client/perftools.ftl:perftools-memory-unit-gib": [
+    "num",
+    "maxFractionalUnits",
+    "GiB"
+  ],
+  "devtools/client/perftools.ftl:perftools-memory-unit-kib": [
+    "num",
+    "maxFractionalUnits",
+    "KiB"
+  ],
+  "devtools/client/perftools.ftl:perftools-memory-unit-mib": [
+    "num",
+    "maxFractionalUnits",
+    "MiB"
+  ],
+  "devtools/client/perftools.ftl:perftools-memory-unit-pib": [
+    "num",
+    "maxFractionalUnits",
+    "PiB"
+  ],
+  "devtools/client/perftools.ftl:perftools-memory-unit-tib": [
+    "num",
+    "maxFractionalUnits",
+    "TiB"
+  ],
+  "devtools/client/perftools.ftl:perftools-memory-unit-yib": [
+    "num",
+    "maxFractionalUnits",
+    "YiB"
+  ],
+  "devtools/client/perftools.ftl:perftools-memory-unit-zib": [
+    "num",
+    "maxFractionalUnits",
+    "ZiB"
+  ],
   "devtools/client/perftools.ftl:perftools-presets-debug-description": [
     "Overhead"
   ],
@@ -1351,6 +1395,11 @@
   "dom/chrome/dom/dom.properties:CKEditor4CompatHackWarning": [
     "CKEditor",
     "timing"
+  ],
+  "dom/chrome/dom/dom.properties:CSSContainerRuleSingleConditionWarning": [
+    "CSSContainerRule.containerName",
+    "CSSContainerRule.containerQuery",
+    "CSSContainerRule.conditions"
   ],
   "dom/chrome/dom/dom.properties:ComponentsWarning": [
     "Components"
