@@ -63,6 +63,15 @@
   "browser/browser/browser.ftl:qrcode-save-filename": [
     "codiceqr.png"
   ],
+  "browser/browser/browser.ftl:qrcode-save-filename-base": [
+    "codiceqr"
+  ],
+  "browser/browser/browser.ftl:qrcode-save-filename-with-domain-base": [
+    "codiceqr-"
+  ],
+  "browser/browser/browser.ftl:quickactions-cmd-colorpicker": [
+    "eyedropper"
+  ],
   "browser/browser/browser.ftl:quickactions-cmd-firefoxview": [
     "view",
     "view"
@@ -73,6 +82,10 @@
   "browser/browser/browser.ftl:quickactions-cmd-inspector2": [
     "devtools",
     "inspector"
+  ],
+  "browser/browser/browser.ftl:quickactions-cmd-labs": [
+    "lab",
+    "labs"
   ],
   "browser/browser/browser.ftl:quickactions-cmd-mute": [
     "sssssh"
@@ -107,6 +120,14 @@
   "browser/browser/enterprise/enterprise-policies-descriptions.ftl:policy-AccessConnector": [
     "access",
     "connector"
+  ],
+  "browser/browser/enterprise/enterprise.ftl:-enterprise-feature-access-connector": [
+    "Access",
+    "Connector"
+  ],
+  "browser/browser/enterprise/enterprise.ftl:enterprise-access-connector-button.label": [
+    "Access",
+    "Connector"
   ],
   "browser/browser/enterprise/enterprise.ftl:enterprise-access-connector-button.tooltiptext": [
     "Access",
@@ -365,9 +386,6 @@
   "browser/browser/preferences/preferences.ftl:home-prefs-snippets-header.label": [
     "Snippet"
   ],
-  "browser/browser/preferences/preferences.ftl:is-not-default-browser-2.message": [
-    "Psst"
-  ],
   "browser/browser/preferences/preferences.ftl:permissions-block-popups-exceptions-button.searchkeywords": [
     "popup"
   ],
@@ -395,6 +413,12 @@
   ],
   "browser/browser/profile/default-bookmarks.ftl:default-bookmarks-planet": [
     "Planet"
+  ],
+  "browser/browser/protections.ftl:protections-vpn-banner-content": [
+    "TechRadar"
+  ],
+  "browser/browser/reportBrokenSite.ftl:report-broken-site-panel-screenshot-label.label": [
+    "screenshot"
   ],
   "browser/browser/safebrowsing/blockedSite.ftl:safeb-blocked-addon-page-error-desc4-override": [
     "addons"
@@ -891,6 +915,13 @@
   ],
   "devtools/client/netmonitor.properties:netmonitor.headers.sizeDetails": [
     "dim"
+  ],
+  "devtools/client/netmonitor.properties:netmonitor.security.usedDelegatedCredentials": [
+    "Delegated",
+    "Credentials"
+  ],
+  "devtools/client/netmonitor.properties:netmonitor.security.usedOcsp": [
+    "Protocol"
   ],
   "devtools/client/netmonitor.properties:netmonitor.timings.serverTiming": [
     "Timing"
@@ -3369,9 +3400,6 @@
   ],
   "toolkit/toolkit/global/datetimebox.ftl:datetime-year-placeholder": [
     "aaaa"
-  ],
-  "toolkit/toolkit/global/extensions.ftl:webext-site-perms-description-gated-perms-serial": [
-    "microcontrollori"
   ],
   "toolkit/toolkit/global/extensions.ftl:webext-site-perms-header-with-gated-perms-midi-sysex": [
     "SysEx"
