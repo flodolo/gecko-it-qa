@@ -74,6 +74,9 @@
     "devtools",
     "inspector"
   ],
+  "browser/browser/browser.ftl:quickactions-cmd-mute": [
+    "sssssh"
+  ],
   "browser/browser/browser.ftl:quickactions-cmd-savepdf2": [
     "pdf"
   ],
@@ -100,6 +103,18 @@
   ],
   "browser/browser/browserSets.ftl:nav-fwd-shortcut-alt.key": [
     "ù"
+  ],
+  "browser/browser/enterprise/enterprise-policies-descriptions.ftl:policy-AccessConnector": [
+    "access",
+    "connector"
+  ],
+  "browser/browser/enterprise/enterprise.ftl:enterprise-access-connector-button.tooltiptext": [
+    "Access",
+    "Connector"
+  ],
+  "browser/browser/enterprise/enterprise.ftl:enterprise-access-connector-heading": [
+    "Access",
+    "Connector"
   ],
   "browser/browser/featureCallout.ftl:start-page-callout-primary-label": [
     "Startpage"
@@ -228,6 +243,9 @@
   "browser/browser/policies/policies-descriptions.ftl:policy-Windows10SSO": [
     "sign-on"
   ],
+  "browser/browser/policies/policies-descriptions.ftl:policy-XSLTEnabled": [
+    "XSLTProcessor"
+  ],
   "browser/browser/preferences/blocklists.ftl:blocklist-description": [
     "Disconnect"
   ],
@@ -351,9 +369,6 @@
     "Psst"
   ],
   "browser/browser/preferences/preferences.ftl:permissions-block-popups-exceptions-button.searchkeywords": [
-    "popup"
-  ],
-  "browser/browser/preferences/preferences.ftl:permissions-block-popups-exceptions-button2.searchkeywords": [
     "popup"
   ],
   "browser/browser/preferences/preferences.ftl:permissions-block-popups-exceptions-button4.searchkeywords": [
@@ -1343,6 +1358,30 @@
   "devtools/shared/webconsole-commands.ftl:webconsole-commands-usage-unblock": [
     "unblock"
   ],
+  "devtools/shared/webconsole.properties:ConsoleAPIDisabled": [
+    "console.log",
+    "console.info",
+    "console.warn",
+    "console.error"
+  ],
+  "devtools/shared/webconsole.properties:parentProcessBrowserConsole.title": [
+    "parent"
+  ],
+  "devtools/shared/webconsole.properties:preventedConsoleClear": [
+    "console.clear"
+  ],
+  "devtools/shared/webconsole.properties:stacktrace.asyncStack": [
+    "Asinc"
+  ],
+  "devtools/shared/webconsole.properties:webconsole.confirmDialog.getter.label": [
+    "getter"
+  ],
+  "devtools/shared/webconsole.properties:webconsole.error.commands.copyError": [
+    "copy"
+  ],
+  "devtools/shared/webconsole.properties:webconsole.message.commands.startTracingToStdout": [
+    "stdout"
+  ],
   "dom/chrome/appstrings.properties:sslv3Used": [
     "SSLv3"
   ],
@@ -1633,6 +1672,9 @@
   ],
   "dom/chrome/dom/dom.properties:ManifestImageUnusable": [
     "purpose"
+  ],
+  "dom/chrome/dom/dom.properties:MathML_DeprecatedHrefLinkOnNonAnchorElementWarning": [
+    "href"
   ],
   "dom/chrome/dom/dom.properties:MathML_DeprecatedMathSizeValueWarning": [
     "big",
@@ -2846,6 +2888,9 @@
     "percent",
     "style"
   ],
+  "toolkit/toolkit/about/aboutNetworking.ftl:about-networking-alt-svc": [
+    "Alt-Svc"
+  ],
   "toolkit/toolkit/about/aboutNetworking.ftl:about-networking-dns-https-rrs-lookup-table-column": [
     "RRs"
   ],
@@ -3324,6 +3369,9 @@
   ],
   "toolkit/toolkit/global/datetimebox.ftl:datetime-year-placeholder": [
     "aaaa"
+  ],
+  "toolkit/toolkit/global/extensions.ftl:webext-site-perms-description-gated-perms-serial": [
+    "microcontrollori"
   ],
   "toolkit/toolkit/global/extensions.ftl:webext-site-perms-header-with-gated-perms-midi-sysex": [
     "SysEx"

@@ -1,4 +1,6 @@
 [
+  "browser/browser/enterprise/felt.ftl:felt-error-warning-unsupported-system-contact-admin",
+  "browser/browser/enterprise/felt.ftl:felt-error-warning-elevation-attempt-failed-contact-admin",
   "browser/installer/override.properties:SpaceAvailable",
   "browser/installer/override.properties:SpaceRequired",
   "browser/installer/override.properties:CantWrite",
