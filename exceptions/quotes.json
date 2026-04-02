@@ -31,5 +31,7 @@
   "dom/chrome/security/csp.properties:CSPROEvalScriptViolation",
   "dom/chrome/security/csp.properties:CSPWasmEvalScriptViolation",
   "dom/chrome/security/csp.properties:CSPROWasmEvalScriptViolation",
-  "dom/chrome/security/csp.properties:hostNameMightBeKeyword"
+  "dom/chrome/security/csp.properties:hostNameMightBeKeyword",
+  "browser/browser/enterprise/felt.ftl:felt-error-warning-unsupported-system-contact-admin",
+  "browser/browser/enterprise/felt.ftl:felt-error-warning-elevation-attempt-failed-contact-admin"
 ]
