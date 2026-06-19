@@ -38,6 +38,19 @@
     "Instrument",
     "Interface"
   ],
+  "browser/browser/aiFeatures.ftl:smart-window-model-custom-name.placeholder": [
+    "glm4"
+  ],
+  "browser/browser/aiFeatures.ftl:smart-window-model-custom-url.placeholder": [
+    "localhost:11434",
+    "v1"
+  ],
+  "browser/browser/aiWindow.ftl:toolbar-button-ai-window-toggle.tooltiptext": [
+    "smart"
+  ],
+  "browser/browser/aiWindowContent.ftl:action-log-searched-web-exa": [
+    "Exa"
+  ],
   "browser/browser/appmenu.ftl:profiler-popup-presets-debug-description": [
     "Overhead"
   ],
@@ -72,6 +85,9 @@
   "browser/browser/browser.ftl:quickactions-cmd-colorpicker": [
     "eyedropper"
   ],
+  "browser/browser/browser.ftl:quickactions-cmd-editpdf": [
+    "pdf"
+  ],
   "browser/browser/browser.ftl:quickactions-cmd-firefoxview": [
     "view",
     "view"
@@ -86,6 +102,11 @@
   "browser/browser/browser.ftl:quickactions-cmd-labs": [
     "lab",
     "labs"
+  ],
+  "browser/browser/browser.ftl:quickactions-cmd-manageai": [
+    "ia",
+    "ia",
+    "ia"
   ],
   "browser/browser/browser.ftl:quickactions-cmd-mute": [
     "sssssh"
@@ -208,6 +229,14 @@
   "browser/browser/newtab/newtab.ftl:newtab-label-source-read-time": [
     "min"
   ],
+  "browser/browser/newtab/newtab.ftl:newtab-picture-header": [
+    "Wikimedia",
+    "Commons"
+  ],
+  "browser/browser/newtab/newtab.ftl:newtab-picture-image-alt": [
+    "Wikimedia",
+    "Commons"
+  ],
   "browser/browser/newtab/newtab.ftl:newtab-topic-label-society": [
     "Life",
     "hacks"
@@ -217,6 +246,9 @@
   ],
   "browser/browser/newtab/newtab.ftl:newtab-wallpaper-dark-aurora": [
     "Borealis"
+  ],
+  "browser/browser/newtab/onboarding.ftl:smartwindow-switcher-callout": [
+    "smart"
   ],
   "browser/browser/pageInfo.ftl:general-quirks-mode.value": [
     "Quirks"
@@ -344,6 +376,9 @@
   ],
   "browser/browser/preferences/formAutofill.ftl:autofill-card-search-term-credit-cards": [
     "checkout"
+  ],
+  "browser/browser/preferences/preferences.ftl:appearance-window-density-touch.description": [
+    "screen"
   ],
   "browser/browser/preferences/preferences.ftl:content-blocking-fpi-incompatibility-warning": [
     "First",
@@ -791,6 +826,12 @@
   "devtools/client/debugger.properties:frozenTooltip": [
     "frozen"
   ],
+  "devtools/client/debugger.properties:outline.noAtRules": [
+    "at-rule"
+  ],
+  "devtools/client/debugger.properties:outline.placeholder.atRules": [
+    "at-rule"
+  ],
   "devtools/client/debugger.properties:overriddenTooltip": [
     "override"
   ],
@@ -1123,6 +1164,9 @@
   ],
   "devtools/client/toolbox-options.ftl:options-show-user-agent-shadow-dom-tooltip.title": [
     "Shadow"
+  ],
+  "devtools/client/toolbox.ftl:toolbox-local-mode-notice": [
+    "Local"
   ],
   "devtools/client/toolbox.ftl:toolbox-meatball-menu-pseudo-locale-accented": [
     "accented"
@@ -3313,6 +3357,13 @@
   "toolkit/toolkit/branding/brandings.ftl:-firefoxview-brand-name": [
     "View"
   ],
+  "toolkit/toolkit/branding/brandings.ftl:-smart-window-brand-name": [
+    "plural-form",
+    "smart",
+    "smart",
+    "smart",
+    "smart"
+  ],
   "toolkit/toolkit/branding/brandings.ftl:-translations-brand-name": [
     "Translations"
   ],
@@ -3321,6 +3372,10 @@
   ],
   "toolkit/toolkit/downloads/downloadUtils.ftl:download-utils-status": [
     "sec"
+  ],
+  "toolkit/toolkit/enterprise/enterprise.ftl:-enterprise-feature-access-connector": [
+    "Access",
+    "Connector"
   ],
   "toolkit/toolkit/featuregates/features.ftl:experimental-features-css-masonry-description": [
     "Masonry",
