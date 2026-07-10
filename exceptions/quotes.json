@@ -1,4 +1,6 @@
 [
+  "browser/browser/aiFeatures.ftl:smart-window-model-flexible-v2.description",
+  "browser/browser/aiWindow.ftl:aiwindow-firstrun-model-flexible-body",
   "browser/browser/enterprise/felt.ftl:felt-error-warning-unsupported-system-contact-admin",
   "browser/browser/enterprise/felt.ftl:felt-error-warning-elevation-attempt-failed-contact-admin",
   "browser/installer/override.properties:SpaceAvailable",

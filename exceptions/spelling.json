@@ -45,10 +45,16 @@
     "localhost:11434",
     "v1"
   ],
-  "browser/browser/aiWindow.ftl:toolbar-button-ai-window-toggle.tooltiptext": [
+  "browser/browser/aiWindow.ftl:toolbar-switcher-customizable-label.tooltiptext": [
     "smart"
   ],
   "browser/browser/aiWindowContent.ftl:action-log-searched-web-exa": [
+    "Exa"
+  ],
+  "browser/browser/aiWindowContent.ftl:action-log-searched-web-with-exa": [
+    "Exa"
+  ],
+  "browser/browser/aiWindowContent.ftl:action-log-searching-web-with-exa": [
     "Exa"
   ],
   "browser/browser/appmenu.ftl:profiler-popup-presets-debug-description": [
@@ -72,9 +78,6 @@
     "DisableDefaultBrowserAgent",
     "config",
     "default-browser-agent.enabled"
-  ],
-  "browser/browser/browser.ftl:qrcode-save-filename": [
-    "codiceqr.png"
   ],
   "browser/browser/browser.ftl:qrcode-save-filename-base": [
     "codiceqr"
@@ -195,6 +198,9 @@
   "browser/browser/genai.ftl:genai-onboarding-huggingchat-tooltip.title": [
     "HuggingChat"
   ],
+  "browser/browser/genai.ftl:genai-onboarding-lechat-tooltip-2.title": [
+    "Vibe"
+  ],
   "browser/browser/genai.ftl:genai-settings-chat-chatgpt-links": [
     "ChatGPT",
     "OpenAI"
@@ -218,6 +224,9 @@
     "HuggingChat",
     "HuggingChat"
   ],
+  "browser/browser/genai.ftl:genai-settings-chat-lechat-links-2": [
+    "Vibe"
+  ],
   "browser/browser/genai.ftl:genai-settings-chat-localhost-links": [
     "Innovation",
     "llamafile"
@@ -228,6 +237,10 @@
   ],
   "browser/browser/newtab/newtab.ftl:newtab-label-source-read-time": [
     "min"
+  ],
+  "browser/browser/newtab/newtab.ftl:newtab-picture-attribution-source-link": [
+    "Wikimedia",
+    "Commons"
   ],
   "browser/browser/newtab/newtab.ftl:newtab-picture-header": [
     "Wikimedia",
@@ -301,6 +314,12 @@
   ],
   "browser/browser/preferences/blocklists.ftl:blocklist-description": [
     "Disconnect"
+  ],
+  "browser/browser/preferences/browserIcon.ftl:appearance-browser-icon-momo.description": [
+    "heyheymomodraws"
+  ],
+  "browser/browser/preferences/browserIcon.ftl:appearance-browser-icon-momo.label": [
+    "Momo"
   ],
   "browser/browser/preferences/connection.ftl:connection-proxy-noproxy-desc": [
     ".net.nz"
@@ -430,6 +449,13 @@
   "browser/browser/preferences/preferences.ftl:preferences-ai-controls-block-ai-description": [
     "learning",
     "machine"
+  ],
+  "browser/browser/preferences/preferences.ftl:preferences-ai-controls-sidebar-chatbot-group-2.description": [
+    "Anthropic",
+    "Claude",
+    "ChatGPT",
+    "Copilot",
+    "Vibe"
   ],
   "browser/browser/preferences/preferences.ftl:preferences-ai-controls-sidebar-chatbot-group.description": [
     "Anthropic",
@@ -1200,13 +1226,24 @@
     "border-collapse",
     "collapse"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-border-image-fix-1": [
+    "border-collapse",
+    "collapse"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-collapsed-table-borders-fix": [
+    "border-collapse"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-collapsed-table-borders-fix-1": [
     "border-collapse"
   ],
   "devtools/client/tooltips.ftl:inactive-css-column-span": [
     "spanning"
   ],
   "devtools/client/tooltips.ftl:inactive-css-column-span-fix": [
+    "column-count",
+    "column-width"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-column-span-fix-1": [
     "column-count",
     "column-width"
   ],
@@ -1225,7 +1262,14 @@
   "devtools/client/tooltips.ftl:inactive-css-no-default-anchor-fix": [
     "position-anchor"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-no-default-anchor-fix-1": [
+    "position-anchor"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-no-size-containment-fix": [
+    "contents",
+    "ruby"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-no-size-containment-fix-1": [
     "contents",
     "ruby"
   ],
@@ -1233,17 +1277,31 @@
     "absolute",
     "position"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-not-absolutely-positioned-item-fix-1": [
+    "position",
+    "absolute"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-not-block": [
     "block-level"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-block-container-fix": [
     "flow-root"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-not-block-container-fix-1": [
+    "flow-root"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-not-block-fix": [
     "float",
     "left"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-not-block-fix-1": [
+    "float",
+    "left"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-not-block-flex-grid-container-fix": [
+    "flow-root"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-not-block-flex-grid-container-fix-1": [
     "flow-root"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-display-block-on-floated": [
@@ -1255,10 +1313,16 @@
   "devtools/client/tooltips.ftl:inactive-css-not-display-block-on-floated-fix": [
     "float"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-not-display-block-on-floated-fix-1": [
+    "float"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-not-floated": [
     "floated"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-floated-fix": [
+    "float"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-not-floated-fix-1": [
     "float"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-for-internal-table-elements-except-table-cells-fix": [
@@ -1268,6 +1332,13 @@
     "table-row",
     "table-row-group"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-not-for-internal-table-elements-except-table-cells-fix-1": [
+    "table-column",
+    "table-row",
+    "table-column-group",
+    "table-row-group",
+    "table-footer-group"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-not-for-internal-table-elements-fix": [
     "table-cell",
     "table-column",
@@ -1276,16 +1347,35 @@
     "table-row",
     "table-row-group"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-not-for-internal-table-elements-fix-1": [
+    "table-cell",
+    "table-column",
+    "table-row",
+    "table-column-group",
+    "table-row-group",
+    "table-footer-group"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-not-grid-or-absolutely-positioned-item-fix": [
     "absolute",
     "position"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-not-grid-or-absolutely-positioned-item-fix-1": [
+    "position",
+    "absolute"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-not-grid-or-flex-container-or-multicol-container-fix": [
+    "columns:2"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-not-grid-or-flex-container-or-multicol-container-fix-1": [
     "columns:2"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-grid-or-flex-or-absolutely-positioned-item-fix": [
     "absolute",
     "position"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-not-grid-or-flex-or-absolutely-positioned-item-fix-1": [
+    "position",
+    "absolute"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-inline-or-tablecell": [
     "table-cell"
@@ -1293,20 +1383,37 @@
   "devtools/client/tooltips.ftl:inactive-css-not-inline-or-tablecell-fix": [
     "table-cell"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-not-inline-or-tablecell-fix-1": [
+    "table-cell"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-not-multicol-container-fix": [
+    "column-count",
+    "column-width"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-not-multicol-container-fix-1": [
     "column-count",
     "column-width"
   ],
   "devtools/client/tooltips.ftl:inactive-css-not-table-cell-fix": [
     "table-cell"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-not-table-cell-fix-1": [
+    "table-cell"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-only-non-grid-or-flex-item-fix": [
+    "float"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-only-non-grid-or-flex-item-fix-1": [
     "float"
   ],
   "devtools/client/tooltips.ftl:inactive-css-placeholder-pseudo-element-not-supported": [
     ":placeholder"
   ],
   "devtools/client/tooltips.ftl:inactive-css-position-property-on-unpositioned-box-fix": [
+    "position",
+    "static"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-position-property-on-unpositioned-box-fix-1": [
     "position",
     "static"
   ],
@@ -1322,15 +1429,26 @@
     "overflow",
     "visible"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-resize-fix-1": [
+    "overflow",
+    "visible"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-ruby-element": [
     "ruby"
   ],
   "devtools/client/tooltips.ftl:inactive-css-ruby-element-fix": [
     "font-size"
   ],
+  "devtools/client/tooltips.ftl:inactive-css-ruby-element-fix-1": [
+    "font-size"
+  ],
   "devtools/client/tooltips.ftl:inactive-css-text-wrap-balance-fragmented-fix": [
     "avoid",
     "page-break-inside"
+  ],
+  "devtools/client/tooltips.ftl:inactive-css-text-wrap-balance-fragmented-fix-1": [
+    "page-break-inside",
+    "avoid"
   ],
   "devtools/client/tooltips.ftl:inactive-scroll-padding-when-not-scroll-container": [
     "scroll"
@@ -1341,10 +1459,19 @@
     "overflow",
     "scroll"
   ],
+  "devtools/client/tooltips.ftl:inactive-scroll-padding-when-not-scroll-container-fix-1": [
+    "overflow",
+    "overflow",
+    "scroll",
+    "overflow"
+  ],
   "devtools/client/tooltips.ftl:inactive-text-overflow-when-no-overflow": [
     "overflow"
   ],
   "devtools/client/tooltips.ftl:inactive-text-overflow-when-no-overflow-fix": [
+    "overflow"
+  ],
+  "devtools/client/tooltips.ftl:inactive-text-overflow-when-no-overflow-fix-1": [
     "overflow"
   ],
   "devtools/client/webconsole.properties:ConsoleAPIDisabled": [
@@ -1590,6 +1717,12 @@
     "drawWindow",
     "tabs",
     "tabs.captureTab"
+  ],
+  "dom/chrome/dom/dom.properties:EditContextCharacterBoundsWarning": [
+    "EditContext.updateCharacterBounds",
+    "characterboundsupdate",
+    "EditContext",
+    "updateCharacterBounds"
   ],
   "dom/chrome/dom/dom.properties:ElementReleaseCaptureWarning": [
     "Element",
@@ -2981,6 +3114,12 @@
   "toolkit/toolkit/about/aboutNetworking.ftl:about-networking-moved-about-logging": [
     "logging"
   ],
+  "toolkit/toolkit/about/aboutNetworking.ftl:about-networking-ssl-tokens-certificate": [
+    "Cert"
+  ],
+  "toolkit/toolkit/about/aboutNetworking.ftl:about-networking-ssl-tokens-ev-status": [
+    "Cert"
+  ],
   "toolkit/toolkit/about/aboutNetworking.ftl:about-networking-websockets": [
     "WebSocket"
   ],
@@ -3332,6 +3471,9 @@
   ],
   "toolkit/toolkit/about/certviewer.ftl:certificate-viewer-ocsp-stapling": [
     "Stapling"
+  ],
+  "toolkit/toolkit/about/url-classifier.ftl:url-classifier-content-classifier-col-important": [
+    "Important"
   ],
   "toolkit/toolkit/about/url-classifier.ftl:url-classifier-provider-back-off-time": [
     "back-off"
