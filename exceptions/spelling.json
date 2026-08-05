@@ -3814,6 +3814,9 @@
   "toolkit/toolkit/pdfviewer/viewer.ftl:pdfjs-editor-alt-text-dialog-description": [
     "text"
   ],
+  "toolkit/toolkit/pictureinpicture/pictureinpicture.ftl:pictureinpicture-playback-rate-preset": [
+    "minimumFractionDigits"
+  ],
   "toolkit/toolkit/updates/backgroundupdate.ftl:backgroundupdate-task-description": [
     "BackgroundAppUpdate",
     "Update"
