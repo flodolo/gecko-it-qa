@@ -1261,9 +1261,6 @@
   "devtools/client/toolbox-options.ftl:options-show-user-agent-shadow-dom-tooltip.title": [
     "Shadow"
   ],
-  "devtools/client/toolbox.ftl:toolbox-local-mode-notice": [
-    "Local"
-  ],
   "devtools/client/toolbox.ftl:toolbox-meatball-menu-pseudo-locale-accented": [
     "accented"
   ],
@@ -2286,6 +2283,14 @@
     "en-US",
     "speculative_parsing"
   ],
+  "dom/chrome/dom/dom.properties:SpeechRecognitionBlockedByAIControlsWarning": [
+    "SpeechRecognition"
+  ],
+  "dom/chrome/dom/dom.properties:SpeechRecognitionLangDefaultedToUserLanguageWarning": [
+    "SpeechRecognition.lang",
+    "SpeechRecognition.lang",
+    "lang"
+  ],
   "dom/chrome/dom/dom.properties:SyncXMLHttpRequestDeprecatedWarning": [
     "sync-warning",
     "xhr.spec.whatwg.org"
@@ -3066,6 +3071,9 @@
   "toolkit/crashreporter/aboutcrashes.ftl:no-config-label": [
     "breakpad.reportURL"
   ],
+  "toolkit/services/aboutSyncLog.ftl:about-sync-log-download-button.label": [
+    ".zip"
+  ],
   "toolkit/toolkit/about/aboutAddons.ftl:five-star-rating.title": [
     "maximumFractionDigits",
     "rating"
@@ -3274,6 +3282,10 @@
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-total-memory-size-no-change": [
     "maximumFractionDigits",
     "total"
+  ],
+  "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-utility-actor-hw-inference": [
+    "Accelerated",
+    "Inference"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-utility-actor-js-oracle": [
     "Oracle"
@@ -3601,6 +3613,10 @@
     "Access",
     "Connector"
   ],
+  "toolkit/toolkit/enterprise/enterprise.ftl:security-software-edr": [
+    "Detection",
+    "and"
+  ],
   "toolkit/toolkit/featuregates/features.ftl:experimental-features-css-masonry-description": [
     "Masonry",
     "issue"
@@ -3696,6 +3712,11 @@
   ],
   "toolkit/toolkit/global/processTypes.ftl:process-type-forkserver": [
     "Fork"
+  ],
+  "toolkit/toolkit/global/processTypes.ftl:process-type-utility-actor-hw-inference": [
+    "Utility",
+    "Accelerated",
+    "Inference"
   ],
   "toolkit/toolkit/global/processTypes.ftl:process-type-utility-actor-js-oracle": [
     "Oracle"
