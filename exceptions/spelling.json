@@ -3275,6 +3275,10 @@
     "maximumFractionDigits",
     "total"
   ],
+  "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-utility-actor-hw-inference": [
+    "Accelerated",
+    "Inference"
+  ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-utility-actor-js-oracle": [
     "Oracle"
   ],
@@ -3696,6 +3700,11 @@
   ],
   "toolkit/toolkit/global/processTypes.ftl:process-type-forkserver": [
     "Fork"
+  ],
+  "toolkit/toolkit/global/processTypes.ftl:process-type-utility-actor-hw-inference": [
+    "Utility",
+    "Accelerated",
+    "Inference"
   ],
   "toolkit/toolkit/global/processTypes.ftl:process-type-utility-actor-js-oracle": [
     "Oracle"
