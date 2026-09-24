@@ -439,13 +439,6 @@
     "learning",
     "machine"
   ],
-  "browser/browser/preferences/preferences.ftl:preferences-ai-controls-sidebar-chatbot-group-2.description": [
-    "Anthropic",
-    "Claude",
-    "ChatGPT",
-    "Copilot",
-    "Vibe"
-  ],
   "browser/browser/preferences/preferences.ftl:preferences-ai-controls-sidebar-chatbot-group.description": [
     "Anthropic",
     "ChatGPT",
@@ -1538,9 +1531,8 @@
     "getElementById"
   ],
   "dom/chrome/dom/dom.properties:ExecCommandCutCopyDeniedNotInputDriven": [
-    "'copy",
-    "'cut",
-    "document.execCommand"
+    "cut",
+    "copy"
   ],
   "dom/chrome/dom/dom.properties:ExecCommandPasteDeniedNotInputDriven": [
     "'paste",
@@ -2307,8 +2299,7 @@
     "wrapper"
   ],
   "dom/chrome/security/csp.properties:CSPEvalScriptViolation": [
-    "'unsafe-eval",
-    "eval"
+    "unsafe-eval"
   ],
   "dom/chrome/security/csp.properties:CSPEventHandlerScriptViolation2": [
     "sha256-",
@@ -2324,8 +2315,7 @@
     "unsafe-hashes"
   ],
   "dom/chrome/security/csp.properties:CSPROEvalScriptViolation": [
-    "'unsafe-eval",
-    "eval"
+    "unsafe-eval"
   ],
   "dom/chrome/security/csp.properties:CSPROEventHandlerScriptViolation2": [
     "sha256-",
@@ -2350,8 +2340,8 @@
     "sink"
   ],
   "dom/chrome/security/csp.properties:CSPROWasmEvalScriptViolation": [
-    "'unsafe-eval",
-    "'wasm-unsafe-eval"
+    "wasm-unsafe-eval",
+    "unsafe-eval"
   ],
   "dom/chrome/security/csp.properties:CSPTrustedTypesPolicyViolation": [
     "Trusted",
@@ -2363,8 +2353,8 @@
     "sink"
   ],
   "dom/chrome/security/csp.properties:CSPWasmEvalScriptViolation": [
-    "'unsafe-eval",
-    "'wasm-unsafe-eval"
+    "wasm-unsafe-eval",
+    "unsafe-eval"
   ],
   "dom/chrome/security/csp.properties:ignoreSrcForDirective": [
     "srcs"
