@@ -70,6 +70,9 @@
     "config",
     "default-browser-agent.enabled"
   ],
+  "browser/browser/browser.ftl:menu-share-mac-picker-single.label": [
+    "AirDrop"
+  ],
   "browser/browser/browser.ftl:qrcode-save-filename-base": [
     "codiceqr"
   ],
@@ -110,6 +113,12 @@
   ],
   "browser/browser/browser.ftl:trustpanel-cryptominer-tab-list-header": [
     "cryptomining"
+  ],
+  "browser/browser/browser.ftl:urlbar-result-action-before-tabtosearch-other": [
+    "Tab"
+  ],
+  "browser/browser/browser.ftl:urlbar-result-action-before-tabtosearch-web": [
+    "Tab"
   ],
   "browser/browser/browserSets.ftl:nav-back-shortcut-alt.key": [
     "à"
@@ -403,8 +412,14 @@
   "browser/browser/preferences/formAutofill.ftl:autofill-card-search-term-credit-cards": [
     "checkout"
   ],
+  "browser/browser/preferences/preferences.ftl:addressbar-skip-result-menu-on-tab.label": [
+    "Tab"
+  ],
   "browser/browser/preferences/preferences.ftl:appearance-window-density-touch.description": [
     "screen"
+  ],
+  "browser/browser/preferences/preferences.ftl:browsing-use-full-keyboard-navigation.label": [
+    "Tab"
   ],
   "browser/browser/preferences/preferences.ftl:content-blocking-fpi-incompatibility-warning": [
     "First",
@@ -1531,6 +1546,7 @@
     "getElementById"
   ],
   "dom/chrome/dom/dom.properties:ExecCommandCutCopyDeniedNotInputDriven": [
+    "document.execCommand",
     "cut",
     "copy"
   ],
@@ -2299,6 +2315,7 @@
     "wrapper"
   ],
   "dom/chrome/security/csp.properties:CSPEvalScriptViolation": [
+    "eval",
     "unsafe-eval"
   ],
   "dom/chrome/security/csp.properties:CSPEventHandlerScriptViolation2": [
@@ -2315,6 +2332,7 @@
     "unsafe-hashes"
   ],
   "dom/chrome/security/csp.properties:CSPROEvalScriptViolation": [
+    "eval",
     "unsafe-eval"
   ],
   "dom/chrome/security/csp.properties:CSPROEventHandlerScriptViolation2": [
@@ -2836,6 +2854,11 @@
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-frame-name-one": [
     "Sottoframe"
+  ],
+  "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-tab-cpu": [
+    "percent",
+    "maximumSignificantDigits",
+    "style"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-total-memory-size-changed": [
     "maximumFractionDigits",
