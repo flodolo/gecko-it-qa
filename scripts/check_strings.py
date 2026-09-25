@@ -296,6 +296,9 @@ class CheckStrings:
         total_errors = 0
         misspelled_words = {}
         ignored_strings = []
+        # Tokens to store as exceptions: existing ones still matched, plus
+        # new errors
+        flagged_tokens = {}
         for message_id, message in self.strings.items():
             filename, extension = os.path.splitext(message_id.split(":")[0])
 
@@ -345,10 +348,13 @@ class CheckStrings:
             # Tokenize sentence
             tokens = nltk.word_tokenize(cleaned_message)
             errors = []
+            flagged = []
             for i, token in enumerate(tokens):
                 if message_id in exceptions and token in exceptions[message_id]:
                     if message_id not in ignored_strings:
                         ignored_strings.append(message_id)
+                    if token not in flagged:
+                        flagged.append(token)
                     continue
 
                 """
@@ -391,6 +397,8 @@ class CheckStrings:
                             continue
 
                     errors.append(token)
+                    if token not in flagged:
+                        flagged.append(token)
                     if token not in misspelled_words:
                         misspelled_words[token] = 1
                     else:
@@ -407,6 +415,7 @@ class CheckStrings:
                         print(nltk.word_tokenize(message))
                         print(nltk.word_tokenize(cleaned_message))
                 all_errors[message_id] = errors
+                flagged_tokens[message_id] = flagged
 
         if self.write_errors:
             with open(
@@ -427,15 +436,9 @@ class CheckStrings:
                 del exceptions[message_id]
                 continue
 
-            if (
-                message_id in all_errors
-                and all_errors[message_id] != exceptions[message_id]
-            ):
-                # Assume the tokens in exceptions need to be updated
-                exceptions[message_id] = all_errors[message_id]
-
-        # Add new errors to exceptions
-        exceptions.update(all_errors)
+        # Add new errors to exceptions, keeping existing tokens that are still
+        # needed for the same string.
+        exceptions.update(flagged_tokens)
         # Write back updated exceptions file
         with open(exceptions_filename, "w", encoding="utf8") as f:
             json.dump(exceptions, f, indent=2, sort_keys=True, ensure_ascii=False)

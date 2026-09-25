@@ -1531,6 +1531,7 @@
     "getElementById"
   ],
   "dom/chrome/dom/dom.properties:ExecCommandCutCopyDeniedNotInputDriven": [
+    "document.execCommand",
     "cut",
     "copy"
   ],
@@ -2299,6 +2300,7 @@
     "wrapper"
   ],
   "dom/chrome/security/csp.properties:CSPEvalScriptViolation": [
+    "eval",
     "unsafe-eval"
   ],
   "dom/chrome/security/csp.properties:CSPEventHandlerScriptViolation2": [
@@ -2315,6 +2317,7 @@
     "unsafe-hashes"
   ],
   "dom/chrome/security/csp.properties:CSPROEvalScriptViolation": [
+    "eval",
     "unsafe-eval"
   ],
   "dom/chrome/security/csp.properties:CSPROEventHandlerScriptViolation2": [
