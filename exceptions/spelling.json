@@ -39,8 +39,11 @@
     "localhost:11434",
     "v1"
   ],
-  "browser/browser/aiWindow.ftl:toolbar-switcher-customizable-label.tooltiptext": [
+  "browser/browser/aiWindow.ftl:toolbar-switcher-customizable-label-v2.tooltiptext": [
     "smart"
+  ],
+  "browser/browser/aiWindowContent.ftl:action-log-searched-and-answered-with-exa": [
+    "Exa"
   ],
   "browser/browser/aiWindowContent.ftl:action-log-searched-web-with-exa": [
     "Exa"
@@ -69,6 +72,15 @@
     "DisableDefaultBrowserAgent",
     "config",
     "default-browser-agent.enabled"
+  ],
+  "browser/browser/browser.ftl:decoder-doctor-no-codecs-linux-message": [
+    "codec"
+  ],
+  "browser/browser/browser.ftl:decoder-doctor-no-pulse-audio-message": [
+    "PulseAudio"
+  ],
+  "browser/browser/browser.ftl:decoder-doctor-unsupported-libavcodec-message": [
+    "libavcodec"
   ],
   "browser/browser/browser.ftl:menu-share-mac-picker-single.label": [
     "AirDrop"
@@ -120,11 +132,17 @@
   "browser/browser/browser.ftl:urlbar-result-action-before-tabtosearch-web": [
     "Tab"
   ],
+  "browser/browser/browser.ftl:urlbar-view-context-menu-skip-menu-with-tab": [
+    "Tab"
+  ],
   "browser/browser/browserSets.ftl:nav-back-shortcut-alt.key": [
     "à"
   ],
   "browser/browser/browserSets.ftl:nav-fwd-shortcut-alt.key": [
     "ù"
+  ],
+  "browser/browser/customkeys.ftl:customkeys-shortcut-unassigned.placeholder": [
+    "Agg"
   ],
   "browser/browser/enterprise/enterprise-policies-descriptions.ftl:policy-DisableLocalPolicies": [
     "policies.json",
@@ -191,6 +209,9 @@
   "browser/browser/genai.ftl:genai-settings-chat-localhost-links": [
     "Innovation",
     "llamafile"
+  ],
+  "browser/browser/migrationWizard.ftl:migration-wizard-migrator-display-name-arc": [
+    "Arc"
   ],
   "browser/browser/newtab/asrouter.ftl:windows-10-eos-challenger-callout-title": [
     "Big",
@@ -281,6 +302,18 @@
   "browser/browser/newtab/newtab.ftl:newtab-clock-city-za-johannesburg": [
     "Johannesburg"
   ],
+  "browser/browser/newtab/newtab.ftl:newtab-crossword-menu-powered-by-particle": [
+    "Particle"
+  ],
+  "browser/browser/newtab/newtab.ftl:newtab-custom-widget-wrexhamafc.label": [
+    "Wrexham"
+  ],
+  "browser/browser/newtab/newtab.ftl:newtab-custom-widget-wrexhamafc.menu-label": [
+    "Wrexham"
+  ],
+  "browser/browser/newtab/newtab.ftl:newtab-custom-widget-wrexhamafc.title": [
+    "Wrexham"
+  ],
   "browser/browser/newtab/newtab.ftl:newtab-label-source-read-time": [
     "min"
   ],
@@ -306,6 +339,9 @@
   "browser/browser/newtab/newtab.ftl:newtab-wallpaper-dark-aurora": [
     "Borealis"
   ],
+  "browser/browser/newtab/newtab.ftl:newtab-wallpaper-firefox-wrexham": [
+    "Wrexham"
+  ],
   "browser/browser/newtab/onboarding.ftl:smartwindow-switcher-callout": [
     "smart"
   ],
@@ -327,10 +363,19 @@
   "browser/browser/policies/policies-descriptions.ftl:policy-BlockAboutConfig": [
     "config"
   ],
+  "browser/browser/policies/policies-descriptions.ftl:policy-BlockAboutConfig2": [
+    "config"
+  ],
   "browser/browser/policies/policies-descriptions.ftl:policy-BlockAboutProfiles": [
     "profiles"
   ],
+  "browser/browser/policies/policies-descriptions.ftl:policy-BlockAboutProfiles2": [
+    "profiles"
+  ],
   "browser/browser/policies/policies-descriptions.ftl:policy-BlockAboutSupport": [
+    "support"
+  ],
+  "browser/browser/policies/policies-descriptions.ftl:policy-BlockAboutSupport2": [
     "support"
   ],
   "browser/browser/policies/policies-descriptions.ftl:policy-CaptivePortal": [
@@ -342,12 +387,21 @@
   "browser/browser/policies/policies-descriptions.ftl:policy-DisableProfileRefresh": [
     "support"
   ],
+  "browser/browser/policies/policies-descriptions.ftl:policy-DisableProfileRefresh2": [
+    "support"
+  ],
+  "browser/browser/policies/policies-descriptions.ftl:policy-DisableThirdPartyModuleBlocking2": [
+    "third-party"
+  ],
   "browser/browser/policies/policies-descriptions.ftl:policy-MicrosoftEntraSSO": [
     "sign-on"
   ],
   "browser/browser/policies/policies-descriptions.ftl:policy-NetworkPrediction": [
     "prediction",
     "prelettura"
+  ],
+  "browser/browser/policies/policies-descriptions.ftl:policy-PasswordManagerEnabled2": [
+    "logins"
   ],
   "browser/browser/policies/policies-descriptions.ftl:policy-SearchEngines": [
     "Support"
@@ -411,6 +465,9 @@
   ],
   "browser/browser/preferences/formAutofill.ftl:autofill-card-search-term-credit-cards": [
     "checkout"
+  ],
+  "browser/browser/preferences/permissions.ftl:permissions-site-app-links-desc": [
+    "mailto"
   ],
   "browser/browser/preferences/preferences.ftl:addressbar-skip-result-menu-on-tab.label": [
     "Tab"
@@ -716,6 +773,12 @@
   "browser/installer/nsisstrings.properties:WARN_MIN_SUPPORTED_OSVER_MSG2": [
     "BrandShortName"
   ],
+  "browser/installer/override.ftl:nsis-exec-shell": [
+    "shell"
+  ],
+  "browser/installer/override.ftl:nsis-invalid-opcode": [
+    "opcode"
+  ],
   "browser/updater/updater.ini:MozillaMaintenanceDescription": [
     "Maintenance"
   ],
@@ -880,6 +943,9 @@
   "devtools/client/netmonitor.properties:earlyHintsResponseHeaders": [
     "Early",
     "Hints"
+  ],
+  "devtools/client/netmonitor.properties:jsonlScopeName": [
+    "Lines"
   ],
   "devtools/client/netmonitor.properties:jsonpScopeName": [
     "callback"
@@ -1592,6 +1658,15 @@
     "RichTextArea",
     "timing"
   ],
+  "dom/chrome/dom/dom.properties:GamepadHandWarning": [
+    "Gamepad.hand"
+  ],
+  "dom/chrome/dom/dom.properties:GamepadHapticActuatorsWarning": [
+    "Gamepad.hapticActuators"
+  ],
+  "dom/chrome/dom/dom.properties:GamepadPoseWarning": [
+    "Gamepad.pose"
+  ],
   "dom/chrome/dom/dom.properties:GenericImageNamePNG": [
     "immagine.png"
   ],
@@ -1924,6 +1999,16 @@
     "SVGSVGElement.deselectAll",
     "Selection"
   ],
+  "dom/chrome/dom/dom.properties:SVGUseInlineEventHandlerWarning": [
+    "interoperabili",
+    "github.com",
+    "w3c",
+    "svgwg",
+    "issues"
+  ],
+  "dom/chrome/dom/dom.properties:SafePromiseResolveReorderingWarning": [
+    "microtask"
+  ],
   "dom/chrome/dom/dom.properties:ScreenFingerprintingProtectionWarning": [
     "screen.availHeight",
     "screen.availWidth"
@@ -1979,14 +2064,14 @@
     "entryTypes"
   ],
   "dom/chrome/dom/dom.properties:UseOfCaptureEventsWarning": [
-    "addEventListener",
     "captureEvents",
-    "element.addEventListener"
+    "addEventListener",
+    "EventTarget"
   ],
   "dom/chrome/dom/dom.properties:UseOfReleaseEventsWarning": [
-    "element.removeEventListener",
     "releaseEvents",
-    "removeEventListener"
+    "removeEventListener",
+    "EventTarget"
   ],
   "dom/chrome/dom/dom.properties:UseSendBeaconDuringUnloadAndPagehideWarning": [
     "navigator.sendBeacon",
@@ -2129,6 +2214,10 @@
   "dom/chrome/layout/htmlparser.properties:errBadStartTagInNoscriptInHead": [
     "head",
     "noscript"
+  ],
+  "dom/chrome/layout/htmlparser.properties:errDisallowedProcessingInstructionTarget": [
+    "xml",
+    "xml-stylesheet"
   ],
   "dom/chrome/layout/htmlparser.properties:errEndTagBr": [
     "br"
@@ -2465,6 +2554,18 @@
   "dom/chrome/security/security.properties:CORSPreflightDidNotSucceed3": [
     "preflight"
   ],
+  "dom/chrome/security/security.properties:ConnectionAllowlistBlocked": [
+    "Connection-Allowlist"
+  ],
+  "dom/chrome/security/security.properties:ConnectionAllowlistRedirectBlocked": [
+    "Connection-Allowlist"
+  ],
+  "dom/chrome/security/security.properties:ConnectionAllowlistReportOnlyBlocked": [
+    "Connection-Allowlist"
+  ],
+  "dom/chrome/security/security.properties:ConnectionAllowlistReportOnlyRedirectBlocked": [
+    "Connection-Allowlist"
+  ],
   "dom/chrome/security/security.properties:FeaturePolicyInvalidEmptyAllowValue": [
     "allow"
   ],
@@ -2520,6 +2621,18 @@
   "dom/chrome/security/security.properties:XTCOWithMIMEValueMissing": [
     "X-Content-Type-Options",
     "nosniff"
+  ],
+  "dom/dom/manifest.ftl:dom-manifest-id-not-same-origin": [
+    "start_url"
+  ],
+  "dom/dom/manifest.ftl:dom-manifest-image-repeated-purposes": [
+    "purpose"
+  ],
+  "dom/dom/manifest.ftl:dom-manifest-image-unsupported-purposes": [
+    "purpose"
+  ],
+  "dom/dom/manifest.ftl:dom-manifest-image-unusable": [
+    "purpose"
   ],
   "dom/dom/xslt.ftl:xpath-bad-bang": [
     "not"
@@ -2855,10 +2968,16 @@
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-frame-name-one": [
     "Sottoframe"
   ],
-  "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-tab-cpu": [
+  "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-tab-cpu2": [
     "percent",
-    "maximumSignificantDigits",
+    "maximumFractionDigits",
+    "minimumFractionDigits",
     "style"
+  ],
+  "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-tab-memory-gb": [
+    "total",
+    "maximumFractionDigits",
+    "minimumFractionDigits"
   ],
   "toolkit/toolkit/about/aboutProcesses.ftl:about-processes-total-memory-size-changed": [
     "maximumFractionDigits",
@@ -3072,6 +3191,9 @@
   "toolkit/toolkit/about/aboutWebauthn.ftl:about-webauthn-auth-option-pinuvauthtoken": [
     "pinUvAuthToken"
   ],
+  "toolkit/toolkit/about/aboutWebauthn.ftl:about-webauthn-logging-scope-note": [
+    "WebAuthn"
+  ],
   "toolkit/toolkit/about/aboutWebauthn.ftl:about-webauthn-page-title": [
     "WebAuthn"
   ],
@@ -3181,6 +3303,12 @@
   "toolkit/toolkit/enterprise/enterprise.ftl:-enterprise-feature-access-connector": [
     "Access",
     "Connector"
+  ],
+  "toolkit/toolkit/enterprise/enterprise.ftl:content-analysis-agent-builtin-version-does-not-apply": [
+    "n.d"
+  ],
+  "toolkit/toolkit/enterprise/enterprise.ftl:content-analysis-agent-path-does-not-apply": [
+    "n.d"
   ],
   "toolkit/toolkit/enterprise/enterprise.ftl:security-software-edr": [
     "Detection",
