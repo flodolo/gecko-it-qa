@@ -39,6 +39,9 @@
     "localhost:11434",
     "v1"
   ],
+  "browser/browser/aiWindow.ftl:toolbar-switcher-customizable-label-v2.tooltiptext": [
+    "smart"
+  ],
   "browser/browser/aiWindow.ftl:toolbar-switcher-customizable-label.tooltiptext": [
     "smart"
   ],
@@ -118,6 +121,9 @@
     "Tab"
   ],
   "browser/browser/browser.ftl:urlbar-result-action-before-tabtosearch-web": [
+    "Tab"
+  ],
+  "browser/browser/browser.ftl:urlbar-view-context-menu-skip-menu-with-tab": [
     "Tab"
   ],
   "browser/browser/browserSets.ftl:nav-back-shortcut-alt.key": [
@@ -327,10 +333,19 @@
   "browser/browser/policies/policies-descriptions.ftl:policy-BlockAboutConfig": [
     "config"
   ],
+  "browser/browser/policies/policies-descriptions.ftl:policy-BlockAboutConfig2": [
+    "config"
+  ],
   "browser/browser/policies/policies-descriptions.ftl:policy-BlockAboutProfiles": [
     "profiles"
   ],
+  "browser/browser/policies/policies-descriptions.ftl:policy-BlockAboutProfiles2": [
+    "profiles"
+  ],
   "browser/browser/policies/policies-descriptions.ftl:policy-BlockAboutSupport": [
+    "support"
+  ],
+  "browser/browser/policies/policies-descriptions.ftl:policy-BlockAboutSupport2": [
     "support"
   ],
   "browser/browser/policies/policies-descriptions.ftl:policy-CaptivePortal": [
@@ -342,12 +357,21 @@
   "browser/browser/policies/policies-descriptions.ftl:policy-DisableProfileRefresh": [
     "support"
   ],
+  "browser/browser/policies/policies-descriptions.ftl:policy-DisableProfileRefresh2": [
+    "support"
+  ],
+  "browser/browser/policies/policies-descriptions.ftl:policy-DisableThirdPartyModuleBlocking2": [
+    "third-party"
+  ],
   "browser/browser/policies/policies-descriptions.ftl:policy-MicrosoftEntraSSO": [
     "sign-on"
   ],
   "browser/browser/policies/policies-descriptions.ftl:policy-NetworkPrediction": [
     "prediction",
     "prelettura"
+  ],
+  "browser/browser/policies/policies-descriptions.ftl:policy-PasswordManagerEnabled2": [
+    "logins"
   ],
   "browser/browser/policies/policies-descriptions.ftl:policy-SearchEngines": [
     "Support"
@@ -411,6 +435,9 @@
   ],
   "browser/browser/preferences/formAutofill.ftl:autofill-card-search-term-credit-cards": [
     "checkout"
+  ],
+  "browser/browser/preferences/permissions.ftl:permissions-site-app-links-desc": [
+    "mailto"
   ],
   "browser/browser/preferences/preferences.ftl:addressbar-skip-result-menu-on-tab.label": [
     "Tab"
@@ -1923,6 +1950,9 @@
   "dom/chrome/dom/dom.properties:SVGDeselectAllWarning": [
     "SVGSVGElement.deselectAll",
     "Selection"
+  ],
+  "dom/chrome/dom/dom.properties:SafePromiseResolveReorderingWarning": [
+    "microtask"
   ],
   "dom/chrome/dom/dom.properties:ScreenFingerprintingProtectionWarning": [
     "screen.availHeight",
